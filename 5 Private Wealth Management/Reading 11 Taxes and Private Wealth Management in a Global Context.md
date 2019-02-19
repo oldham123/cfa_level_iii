@@ -67,3 +67,44 @@ $$
 
 - The first component of this formula calculates the future value as if the entire asset value were taxable
   - The second component adds back in the tax on the original value, since taxes are only due on the gains
+- Wealth taxes are imposed on *total value*, as opposed to returns
+  - Future value under wealth taxation is given by:
+$$
+\text{FV}_\text{AT} = \Big( (1+r) \cdot (1 - t_w) \Big)^n
+$$
+  - The following is generally true for annual wealth taxes:
+    - Wealth taxes are larger than other forms of tax
+    - Tax drag increases with time horizon
+    - Tax drag decreases with return
+      - This is because tax drag is a function of the gain, whilst the tax itself is also a function of the original value, which remains fixed as return increases
+- Multiple taxation methods are usually applicable to a portfolio
+  - A portfolio can generate returns from interest, dividends, as well as capital gains, with each potentially subject to a different tax rate
+  - Weighted average realised tax rate can be calculated using the proportion of total return each type contributes, and the tax rate on each
+$$
+\text{WARTR} = p_\text{i} \cdot t_\text{i} + p_\text{d} \cdot t_\text{d} + p_\text{cg} \cdot t_\text{cg}
+$$
+  - The return after taking realised taxes into account is given by the following:
+$$
+r_\text{ART} = r_\text{PT} \cdot (1 - \text{WARTR})
+$$
+  - It is important to note that $r_\text{ART}$ overstates after-tax return, since it does not take into account the deferred taxes due to not yet realising all of the capital gains
+  - Calculating the final after-tax return can be projected by calculating an effective capital gains tax rate given by:
+$$
+\begin{aligned}
+\text{T}^* &= t_\text{cg} \cdot \Bigg[ \frac{1 - (p_\text{i} + p_\text{d} + p_\text{cg})}{1 - (p_\text{i} \cdot t_\text{i} + p_\text{d} \cdot t_\text{d} + p_\text{cg} \cdot t_\text{cg})} \Bigg]\\
+&=t_\text{cg} \cdot \Big[ \frac{p_\text{dcg}}{1 - \text{WARTR}} \Big]
+\end{aligned}
+$$
+  - This can then be applied to a modified calculation for future value after capital gains:
+$$
+\text{FV}_\text{AT} = (1 + r_\text{ART})^n \cdot (1 - T^*) + T^* - (1 - B) \cdot t_\text{cg}
+$$
+
+  - Once all tax effects are accounted for, an **accrual equivalent return** can be calculated:
+$$
+\text{R}_\text{AE} = \Big( \frac{\text{FV}_\text{AT}}{\text{initial investment}} \Big)^{\frac{1}{n}} - 1
+$$
+  - The equivalent tax rate is calculated using:
+$$
+\text{T}_\text{AE} = 1 - \frac{\text{R}_\text{AE}}{r}
+$$
