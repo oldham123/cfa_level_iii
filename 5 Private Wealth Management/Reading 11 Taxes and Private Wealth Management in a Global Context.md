@@ -39,23 +39,17 @@ $$
 FVIF = \Big( 1 + r \cdot (1 - t_i) \Big)^n
 $$
 
-
-
 - One way to express the impact of taxes on an investment is by calculating *tax drag*, expressed either as a percentage, or an absolute value:
 
 $$
-\begin{align}
-\text{tax drag}_$ &= \text{gain lost}\\
+\begin{aligned}
+\text{tax drag}_\$ &= \text{gain lost}\\
 &=\text{gain with no tax} - \text{gain after tax}\\
-&=\text{FV}_\text{PT} - \text{FV}_\text{AT}
-\end{align}
-$$
-
-$$
-\begin{align}
+&=\text{FV}_\text{PT} - \text{FV}_\text{AT}\\
+\\
 \text{tax drag}_\% &= \% \text{ gain lost}\\
-&=\frac{\text{tax drag}_$}{\text{FV}_\text{PT} - \text{PV}}
-\end{align}
+&=\frac{\text{tax drag}_\$}{\text{FV}_\text{PT} - \text{PV}}
+\end{aligned}
 $$
 
 - Tax drag has several important features:
@@ -73,4 +67,3 @@ $$
 
 - The first component of this formula calculates the future value as if the entire asset value were taxable
   - The second component adds back in the tax on the original value, since taxes are only due on the gains
-
