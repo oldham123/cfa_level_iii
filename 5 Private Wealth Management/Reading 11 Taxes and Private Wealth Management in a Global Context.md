@@ -108,3 +108,27 @@ $$
 $$
 \text{T}_\text{AE} = 1 - \frac{\text{R}_\text{AE}}{r}
 $$
+
+## 11.D: Discuss the tax profiles of different types of investment accounts and explain their impact on after-tax returns and future accumulations
+
+- Investing in a way that benefits from tax advantages is often possible, but usually limited in amount and purpose (e.g. retirement, home purchase, healthcare)
+- These accounts are generally one of two types:
+  - **Tax-deferred account**: No tax is due on deposits, and taxes are only paid at withdrawal, due on the full amount, with an after-tax value given by:
+$$
+\text{FV}_\text{AT} = (1 + r)^n \cdot (1 - t_N)
+$$
+  - **Tax-exempt account**: No taxes due on returns, or on withdrawals, with an after-tax value given by:
+$$
+\text{FV}_\text{AT} = (1 + r)^n
+$$
+
+- Pre-tax and after-tax analysis of a portfolio can yield different conclusions
+  - Differences in the pre-tax and after-tax values of certain portions of a portfolio can result in the allocation between asset types being different
+- Whilst a tax-exempt account can appear to be the most advantageous choice, it is important to note that after-tax amounts are deposited into these accounts
+  - The decision between a TDA and a TEA depends on how tax rates are expected to change
+  - Taxes can be paid now, and the remaining amount deposited into a TEA
+  - Alternatively, the amount can be deposited into a TDA now, with taxes paid later, possibly using a different rate
+-
+-
+-
+-
