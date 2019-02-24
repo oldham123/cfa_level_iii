@@ -25,6 +25,7 @@
   - They may also be taxed differently based on whether they are accrued over the long term or short term
   - The most common tax regime seen globally is *common progressive*, which features progressive income taxes, as well as favourable treatment of interest, dividend, and capital gains income
   - The second most common is the same, except there is less favourable treatment of interest and dividend income
+  - A *light* regime has favourable treatment for interest, dividends, and capital gains income, whereas a *heavy* regime only has favourable treatment of interest income
 
 ## 11.B: Determine the effects of different types of taxes and tax regimes on future wealth accumulation
 
