@@ -128,7 +128,56 @@ $$
   - The decision between a TDA and a TEA depends on how tax rates are expected to change
   - Taxes can be paid now, and the remaining amount deposited into a TEA
   - Alternatively, the amount can be deposited into a TDA now, with taxes paid later, possibly using a different rate
--
--
--
--
+
+## 11.E: Explain how taxes affect investment risk
+
+- Taxes reduce after-tax risk, by reducing the overall return, and hence the variability of that return
+  - Given a potential range of returns $r$ to $-r$, given a tax rate of $t$, then the maximum return is now $r\cdot(1-t)$
+  - Similarly, if there is a loss of $-r$, then that loss can be used to reduce taxable income from other sources, thus the after-tax loss is $-r\cdot(1 - t)$
+  - This leads to a reduced after-tax standard deviation $\sigma_\text{AT}=\sigma\cdot(1-t)$
+  
+- Assets with a high tax burden sdhould be placed in tax-advantaged accounts
+  - Distributing assets effectively from a tax perspective generates **tax alpha**
+    - For example, most of the return from bonds is income from interest, and thus they should be held in tax deferred accounts
+    - Return from equities is mostly capital gains, as opposed to income such as dividends, and thus should be held in taxable accounts
+
+- For more complicated portfolios, the desired allocation can be achieved by using leverage
+  - Shifting from bond to equity holdings may reduce tax alpha, even though it increases returns
+  - Borrowing cash to increase equity holdings also does the equivalent of shorting bonds, changing the overall portfolio mix whilst maximising tax alpha
+
+## 11.F: Discuss the relation between after-tax returns and different types of investor trading behaviour
+
+- There are several types of investor when it comes to taxation:
+  - *Traders* realise gains rapily due to frequent transactions, and usually incur higher tax rates
+  - *Active investors* trade less often, and are able to defer some taxation
+  - *Passive investors* hold stocks in order to defer gains, achieving more optimal tax alpha
+  - *Exempt investors* don't incur taxes at all
+- In general the following holds:
+  - Asset allocation is of prime importance
+  - Utilising leverage to maximise tax alpha is not a common approach
+
+## 11.G: Explain tax loss harvesting and highest-in/first-out tax lot accounting
+
+- **Tax-loss harvesting** is the realisation of losses to offset realised gains
+  - Total taxation is not reduced, instead it is equivalent to avoiding taxes now and then paying them at a future date
+  - There are usually restrictions on tax-loss harvesting
+  - If an asset is sold in order to realise a loss, the proceeds are typically reinvested with a lower cost basis, leading to a larger realised gain in the future
+
+- Consider an investor that buys an asset twice, once at a lower price, and then again at a higher price
+  - If they go on to sell that asset, they can choose which one to sell, either the cheaper, or more expensive one
+  - This choice incurs different taxation treatments
+  - **Highest-In/First-Out Tax Lot Accounting** is usually the best choice, and involves asserting that the most expensive asset is sold first
+    - This will either reduce the realised gain (and thus taxes due) or maximise the realised loss (and thus tax benefits)
+  - If taxes are expected to increase however, it may be advantageous to take the opposite approach: **lowest-in/first-out**
+
+- In addition to holding-period extension being desirable due to the deferring of taxes, in some jurisdictions it also incurs a lower tax rate
+  - Sales should always be timed with the regards to the years end:
+    - Losses should be realised before year end in order to offset other gains made this year
+    - Gains should be realised after year end in order to defer taxes to next year
+  - If tax rates are expected to change however, this can complicate the analysis
+
+## 11.H: Demonstrate how taxes and asset ocation relate to mean-variance optimisation
+
+- Since taxes can have an impact on after-tax return and risk characteristics of a portfolio, the efficient frontier should be calculated after-tax
+  - Additionally, assets can be held in either a TEA or a TDA, and so both of these options should be evaluated
+  - **Mean-variance optimisation** should determine the optimal allocation and location for each asset
