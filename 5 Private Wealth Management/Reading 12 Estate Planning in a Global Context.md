@@ -34,3 +34,22 @@
   - A **community property rights** tax regime entitles a spouse to half of anything gained during the marriage
   - Certain items such as gifts of inheritance may be held separately
   - A **separate property rights** regime grants each spouse control over to whom assets may be distributed after death
+
+## 12.C: Determine a family's core capital and excess capital, based on mortality probabilities and Monte Carlo analysis
+
+- An individual can be thought of as owning assets equal to the value of any actual assets currently owned, plus additional **human capital**, or **net employment capital** the present value of income from employment likely to be earned
+  - Liabilities can be thought of as the present values of all costs likely to be incurred
+    - Some of these are literal liabilities, such as debts, as well as funds required to sustain a current standard of living
+  - Netting these off against each other yield's an individuals **excess capital**
+- **Core capital** is the capital required to settle all liabilities, plus an emergency reserve, with excess capital being any amount above this
+- **Mortality tables** are a statistical tool used to determine an individuals *expected remaining years*
+  - They are constructed using average life expectancy, and hence if they are used to determine core capital, and an investor matches this figure with no excess, there is a 50% chance that they will outlive their core capital
+    - Hence, a **safety reserve** to top up the core capital and provide some excess may be advisable
+    - Additionally, this method assumes a steady risk-free rate of return on assets
+    - Furthermore, failing to predict spending patterns creates path dependency risk, possibly resulting in drawing down available funds too early, and making the required returns unattainable
+
+- Monte Carlo simulation is a valuable tool in retirement planning, allowing the specification of probability distributions of multiple variables
+  - These are then used to simulate a scenario many thousands of times, obtaining a distribution of outcomes with various likelihoods of occuring
+  - The model can then inform sensible adjustments to the plan early on, helping to avoid bad scenarios
+  - The model also accounts for path dependency, with each simulation modelling precisely a pattern of withdrawals and deposits
+  - A further benefit is enabling the calculation of a **probability of ruin** (of the portfolio reaching zero value), also according to various input values, such as the starting date of retirement
