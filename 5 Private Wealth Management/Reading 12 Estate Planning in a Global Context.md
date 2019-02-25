@@ -13,6 +13,8 @@
 
 - Since probate is costly, investors may attempt to avoid it by organsing transfer before death, through things such as *shared ownership*, *living trusts*, *retirement plans*, and so on
 
+- Investments in private companies can be an efficient form of estate planning, since the uncertainty of true value, as well as a lack of liquidity and control lead to valuation discounts
+
 ## 12.B Explain the two principal forms of wealth transfer taxes and discuss effects of important non-tax issues, such as legal system, forced heirship, and marital property regime
 
 - Assets can be transfers using **gifts** or **bequests**:
@@ -55,3 +57,45 @@
   - One use is to determine a required amount of core capital, by adjusting initial capital inputs, and observing how long they last in various scenarios
   - The model also accounts for path dependency, with each simulation modelling precisely a pattern of withdrawals and deposits
   - A further benefit is enabling the calculation of a **probability of ruin** (of the portfolio reaching zero value), also according to various input values, such as the starting date of retirement
+
+## 12.D: Evaluate the relative after-tax value of lifetime gifts and testamentry bequests
+
+## 12.E: Explain the estate planning benefit of making lifetime gifts when gift taxes are paid by the donor, rather than the recipient
+
+- Wealthy investors face the choice of gifting capital when alive, or bequesting it after death
+  - Gifts entail losing control of capital immediately
+  - Gifts and bequests can entail different tax treatments
+- One approach is to calculate a ratio from the perspective of the recipient given by:
+
+$$
+\frac{\text{FV}_\text{AT gift}}{\text{FV}_\text{AT bequest}}
+$$
+
+- When gifting capital, the amount can either:
+  - Be tax-exempt
+  - Incur taxes upon the donor
+  - Incur taxes upon the recipient
+- A ratio that aids in this analysis can be determined by considering the following factors:
+  - $r_g$ and $t_{ig}$, the pre-tax return and tax rate associated with the amount gifted
+  - $r_e$ and $t_{ie}$, the pre-tax return and tax rate associated with the amount retained within the estate
+  - $T_e$, the tax incurred on the estate upon transfer
+  - $T_g$, the tax incurred on the gift upon transfer
+  - $p_g$ and $p_e$, the proportions of capital gifted and retained in the estate respectively
+
+- In the event that gifts are tax exempt, the value after tax if gifted is simply the return generated on the amount, with the relevant tax rate applied to the returns, compounded over expected years till death:
+$$
+\frac{\Big(1 + r_g \cdot (1 - t_{ig})\Big)^n}{\Big(1 + r_e \cdot (1 - t_{ie})\Big)^n \cdot (1 - T_e)}
+$$
+
+- If the recipient of the gift incurs a tax on the funds, the value after tax if gifted is a similar calculation, also accounting for the tax applied to the gift:
+$$
+\frac{(1 - T_g) \cdot \Big(1 + r_g \cdot (1 - t_{ig})\Big)^n}{\Big(1 + r_e \cdot (1 - t_{ie})\Big)^n \cdot (1 - T_e)}
+$$
+
+- If the donor incurs a tax on the funds, this tax will reduce the value of the estate (contingent on the proportions gifted and retained), and thus the value of taxes incurred on the estate, essentially functioning as a tax credit:
+$$
+\frac{(1 - T_g + T_g \cdot T_e \cdot \frac{g}{e}) \cdot \Big(1 + r_g \cdot (1 - t_{ig})\Big)^n}{\Big(1 + r_e \cdot (1 - t_{ie})\Big)^n \cdot (1 - T_e)}
+$$
+
+- Charitable gifts of appreciated securities allow the investor in many cases to avoid gift transfer taxes, by taking an income tax deducation that equals the gift's current market value
+  - Once transferred to a tax exempt organisation, capital gains taxes continue to be avoided
