@@ -47,9 +47,11 @@
     - Hence, a **safety reserve** to top up the core capital and provide some excess may be advisable
     - Additionally, this method assumes a steady risk-free rate of return on assets
     - Furthermore, failing to predict spending patterns creates path dependency risk, possibly resulting in drawing down available funds too early, and making the required returns unattainable
+    - A mortality table is used by first adjusting each future year's expected spending by the probability of living to that year, and then discounting it to the present day
 
 - Monte Carlo simulation is a valuable tool in retirement planning, allowing the specification of probability distributions of multiple variables
   - These are then used to simulate a scenario many thousands of times, obtaining a distribution of outcomes with various likelihoods of occuring
   - The model can then inform sensible adjustments to the plan early on, helping to avoid bad scenarios
+  - One use is to determine a required amount of core capital, by adjusting initial capital inputs, and observing how long they last in various scenarios
   - The model also accounts for path dependency, with each simulation modelling precisely a pattern of withdrawals and deposits
   - A further benefit is enabling the calculation of a **probability of ruin** (of the portfolio reaching zero value), also according to various input values, such as the starting date of retirement
