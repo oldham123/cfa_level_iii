@@ -99,3 +99,46 @@ $$
 
 - Charitable gifts of appreciated securities allow the investor in many cases to avoid gift transfer taxes, by taking an income tax deducation that equals the gift's current market value
   - Once transferred to a tax exempt organisation, capital gains taxes continue to be avoided
+
+## 12.F: Evaluate the after-tax benefits of basic estate planning strategies, including generation skipping, spousal exemptions, valuation discounts, and charitable gifts
+
+- If an investor hopes to gift assets to a grandchild, this could potentially incur double taxation (once in the transfer to the child, and again in transfer to *their* child)
+  - **Generation-skipping transfer taxes** are incurred to prevent direct transfers to grandchildren being used to prevent this double taxation
+  - In some jurisdictions however, such as the USA, these taxes do not exist, and hence this remains an efficient strategy
+  - If skipping generations is possible, the value of the gift increases by $\frac{1}{1-t_g}$
+    - This is the **relative value of generation skipping**
+  - The appropriate amount to transfer can be determined by subtracting core capital requirements for the first and second generations from the total estate
+- Many tax regimes also allow tax-free transfers between spouses, although whether the use of them is efficient from a tax perspective depends on other factors
+  - For example, if there is an amount that can be transferred directly to children tax-free, it would instead be optimal to take advantage of that first, and only transfer the rest to the spouse
+
+- Ownership claims in private entities are difficult to value, and often lead to **valuation discounts**
+  - These discounts can cause the value of an estate to effectively fall, leading to greater tax efficiency
+  - The claim in the private entity is calculated by making use of comparables, and then applying a discount for illiquidity, and a lack of control
+  - It is important to note that these discounts are subject to court approval, and often reduce as the size of firm increases
+
+- When the investor wants to make a gift to a tax-exempt charity, the ratio used to determine whether to gift now, or bequeath, is again altered
+  - The numerator is given by the tax-free return that the charity can earn on the gift, as well as the tax saving of $T_{oi}$ for each dollar gifted, which can be invested by the donor, generating a return $r_e$, taxed at $t_{ie}$, and then taxed at death upon transfer at $T_e$
+$$
+\frac{(1 + r_g)^n + T_{oi} \cdot \Big( 1 + r_e \cdot (1 - t_{ie}) \Big)^n \cdot (1 - T_e)}{\Big(1 + r_e \cdot (1 - t_{ie})\Big)^n \cdot (1 - T_e)}
+$$
+
+## 12.G: Explain the basic structure of a trust and discuss the differences between recovable and irrevocable trusts
+
+- A **grantor** may place funds into a **trust** as a means of transferring funds without going through probate
+  - The trust is managed by a **trustee**, who manages the assets on behalf of the beneficiaries, and according to constraints set by the grantor
+  - The legal owner, as well as the owner for tax purposes, may be either the trustee or the grantor, depending on the circumstances
+- Trusts can be either revocable, or irrevocable
+  - The grantor remains the owner of the assets in the case of **revocable trusts**, has the power to revoke the trust, and trust creditors retain the ability to make claims against trust assets
+  - The grantor gives up control of the assets in an **irrevocable trust**, and instead the trustee is considered the owner, in which case claims cannot be made against assets
+    - If the trust was made with the intent of nullifying a claim, then these claims remain valid
+- There are three main kinds of trust:
+  - A **fixed trust** entails predetermined distributions of assets codified within trust documents
+  - A **discretionary trust** empowers the trustee to make decisions regarding asset distribution, and beneficiaries have no automatic right to the assets
+  - A **spendthrift trust** is a means of transferring assets to individuals unable to manage them, either due to age, or some other circumstance
+- In some countries, regardless of the type of trust, the grantor remains responsible for taxes on the trust, remaining the owner for tax purposes
+- Trusts are more abundant in common law countries, whilst foundations are more abundant in civil law countries
+
+## 12.H: Explain how life insurance can be a tax-efficient means of wealth transfer
+
+- Funds paid out from life insurance policies do not incur taxes in most jurisdictions, and hence they are often an efficient means of transferring wealth
+  - In addition, trusts can be established as the beneficiary of a life insurance policy
