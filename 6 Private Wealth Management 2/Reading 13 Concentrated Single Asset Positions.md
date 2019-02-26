@@ -123,3 +123,45 @@
   - Purchasing puts on the concentrated position
 
 - Multiple investors, each with different, highly concentrated portfolios can combine their holdings into a single **exchange fund**, with each taking a pro-rata share of the fund
+
+## 13.J: Describe strategies for managing concentrated positions in privately held businesses
+
+- Positions in private firms may be particularly highly concentrated, feature particularly high nonsystematic risk, and be particularly illiquid
+  - Additionally, cognitive and emotional biases are often at play that make management more difficult
+- Exit strategies must consider:
+  - Business value
+  - Tax considerations
+  - Availability of credit
+  - The size of the market for a potential sale
+  - Foreign currency considerations
+
+- Strategies include:
+  - Seeking a **strategic buyer** who hopes to synergistically combine it with an already owned business, and is likely to offer a good price
+  - Seeking a **financial buyer**, such as a PE fund seeking to add a firm to their portfolio
+    - They usually buy at a lower price, and specifically seek mature businesses
+  - The owner can engage in **recapitalisation**, by seeling a majority of owned shares back to the firm
+    - A **phased exit strategy** could then be used, with a PE firm sourcing the financing for the sale, and receiving equity in the firm in return
+    - Taxes are due on the initial cash released, and deferred on the other portion until remaining shares are sold
+  - A sale to other members of management, or to employees, usually entails providing a discount
+    - Additionally, such buyers usually lack the capital required for large purchases, and must therefore be granted some form of credit by the owner
+    - There are also consequences for the ongoing relationship between the owner and employees
+  - The owner may direct the company to sell nonessential assets, and then provide a significant dividend, or engage in a stock buyback
+  - A transfer to family members could be arranged in a tax-efficient manner
+  - Obtain a line of credit secured by the shares
+    - This credit can either be from the firm, or from a third party lender
+      - If the firm has to borrow to provide this credit, interest paid by the firm could be tax deductible
+  - An **IPO**
+
+## 13.K Describe strategies for managing concentrated positions in real estate
+
+- Real estate investments can entail a large amount of unsystematic, property-specific risk
+  - They can include large unrealised gains, and be significantly illiquid
+
+- Monetisation options include:
+  - **Mortgage financing**: This is the equivalent of a put option on the property
+    - The loan can be structured such that if the property value falls below the value of the loan, the borrower can default, and simply give up the property to the lender
+      - This is called a **nonrecourse loan**
+      - If the property produces income, this may be sufficient to pay both the interest on the loan, as well as the expenses of maintaining the building
+  - **Charitable giving**: An investor can donate the property to a charitable trust, and take a tax deduction equal to the value of the property
+  - **Sale and leaseback**: This method protects the ability to make use of the property, whilst immediately releasing a significant amount of cash
+    - Rental payments are now tax deductible
