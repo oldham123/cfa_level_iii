@@ -48,3 +48,31 @@
 
 - Investors may display both *cognitive* and *emotional* biases which influence their behaviour
   - It is important for managers to keep in mind that cognitive biases can be overcome through education, whereas emotional biases are more difficult to mitigate
+
+## 13.F: Describe advisors' use of goal-based planning in managing concentrated positions
+
+- Due to psychological characteristics of individual investors, it is often beneficial to take heed of behavioural finance and adopt goal-based planning, as opposed to traditional risk-return analysis of portfolios
+  - In this approach, a portfolio is divided into multiple compartments, with the assets contained within each designed to meet specific goals of the client
+    - A *personal risk bucket* holds low risk assets with the aim of insulating a client from financial ruin; this bucket usually yields low returns
+    - A *market risk bucket* contains riskier stocks and bonds with the aim of making a satisfactory return, but still keeping risk at reasonable levels, with the aim of maintaining current standard of living
+    - An *aspirational risk bucket* holds riskier assets, such as stakes in private firms, and real estate positions; the success of which could drastically improve the client's standard of living
+
+- The first step of goal-based management is to determine the capital required to meet the objectives of the first two tiers of the portfolio
+  - Surplus capital can be allocated to the aspirational bucket
+  - In the event that a pre-existing aspirational holding prevents the first two goals being met, some means of liquidating or monetising the aspirational holding should be put to the client
+
+## 13.G: Explain the uses of asset location and wealth transfers in managing concentrated positions
+
+- In some circumstances, the investor will not always have control over the asset location of a concentrated holding
+  - If they do, asset location can be determined to ensure that the holding is managed as tax efficiently as possible
+- Managers should indicate the following to clients such that wealth can be transferred in a way that incurs minimal costs:
+  - Arranging a client's affairs before unrealised gains accrue is usually best, since at this point there are fewer constraints against reorganising the client's holdings
+  - An **estate tax freeze** allows tax liabilities and further gains to be transferred to a future generation
+    - An initial gift tax is incurred, but the asset is then tax exempt
+
+- The process of managing a concentrated position usually includes five steps:
+  - Determine objectives and constraints
+  - Determine the strategies appropriate for those goals and constraints
+  - Evaluate the tax efficiency of the available strategies
+  - Evaluate other benefits / harms of the available strategies
+  - Make a decision and document it
