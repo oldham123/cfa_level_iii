@@ -76,3 +76,50 @@
   - Evaluate the tax efficiency of the available strategies
   - Evaluate other benefits / harms of the available strategies
   - Make a decision and document it
+
+- If the asset held in a concentrated portfolio is a stock, then there are three main strategies for managing it:
+  - Selling the asset may result in a loss of control, and any unrealised gains will incur tax
+  - Borrowing against the asset is a means of monetising the holding
+  - Reducing downside risk through hedging may also be an option
+    - The use of over the counter derivatives provides flexibility, but it also leads to risk associated with the creditworthiness of the counterparty
+    - The use of exchange-traded derivatives enables early closing of the transaction, and better price discovery, as well as more transparent costs
+
+## 13.H: Describe strategies for managing concentrating positions in publicly traded common shares
+
+- **Monetisation** of a concentrated holding is the process of obtaining cash without realising gains on the asset, and thus incurring tax
+  - Hedging against the entirety of the risk of the position may be classed as a sale by some tax authorities, but hedging the maximum allowable amount of risk may be a valid monestisation strategy
+  - Once the hedge is established, the position can be borrowed against, using the position as collateral
+  - Hedging strategies include:
+    - Shorting the asset
+    - Entering a forward contract providing a guaranteed sale price
+    - Creating a forward conversion by combining a call and put at the same strike price
+    - Entering a swap that pays LIBOR and costs the return on the equity holding
+  - The strategy chosen depends on the tax treatment associated with each
+
+- A **prepaid variable foward** involves the owner of a stock position receiving an agreed amount of cash per share held, in return for delivering the corresponding number of shares at a later date
+  - Also specified could be a price above which a lower number of shares need be delivered
+  - They are similar to a collar option and a loan bundled together
+    - The PVF specifies a minimum sale price (the amount borrowed per share), which limits the downside
+    - Furthermore, there is some limited upside since the amount of shares that must be delivered may fall if the price rises higher than expected
+    - Additionally, the price paid is delivered ahead of the actual transfer of stock, hence there is a loan component
+
+- **Modified hedging** is also an option, which involves reducing the downside risk, but retaining some stake in the original position
+  - An out-of-the-money protective put exposes the investor to some level of downside risk, but removes the rest
+  - Purchasing protection that expires sooner also exposes the investor to some risk in the initial position
+  - Buying one put at a higher price, and another at a lower price, provides protection within a band of prices
+  - Adding more exotic features to the position are also possibilities
+
+## 13.I: Discuss tax considerations in the choice of hedging strategy
+
+- If a strategy involves items which are treated differently by tax authorities, this is called a **mismatch in character**
+  - Many tax regimes consider the proceeds from the sale of options to be equivalent to ordinary income
+  - This is in contrast to gains on assets for which tax is usually deferred until gains are realised
+
+- Investing the income from a monetised concentrated equity position into a index tracker fund on a pre-tax basis, and investing to outperform the index on an after-tax basis is known as **index tracking with active tax management**
+- If in investor holds other portfolio assets in addition to the concentrated holding, those assets are structured to minimise correlation with the concentrated holding
+- A **cross-hedge** may be used as an alternative to a perfect hedge
+  - Shorting shares of a highly correlated stock
+  - Shorting a highly correlated index
+  - Purchasing puts on the concentrated position
+
+- Multiple investors, each with different, highly concentrated portfolios can combine their holdings into a single **exchange fund**, with each taking a pro-rata share of the fund
