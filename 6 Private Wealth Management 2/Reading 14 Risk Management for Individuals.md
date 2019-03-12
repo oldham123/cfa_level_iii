@@ -44,3 +44,56 @@ $$
   - This can provide a more comprehensive financial picture that is useful in planning
     - Composing this type of analysis can alert a financial advisor to the existence of unrealistic expenses, or bequest goals
     - This in turn allows them to help the investor adjust their expectations
+
+## 14.E: Discuss risks(earnings, premature death, longevity, property, liability, and health risks) in relation to human and financial capital
+
+- **Risk management** is a process with several components:
+  - Objective specification
+  - Risk identification
+  - Addressing risks through:
+    - **Risk avoidance**: Make choices that eliminate some risks
+    - **Risk reduction**: Make choices that mitigate some risks
+    - **Risk transfer**: Use of insurance or hedging
+    - **Risk retention**: Ensure a sufficient level of assets to accept losses if they occur
+
+- Typical risks include:
+  - **Earnings risk**: This is generally a loss of HC, but usually takes the form of job loss
+    - Other career disruptions such as injury or death fall into this category
+    - Note that certain occupations have higher inherent earnings risk than others
+  - **Premature death risk**
+  - **Longevity risk**: Long lived individuals run the risk of living longer than expected and outliving their assets
+    - Life expectancy can be difficult to predict, so mortality tables and Monte Carlo simulations are used in quantifying this risk
+  - **Property risk**: An unexpected loss of property, possibly due to a severe weather event or accident
+    - Can necessitate relocation, or finding temporary living and transportation requirements
+    - The loss of business premises is also included here
+  - **Liability risk**: Individuals who are the counterparty to contracts that render them liable for things carry additional risks
+    - The driver of a vehicle may be deemed liable for damagers that they are responsible for
+  - **Health risk**: A reduced ability to work due to illness or injury can lead to a reduction in HC as well as FC
+
+## 14.F: Describe types of insurance relevant to personal financial planning
+
+- Terms important to discussion of insurance policies include:
+  - **Benefits / face amount**: The payout that the policy can provide if certain terms are met
+    - May be a lump sum or an annuity
+  - **Premium**: The price of obtaining the insurance, usually in the form of a periodic payment, as specified in a **premium schedule**
+  - **Cash value**: Some policies allow for an early payout, which in turn may involve forfeiting the final payout, either totally or partially
+  - **Paid up**: Some policies only require the payment of premiums up to a certain point, at which premiums are no longer due in order to retain the benefits of the policy
+  - **Limitations**: Terms of the policy which may limit the payout (e.g. dishonesty in reporting the health information of an individual purchasing life insurance)
+  - **Contestability period**: The company from which the policy is purchased may have a time period within which they are allowed to contest the validity of the policy
+  - **Policy owner**: The individual reponsible for the payment of premiums, but not necessarily the insured party
+    - If the owner is not the insured party, they are required to have some genuine interest in the insured party, rather than simply be speculating
+  - **Beneficiaries**: The individuals who stand to receive in the event of a payout
+  - **Riders**: A policy may have additional provisions that are referred to as riders
+  - **Modifications**: Changes that can be made to policy
+
+- **Life insurance** protects from the financial impact of an individuals death, with the ideal policy determined accouring to both it's cost, as well as the loss in HC in the event of that death
+  - Liquidity needs in the event of a death should also be considered in this calculation
+    - Life insurance can be *temporary* and protect for a given amount of time
+      - Costs may remain static or may increase during the policy, and it may include a renewal option
+      - Since mortality risk is lower, temporary insurance is often less costly
+    - Alternatively it can be *permanent*, lasting for the entire life of the insured party
+      - The premium is in general fixed, with the value of the policy eventually exceeding the payout due at the end
+      - **Whole life** insurance involved a fixed annual payment, and cannot be cancelled by the insurer, making early purchase desirable, as it protects from being given a worse price later on if health deteriorates
+        - Additionally, such a policy may achieve *fully paid* status sooner
+      - **Universal life** insurance is more flexible, allowing for premiums to be increased or decreased, hence affecting the size of the payout and the rate of value increase of the policy
+        - Premium payments may be allowed to cease as long as the policy value is greater than the value of the payout due
