@@ -1,0 +1,18 @@
+{
+	 "Math text": {
+	 	"scope": "markdown",
+	 	"prefix": "/t",
+	 	"body": [
+	 		"\\text{$0}"
+	 	],
+	 	"description": "Begin a text block"
+	 },
+	 "Math block and text": {
+		"scope": "markdown",
+		"prefix": "/T",
+		"body": [
+			"$\\text{$0}$"
+		],
+		"description": "Begin a math block with a text block"
+	}
+}

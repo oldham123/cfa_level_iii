@@ -25,6 +25,8 @@ $$
 - As an individual ages, the proportions of HC and FC that contribute to their net wealth will change
   - A younger individual typically has more HC than FC
   - As they age, the portion of wealth represented by FC will grow, and that represented by HC will decrease
+  - At the point of retirement, FC usually dominates an individual's wealth, and is typically at its peak at this point
+    - If an individual is very wealthy however, return on FC may exceed expenses, and so it may continue to grow
 
 ## 14.C: Discuss the financial stages of life for an individual
 
@@ -97,3 +99,163 @@ $$
         - Additionally, such a policy may achieve *fully paid* status sooner
       - **Universal life** insurance is more flexible, allowing for premiums to be increased or decreased, hence affecting the size of the payout and the rate of value increase of the policy
         - Premium payments may be allowed to cease as long as the policy value is greater than the value of the payout due
+
+- Life insurance policies can include additional benefits in the form of *riders*:
+  - *Accidental Death and Dismemberment* insurance increases the payout if either of these things occurs
+  - *Accelerated Death Benefits* trigger an early payout if the policy holder is diagnosed with a terminal illness
+  - *Viatical Settlements* allow the policy to be sold on to a third party
+    - This triggers immediate payments to the beneficiaries
+    - Beneficiary status then transfers to the new policy owner, who becomes responsible for premiums
+  - *Guaranteed insurability* ensures that the policy holder will be eligible for further insurance, independent of future health
+
+## 14.G: Describe the basic elements of a life insurance policy and how insurers price a life insurance policy
+
+- The pricing of life insurance must be such that the funds available from investing the premiums is sufficient to:
+  - Fund the policy's payout
+  - Cover costs
+  - Generate profit
+
+- Life insurance pricing models typically feature three main components:
+  - **Mortality estimates** involve the use of mortality tables, combined with as much relevant information as can be gathered regarding the beneficiary, such as health and lifestyle
+  - The **Net premium** is equal to the amount that must be charged in order to cover the cost of payout based on a discount rate given by the likely rate of return on the premiums
+  - The **Load** is the additional premium charged to cover costs
+    - The load must also be sufficient to provide a profit if the insuring company is owned by stockholders
+    - If a mutual company owned by policy holders extra must be charged to cover risks
+      - If costs eventually come in below estimates then policyholders may receive an additional payout
+
+- If a life insurance policy is renewed annually, the premium will increase, as the risk of the policy increases (e.g. higher mortality risk)
+  - Insurance over multiple years instead has a fixed premium, calculated as a weighted average of the true one-year premiums
+  - Permanent insurance places greater risk on the policy provider, as they need to correctly estimate various factors:
+    - Life expectancy
+    - Discount rate
+    - Costs of policy administration
+
+- Comparing fixed length annual term insurance policies is usually a matter of comparing the premiums, but comparing permanent policies is more complicated
+  - Permanent insurance policies can bundle multiple additional features and characteristics, so it is difficult to compare like for like
+  - **Net payment cost index** and **Net surrender cost index** are common techniques
+
+- **Net payment cost index** assumes:
+  - The policy holder dies at the end of the time horizon
+  - The policy is fully paid up at this time
+  - Cash value is neglected
+  - The calculation is as follows:
+    - Compute $\text{FV(premiums paid at year start)} = \text{FV}_\text{premiums}$
+    - Compute the $\text{FV(dividends received at year end)} = \text{FV}_\text{dividends}$
+    - Compute $\text{FV}_\text{policy cost} = \text{FV}_\text{premiums} - \text{FV}_\text{dividends}$
+    - Annuitise this cost to calculate an annual cost of policy
+
+- **Net surrender cost index** assumes:
+  - Insurance ends at the end of the horizon
+  - Cash value is returned to the policy holder
+  - The calculation is as follows:
+    - Compute $\text{FV(premiums paid at year start)} = \text{FV}_\text{premiums}$
+    - Compute the $\text{FV(dividends received at year end)} = \text{FV}_\text{dividends}$
+    - Compute $\text{FV}_\text{policy cost} = \text{FV}_\text{premiums} - \text{FV}_\text{dividends} - \text{terminal cash value}$
+    - Annuitise this cost to calculate an annual cost of policy
+
+- Note that premiums are paid at the start of periods, and hence should be considered equivalent to an *annuity due*, whilst dividends are paid at the end of periods, and hence are equivalent to an *ordinary annuity*
+
+- The amount of insurance required can also be difficult to estimate
+  - It should be chosen to cover the HC remaining at the estimated time of death
+  - Additionally it should cover expenses associated with death
+  - Furthermore, the present value (as of the time of death) of any remaining goals of the policy holder should be considered also
+
+- Other types of insurance include:
+  - **Disability income insurance**
+  - **Property insurance**
+  - **Health and medical insurance**
+  - **Liability insurance**
+
+## 14.H: Discuss the use on annuities in personal financial planning
+
+- **Basic annuity**: A one-off cash lump sum paid by an **annuitant** in order to receive fixed payments from policy initiation until death
+  - They amount to the opposite of life insurance, insuring instead against longevity risk (the risk of outliving one's assets)
+  - A defined benefit pension plan is equivalent to an annuity
+  - They are generally either *deferred* or *immediate*, and *fixed* or *variable*
+  - Resale or liquidation can be made possible through specific provisions, although they are generally illiquid
+
+- A **deferred annuity** begins payments at a later date as opposed to immediately
+  - A **deferred variable annuity** involves selection from a limited range of investment options
+    - The policy holder determines the risk-return profile of their initial premium, hence determining the premiums to be received in return, with no guarantee of future payouts
+    - Insurance features may be offered that guarantee a minimum payout for an additional fee
+    - Additionally, the ability to cash out at a later date may also be purchased, incurring a *surrender charge*
+  - A **deferred fixed annuity** pays a fixed premium back to the holder, starting at some point in the future
+    - Increasing the delay lowers the cost of the annuity
+    - An **advanced life deferred annuity** involves a significant delay, usually starting when the annuitant reaches age 80 or so
+    - Premiums are low, making this an inexpensive way to offset longevity risk, for three main reasons:
+      - The delay allows the insurance firm to build up returns on the initial investment
+      - A smaller number of payments expected before death of the annuitant
+      - A certain proportion of annuitants will die before payments begin
+
+- **Immediate annuities** begin payouts immediately
+  - An **immediate variable annuity** provides payments indexed to some benchmark
+  - **Immediate fixed annuities** payout a fixed value
+  - The options and provisions that can be attached to such a policy are numerous, including:
+    - Whether the annuity persists for life, or for a specified period
+    - The payment of a refund if payments have not reached a specified amount before death
+    - The creation of joint policies involving two annuitants
+
+## 14.I: Discuss the relative advantages and disadvantages of fixed and variable annuities
+
+- Variable annuities can feature more *volatile* payouts
+- Variable annuities can provide more *flexibility* during the life of the policy, and are more likely to allow withdrawal of funds before the end of the policy
+- The combination of the link of variable annuities to a reference asset, and the additional options offered to the policy holder, can make them difficult to analyse, which frustrates price competition processes, leading to higher prices in general
+- Prices of fixed annuities are heavily contingent on *future market expectations*, particularly bond interest rates
+- The concept of **mortality credits** affects the pricing of deferred and immediate annuities differently
+  - Given a group of individuals that purchase a deferred annuity, some will not survive to the point in time at which payments begin
+  - The initial payment they provide effectively subsidises those that do survive
+  - Compared to the cost of waiting until 65 and purchasing an immediate annuity, the price is lower because
+    - The insuring firm was able to invest the premium for five additional years and grow the returns
+    - Some proportion of the premiums collected will never need to be returned to some of the buyers, allowing for a transfer of mortality credit to occur
+- Variable annuities linked to a reference asset will provide some *inflation protection*, whilst many fixed annuities will not
+  - A rider can be added to fixed annuities to provide this protection, but at an additional cost
+- Taxes are an important factor in most, if not all cases, but the requirements are complex and varied, so they must be considered on a case by case basis
+
+- One alternative to purchasing an annuity is to **self-insure**
+  - Instead of paying a premium to an insurance firm to receive regular payments, the funds spent on the premium can simply be invested instead
+  - Once the funds are invested, a regular withdrawal amount can be determined such that the portfolio survives until expected time of death
+  - It can be difficult to determine whether self-insurance is a better option, because whilst it involves both the return of the principal, as well as interest (returns) on the principal, only an annuity provides mortality credit
+  - Additionally, annuities introduce higher costs since the firms that provide them must cover their own costs, and generate a profit, as well as invest conservatively as a way of managing their own risks
+
+- The purpose of an annuity is to avoid longevity risk, and so it may be better to purchase an annuity if:
+  - A longer than average life expectancy is likely
+  - A lifetime income is desired
+  - There is no desire to leave behind as estate
+  - The investor is risk averse
+  - The investor lacks other sources of guaranteed income
+
+## 14.J: Analyse and critique an insurance programme
+
+- Risk management has several important elements:
+  - Some risks can be avoided outright (not owning expensive items)
+  - Where they can't be prevented, they can often be made less likely (taking care to prevent damage of expensive items)
+  - In the event that losses do occur, the size of the loss can be reduced (installing sprinkler systems to reduce the damage caused buy a fire)
+  - Additionally, risks can be transferred to another party through the use of insurance, or alternatively risk can be retained using self-insurance
+
+- An important first step involves understanding how often a loss may occur, as well as how big the loss would be
+  - The size of the loss should always be judged in relation to the financial assets an individual holds, as this determines their capcity to deal with that loss
+
+- Insurance needs should be assessed by considered the losses that they would need to insure
+  - Life insurance insures against the loss of HC that would be detrimental to posthomous committments, and so HC should be calculated in assessing if more or less is needed
+    - If an individual has no dependents however, life insurance may not be necessary
+  - Disability insurance insures against insures against a temporary loss in HC
+  - If HC is more volatile, then its value is estimated with a larger discount rate, and hence it ought be insured for a smaller amount
+  - If a risk is significant but infrequent, then insurance may be a good option as the costs of obtaining such insurance will be low
+
+- Capacity to self-insure is increased by having greater financial assets, and decreased by having greater liabilities, both explicit (debts) and implicit (dependent children)
+
+## 14.K: Discuss how asset allocation may be influenced by the risk characteristics of human capital
+
+- Decisions of overall asset allocation must consider the wealth of the investor as a whole
+  - This means involving both HC and FC in the calculation
+  - Whilst HC changes over time, this change is reasonable predictable, and its intrinsic characteristics are unlikely the change
+  - FC on the other hand can change significantly
+  - This means that type of HC possessed will heavily determine the risks that can be taken with FC
+  - Additionally, the nature of a person's HC will determine the ideal asset allocation
+    - For example, if a person's HC is heavily correlated with equities, it may be considered to be 90% *stock-like*
+    - This means that their HC can be considered equivalent to $90\% \cdot \text{HC}$ of equity exposure
+
+- Other important HC considerations include:
+  - The HC of two people is unlikely to display perfect correlation, reducing the level of risk in aggregate
+  - One person's HC can be dependent on factors such as geography
+  - If one person has a capacity to return to work, then risk is reduced
