@@ -44,6 +44,10 @@
   - The capital market itself may restrict some market operations by virtue of its structure
     - For example, if an asset has little or non-existent price history, dealers and brokers are unable to satisfactorily hedge their risk, making it difficult to perform some trades
 
+- Margin-lending rules limit the percentage of an asset's value that can be borrowed against
+  - It is however possible to workaround this limit using derivatives, in a way that reduces the overall risk of the position and increases the amount that can be borrowed
+  - However, in a rules-based system, the fact that a position with reduced risk can be created has no bearing on the margin-lending rules, meaning the amount that can be borrowed against remains the same
+
 ## 13.E; Discuss psychological considerations that may make an investor reluctant to reduce their exposure to a concentrated position
 
 - Investors may display both *cognitive* and *emotional* biases which influence their behaviour
@@ -57,7 +61,7 @@
     - A *market risk bucket* contains riskier stocks and bonds with the aim of making a satisfactory return, but still keeping risk at reasonable levels, with the aim of maintaining current standard of living
     - An *aspirational risk bucket* holds riskier assets, such as stakes in private firms, and real estate positions; the success of which could drastically improve the client's standard of living
 
-- The first step of goal-based management is to determine the capital required to meet the objectives of the first two tiers of the portfolio
+- The first step of goal-based management is to determine the capital required to meet the objectives of the first two tiers of the portfolio (also called **primary capital**)
   - Surplus capital can be allocated to the aspirational bucket
   - In the event that a pre-existing aspirational holding prevents the first two goals being met, some means of liquidating or monetising the aspirational holding should be put to the client
 
@@ -69,6 +73,7 @@
   - Arranging a client's affairs before unrealised gains accrue is usually best, since at this point there are fewer constraints against reorganising the client's holdings
   - An **estate tax freeze** allows tax liabilities and further gains to be transferred to a future generation
     - An initial gift tax is incurred, but the asset is then tax exempt
+  - Donating an asset to charity is typically tax free
 
 - The process of managing a concentrated position usually includes five steps:
   - Determine objectives and constraints
@@ -109,6 +114,9 @@
   - Buying one put at a higher price, and another at a lower price, provides protection within a band of prices
   - Adding more exotic features to the position are also possibilities
 
+- A **short sale against the box** involves borrowing company stock, shorting it, and then using it as collateral for a loan with a value equal to most of the firm
+  - Additionally, it is not necessary to purchase the services of a dealer in order to construct this position, making it more cost effective
+
 ## 13.I: Discuss tax considerations in the choice of hedging strategy
 
 - If a strategy involves items which are treated differently by tax authorities, this is called a **mismatch in character**
@@ -116,6 +124,7 @@
   - This is in contrast to gains on assets for which tax is usually deferred until gains are realised
 
 - Investing the income from a monetised concentrated equity position into a index tracker fund on a pre-tax basis, and investing to outperform the index on an after-tax basis is known as **index tracking with active tax management**
+  
 - If in investor holds other portfolio assets in addition to the concentrated holding, those assets are structured to minimise correlation with the concentrated holding
 - A **cross-hedge** may be used as an alternative to a perfect hedge
   - Shorting shares of a highly correlated stock
@@ -123,6 +132,9 @@
   - Purchasing puts on the concentrated position
 
 - Multiple investors, each with different, highly concentrated portfolios can combine their holdings into a single **exchange fund**, with each taking a pro-rata share of the fund
+  - This entails losing control over one's individual holding, and instead sharing control of the combined holding
+
+- Building a completeness portfolio involves structuring one's other assets with consideration of a concentrated holding to reduce the risk of one's overall position
 
 ## 13.J: Describe strategies for managing concentrated positions in privately held businesses
 
