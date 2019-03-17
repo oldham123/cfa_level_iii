@@ -32,8 +32,15 @@
 
 - All the standard concerns for any portfolio apply here, including:
   - Risk and return objectives
+    - If a plan is currently funded, or over-funded, return rates should at least match the discount rate used
+      - This prevents the surplus from falling, and the plan eventually becoming underfunded
+    - If a plan is underfunded, then return rates should be sufficient in order to reach funded status
+      - Be aware that chasing higher returns has consequences for risk, and increasing plan contributions may be required instead, or in combination with higher returns
+    - A firm with more active lives than retired lives usually has an above average ability to tolerate risk, all other factors being equal
+      - This, combined with a longer liability duration, means that contributions will normally offset payouts, and that liquidity needs will be lower
   - Constraints regarding:
     - Time horizon
+      - Usually determined by liability duration, or the average age of the workforce
     - Taxation
     - Liquidity and cash flow considerations
     - Legal constraints
@@ -104,3 +111,68 @@
 - **Employee stock ownership plans (ESOPs)** are a form of DC plan allowing the purchase of employer stock, often at a discount
   - In some cases the purchase can be made pre-tax
   - An ESOP may purchase a large number of shares directly from a major shareholder with a desire to liquidate a portion of their holdings
+
+## 15.H: Disinguish among various types of foundations, with respect to their description, purpose, and source of funds
+
+- Foundations and endowments are similar in many ways:
+  - **Foundations** provide grants, using gifts as funds
+  - **Endowments** are funds owned by non-profit institutions, with the stated goal of supporting that institution in its efforts
+  - They are generally not taxed, and instead serve some purpose apart from proft
+
+- There are multiple types of foundation differing in their:
+  - *Purpose*: Some may support educational institutions, others may support charities, or perhaps further the business interests of a corporate sponsor
+  - *Source of funds*: Funds may come from an individual, a family, a corporate sponsor, a large institutional donor, or members of the public
+  - *Spending requirements*: Foundations may be required to spend their funds on activities in line with their purpose
+    - There may be requirements to spend a proportion of assets (usually not including foundation expenses)
+    - There may be requirements to spend dividend and/or interest income from the fund
+
+## 15.I: Compare the investment objectives and constraints of foundations, endowments, insurance companies, and banks
+
+## 15.K: Prepare an investment policy statement for a foundation, an endowment, an insurance company, and a bank
+
+- Objectives for foundations include:
+  - Risk objectives: Foundations are free to be more aggressive than other institutions such as pension funds
+    - Potential harms and benefits of risky behaviour are simply borne by the foundation, increasing or decreasing their ability to achieve their aims
+  - Return objectives: If the goal of the foundation is to support some cause in perpetuity, ensuring continuity of foundation assets is key
+    - Whilst in many applications additive returns are acceptable (e.g. adding spending requirements to inflation), for both endowments and foundations, a multiplicative calculation is more appropriate
+    - This may be implemented by setting a minimum return that supports planned spending, as well as inflation and expenses
+
+- Constraints for foundations include:
+  - *Time horizon*: Unless there is a requirement to spend assets within a given time frame, the horizon is usually infinite
+    - This allows for above-average risk tolerance, and selection of assets that deliver higher returns
+  - *Liquidity*: Foundations have a **spending rate**, which is the amount of spending that is anticipated to be required
+    - Sometimes a **smoothing rule** allows for annual distributions to be averaged out
+    - If a foundation is expected to last into the future there is usually a requirement to generate returns to offset inflation, as well as to fund spending requirements
+    - Foundations may establish a cash reserve within the portfolio to meet a portion of the spending requirement
+  - *Taxation*: Tax is usually not a significant consideration for foundations, being mostly tax exempt, although there may be exceptions (1% tax in the US, taxation of *unrelated business income*)
+  - *Legal and regulatory*: In general, foundations are free to exist for the benefit of their stated aims
+
+- The purpose of an endowment is to exist in *perpetuity* in order to fund its stated goals
+  - Instability in the funds provided by a foundation can cause significant disruption within the organisations in receipt of them, such as universities, or hospitals
+  - In service of this purpose, most endowments (and foundations) have minimum spending requirements
+  - In the US, endowments have some flexibility over what their requirement is, or may simply fail to meet it
+
+- **Spending rules** come in several forms:
+  - *Simple spending rule*: Given a spending rate $S$,  $\text{spending}_t = S \cdot (\text{market value}_{t-1})$
+  - *Rolling 3-year average spending*: $\text{spending}_t = S \cdot \frac{\text{market value}_{t-1} + \text{market value}_{t-2} + \text{market value}_{t-3}}{3}$
+    - The intention of this rule is to eliminate volatility in spending caused by volatility in market values
+  - *Geometric spending rule*: Where $I$ is inflation, and $R$ is a smoothing rate, $\text{spending}_t = R \cdot \text{spending}_{t-1} \cdot (1 + I_{t-1}) + (1 - R) \cdot S \cdot \text{market value}_{t-1}$
+    - The intention of this rule is to eliminate inappropriate spending requirements during period of significant market upheaval
+    - If the market was experiencing significant decline, a rolling 3-year average spending rule would mandate that spending requirements remain higher than is appropriate due to the significantly higher market value of the assets in previous years
+    - Therefore, less weight is placed on earlier years than more current years
+
+- Objectives for endowments include:
+  - *Risk*: Risk tolerance for both foundations and endowments is often high, therefore, risk levels should be set such that long-term objectives are achieved
+    - If the spending requirement is not smoothed, then less risk can be tolerated
+    - If the organisation receiving distributions is heavily dependent on them, then less risk can be tolerated
+    - Uneven fund performance in recent years can mean that spending requirements relative to that performance increase, impacting the ability to take on risk in the short term
+  - *Return*: The primary return objective is to preserve the ability of the endowment to fund its goals perpetually
+    - Given the long time horizon, inflation is also a material concern
+      - It is vital to choose an inflation rate best suited to the market that the foundation is relevant to, for example, healthcare prices
+
+- Constraints for endowments include:
+  - *Time horizon*: Effectively infinite
+  - *Liquidity requirements*: As long as distribution requirements and expenses can be covered, liquidity needs are usually low
+  - *Taxation*: Endowments are typically exempt from tax, although there are specific exceptions, such as if held assets generate unrelated business income
+  - *Legal and regulatory considerations*: Both foundations and endowments are granted significant freedom in their goals, although there are some limitations, for example, in the US proceeds cannot be used for private individuals
+  - *Unique considerations*: Since foundations and endowments can both be very diverse, unique circumstances are common
