@@ -170,8 +170,6 @@ $$
   - *Mutual companies* are part owned by policy holders, who receive dividends
   - Many mutual companies have since *demutualised* and become stock companies
 
-
-
 - Other types of insurance include:
   - **Disability income insurance**
   - **Property insurance**

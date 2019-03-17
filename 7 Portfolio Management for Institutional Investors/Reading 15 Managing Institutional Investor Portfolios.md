@@ -214,3 +214,30 @@
     - Whilst profitable, since tax-exempt bonds have a steeper yield curve, there is an incentive to purchase longer term bonds, which increases asset duration
     - Whilst non-profitable, the firm shifts to taxable bonds, which shortens asset duration
     - This makes it more difficult to match liability duration
+
+- A bank IPS depends heavily on the precise role that the portfolio fulfills, and on a number of unique features that banks possess:
+  - Bank liabilities take the form of short-term deposits from customers, which must be liquid
+  - Bank assets take the form of longer term instruments such as loans and mortgages, and are more illiquid
+    - The returns on these assets are usually riskier, but higher that that which can be achieved by the bank's portfolio
+
+- A bank's portfolio usually takes the form of a **residual use of funds**, with the following aims:
+  - Adjust total asset duration to match that of liabilities
+    - Altering the portfolio duration is usually easier than altering the duration of bank assets or liabilities
+    - Interest rate risk is of prime concern to a bank, and is consistently monitored
+    - **VAR** is often used as a risk measure
+    - **Leverage adjusted duration gap (LADG)** is also used, capturing the difference in asset and liability duration, whilst accounting for their difference in size
+  - Provide the liquidity required to offset the illiquidity of typical bank assets
+  - Provide additional income
+  - Offset the risk of the typically riskier assets banks usually hold
+
+- A bank's risk objective ought be determined within an ALM framework
+  - Banks have a less than average risk tolerance, because it is paramount that they can honour their liabilities
+
+- A bank's return objective is to maintain a **positive interest spread**, i.e. earn greater interest on assets than the cost of funds
+
+- Typical bank constraints include the following:
+  - Banks typically have high liquidity needs due to customers needing access to their deposits
+  - Time horizons are short, owing to the short duration of bank liabilities
+  - Banks are taxable entities
+  - Banks are heavily regulated, and adhering to this regulation is complex and expensive
+    - This often takes the form of being compelled to hold sufficient reserve capital
