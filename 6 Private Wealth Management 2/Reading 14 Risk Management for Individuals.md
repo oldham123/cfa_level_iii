@@ -97,8 +97,13 @@ $$
       - The premium is in general fixed, with the value of the policy eventually exceeding the payout due at the end
       - **Whole life** insurance involved a fixed annual payment, and cannot be cancelled by the insurer, making early purchase desirable, as it protects from being given a worse price later on if health deteriorates
         - Additionally, such a policy may achieve *fully paid* status sooner
+        - These policies usually include a cash value that builds over time at a **crediting rate**
+          - This cash value may be given to the policy holder in return for early termination, or it may be borrowed by the policy holder
+        - Competitive pressure to offer better *crediting rates* incentivises seeking higher returns
+        - **Disintermediation risk** refers to the likelihood of policy holders cancelling in large numbers to release the cash value during periods of high interest rates
       - **Universal life** insurance is more flexible, allowing for premiums to be increased or decreased, hence affecting the size of the payout and the rate of value increase of the policy
         - Premium payments may be allowed to cease as long as the policy value is greater than the value of the payout due
+        - These policies also have an associated cash value, but it is linked to investment performance
 
 - Life insurance policies can include additional benefits in the form of *riders*:
   - *Accidental Death and Dismemberment* insurance increases the payout if either of these things occurs
@@ -159,6 +164,13 @@ $$
   - It should be chosen to cover the HC remaining at the estimated time of death
   - Additionally it should cover expenses associated with death
   - Furthermore, the present value (as of the time of death) of any remaining goals of the policy holder should be considered also
+
+- Historically, life insurance firms have been either **stock companies**, or **mutual companies**
+  - *Stock companies* are part owned by stockholders, who receive dividends from fund assets
+  - *Mutual companies* are part owned by policy holders, who receive dividends
+  - Many mutual companies have since *demutualised* and become stock companies
+
+
 
 - Other types of insurance include:
   - **Disability income insurance**

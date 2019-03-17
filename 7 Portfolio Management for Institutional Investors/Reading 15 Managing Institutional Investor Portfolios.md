@@ -176,3 +176,41 @@
   - *Taxation*: Endowments are typically exempt from tax, although there are specific exceptions, such as if held assets generate unrelated business income
   - *Legal and regulatory considerations*: Both foundations and endowments are granted significant freedom in their goals, although there are some limitations, for example, in the US proceeds cannot be used for private individuals
   - *Unique considerations*: Since foundations and endowments can both be very diverse, unique circumstances are common
+
+- Objectives for life insurance companies include:
+  - *Risk*: Protecting the capability to meet obligations to policy holders, usually through the maintenance of an *asset valuation reserve*
+    - An ALM perspective is usually appropriate, given the obligations to beneficiaries
+    - Valuation risk and interest rate risk are of paramount importance, and ensuring that the duration of assets and liabilities is matched is key
+    - Reinvestment risk is also a big concern, since reinvestment of coupon proceeds from fund assets is necessary in order to successfully generate the returns required to fund annuities
+    - *Cash flow volatility* can obstruct the firm from being able to reinvest proceeds efficiencly
+    - *Credit risk* can also jeapordise the payment of these proceeds, and must be controlled through diversification
+  - *Return*: The assumed rate of growth of assets is normally held to be the minimum rate of return, but higher returns are desirable, so as to offer more competitive policies
+    - Investments are primarily in fixed-income, but the surplus can be invested with more risk
+
+- Constraints for life insurance companies include:
+  - *Liquidity*: Disintermediation and duration issues combined can lead to problems with liquidity
+    - Whilst rates are high, policy holders may seek to cash out, which increases liquidity needs
+    - Furthermore, this is likely to coincide with a fall in asset value, which means that the assets sold to provide payouts are being sold lower prices
+    - If the duration of assets exceeds that of liabilities, then additionally asset value has fallen further than that of liabilities, further compounding the issue
+    - Additionally, historically life insurance companies have had significant holdings in illiquid assets, although more recently many are looking to derivatives to mitigate this
+  - *Time horizon* is typically reasonably long, at 20 to 40 years, although it has reduced recently in response to various forms of market volatility
+  - *Taxation*: Life insurance funds are taxable, but usually only on returns beyond the assumed rate, although there is significant variation by jurisdiction
+  - *Reglulation*: Life insurance companies face significant regulation, usually involving:
+    - *Eligible assets* are normally laid out in terms of proportion of total holdings
+    - A *minimum interest coverage ratio* may be specified
+    - In the US, the *prudent investor rule* takes an overall view of portfolio risk versus return
+    - Regulators usually take note of various valuation methods apart from total return, so it is difficult to simply take such a perspective
+
+- Other insurance policies are similar to life insurance in many ways, but they differ in some key areas:
+  - A policy may take a long time to pay out, especially if litigated, and so they often have **long tails**
+  - Policies that insure the replacement value of an item may face *inflation risk*
+  - Non-life insurance policies may have unpredictable payouts
+  - In general, results can be more volatile, liquidity needs are less predictable and more significant, and duration is shorter
+  - Risk tolerance is lower due to more erratic cash flows
+  - Legal concerns are less onerous
+  - Profitablity is cyclical, with firms falling in and out of profitability
+    - Hence they also fall in and out of taxable status
+    - Additionally they may rotate holdings from tax-exempt to taxable assets
+    - Whilst profitable, since tax-exempt bonds have a steeper yield curve, there is an incentive to purchase longer term bonds, which increases asset duration
+    - Whilst non-profitable, the firm shifts to taxable bonds, which shortens asset duration
+    - This makes it more difficult to match liability duration
