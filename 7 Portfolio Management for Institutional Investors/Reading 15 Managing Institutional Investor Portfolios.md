@@ -241,3 +241,103 @@
   - Banks are taxable entities
   - Banks are heavily regulated, and adhering to this regulation is complex and expensive
     - This often takes the form of being compelled to hold sufficient reserve capital
+
+## 15.M: Comapre the asset/liability management needs of pension funds, foundations, endowments, insurance companies, and banks
+
+- For portfolios with clear measurable liablities, ALM is the preferred means of evaluation
+  - This facilitates a focus on surplus, and stability of that surplus
+  - Primarily, management should have the aim of matching asset and liability duration
+  - Deviation from this matching may be acceptable to exploit interest rate variation, but this depends on risk tolerance
+
+## 15.L: Contrast investment companies, commodity pools, and hedge funds to other types of institutional investors
+
+- It is difficult to generalise these entities since they simply invest on behalf of, and pass returns on to, the investors they act as an intermediary for
+  - The risk management required depends on the investors they represent
+
+- **Investment companies** simply invest according to their prospectus, and exist to match almost any desired investment style
+- **Commodity pools** operate with a focus on commodities and commodity derivatives
+- **Hedge funds** vary wildly, and utilise a wide array of highly distinct investment strategies
+
+## 15.i: Compare the investment objectives and constraints of foundations, endowments, insurance companies, and banks
+
+## 15.j: Discuss the factors that determine investment policy for pension funds, foundation endowments, life and non-life insurance companies, and banks
+
+## 15.k: Prepare an investment policy statement for a foundation, an endowment, an insurance company, and a bank
+
+## 15.n: Compare the investment objectives and constraints of institutional investors given relevant data, such as descriptions of their financial circumstances and attitudes toward risk
+
+- *Return objectives*
+  - **Defined benefit plans**:
+    - Discount rate used as the minimum return, although the ideal return rate is usually slightly high to either reduce a deficit, or generate a surplus
+  - **Foundations and endowments**:
+    - Calculated from the required spending rate, inflation expectations, and expenses
+  - **Insurance firms**:
+    - Usually operates with a higher minimum acceptable return
+    - Portfolio often compartmentalised into business segments
+    - Aggressive investing is reserved for any surplus
+  - **Banks**:
+    - Primarily utilised as a means of ajusting overall asset and liability durations
+    - Also used to provide liquidity when needed
+
+- *Risk*
+  - **Defined benefit plans**:
+    - Primarily determined by characteristics of the sponsor
+    - Underfunded status, low profitability, unfavourable workforce attributes (high average age, high proportion of retired lives), high correlation of plan and firm performance, can all reduce risk tolerance, and increase liquidity requirements
+  - **Foundations and endowments**:
+    - Usually above average, allowing for particularly aggressive investment strategies
+    - If the beneficiaries of the fund are particularly dependent on contributions, risk tolerance may fall
+  - **Insurance firms**:
+    - Risk tolerance is usually below average, except for funds contained within a surplus
+  - **Banks**:
+    - Below average risk tolerance, normally making use of fixed income government securities
+
+- *Time horizon*
+  - **Defined benefit plans**:
+    - Workforce characteristics are the key factor (i.e. liability duration)
+  - **Foundations and endowments**:
+    - Effectively infinite
+  - **Insurance firms**:
+    - Usually matched to liability duration
+    - Longer for life insurance, but should appreciate the long tails on non-life claims
+  - **Banks**:
+    - Also determined by liability duration
+    - Usually quite short
+
+- *Liquidity*
+  - **Defined benefit plans**:
+    - Determined by payout needs
+  - **Foundations and endowments**:
+    - Determined by the nature of the spending rules, and whether they are flexible and include smoothing
+  - **Insurance firms**:
+    - Usually predictable in the case of life insurance firms
+      - Some riders may create disintermediation risk, and increase liquidity needs
+    - Non-life insurance has less predictable, higher liquidity needs, that are linked to inflation
+  - **Banks**:
+    - Securities held in general need to be highly liquid
+
+- *Taxation*
+  - **Defined benefit plans**:
+    - Usually exempt from taxes
+  - **Foundations and endowments**:
+    - Usually tax exempt
+  - **Insurance firms**:
+    - Usually taxable
+  - **Banks**:
+    - Usually taxable
+
+- *Regulation*
+  - **Defined benefit plans**:
+    - Usually subject to some set of regulations insuring prudent management with the interests of beneficiaries in mind
+  - **Foundations and endowments**:
+    - Usually subject so some set of regulations insuring prudent management, but lighly regulated
+  - **Insurance firms**:
+    - Heavily regulated, with requirements on allowed assets and reserve capital
+    - Regulation is less onerous in the non-life business
+  - **Banks**:
+    - Heavily regulated, with requirements on allowed assets and reserve capital requirements
+
+- *Unique constraints*
+  - **Defined benefit plans**:
+    - Small plans may need special consideration to ensure that the costs associated with due diligence are met
+  - **Foundations and endowments**:
+    - Some assets may be restricted from sale, and some portfolios may be highly concentrated
