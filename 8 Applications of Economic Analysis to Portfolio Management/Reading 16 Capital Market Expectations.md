@@ -233,5 +233,49 @@ $$
   - In order for this experimental combination of policies to work, market participants must believe that purchases made now will provide a positive net economic benefit in the future
   - However, negative interest rates can complicate the process of forming capital market expectations
     - If the risk free rate is negative, a policy neutral rate derived using the Taylor Rule becomes more appropriate
-    - Multiple path projects for how the negative rates will eventually transistion to a long term stable rate should be considered
-    - 
+    - Multiple path projections for how the negative rates will eventually transistion to a long term stable rate should be considered
+    - Sourcing comparable historical data in order to analyse such a period can be difficult since negative interest rates represent such an irregular economic regime
+
+- Governments can also utilise **fiscal policy** to stimulate economies, by decreasing taxes, and/or increasing spending
+  - It is important to note that maintaining a deficit of a certain size does not stimulate the economy, but *increasing* the deficit does
+  - Additionally, expansion of the economy will have a natural contractionary effect on the deficit that is not restrictive
+    - Only deficit changes driven directly by government policy can act as stimulus
+
+## 16.I: Interpret the shape of the yielf curve as an economic predictor and discuss the relationship between the yield curve and fiscal and monetary policy
+
+- The relationship between interest rates and debt maturities is captured by the **yield curve**
+  - Both the central bank, and the economy itself, can have impacts on the yield curve
+  - With expansive fiscal and monetary policy, the yield curve slopes upwards
+  - When both are restrictive, the yield curve slopes downward
+  - If fiscal and monetary policy conflict, the impact on the economy is less clear
+    - If monetary policy is restrictive then the curve will tend towards flatness
+    - If it is expansive however, the curve may tend towards moderate steepness
+
+## 16.J: Identify and interpret the compoentns of economic growth trends and demonstrate the application of economic growth trend analysis to the formulation of capital market expectations
+
+- The **long-term trend growth rate** functions as an effective limit on growth, and is determined by:
+  - **Population**
+    - Population growth, or demographic shifts that increase the amount of labour available allow for faster growth
+  - **Economic factors**
+    - Increased productivity, or greater efficiency in capital allocation can also provide for faster growth
+
+- Develop economies usually grow at a stable rate, whilst emerging economies grow more erratically
+  - The most important factor is stability in consumer spending
+    - According to the **wealth effect**, spending increases as wealth increases
+    - In contrast, the **permanent income hypothesis** says that long-term expectations are the biggest factor in driving consumer spending
+
+- Government policies that can drive long-term growth include:
+  - Avoiding large, persistent government deficients
+    - This does not preclude counter-cyclical fiscal policy, but the *twin deficit problem* should be avoided
+    - A large deficit funded through foreign borrowing can leads to imports that exceed exports, causing the economy to overheat
+  - Minimised intervention in capital markets
+  - Preservation of competitive markets
+  - Investment in infrastructure
+  - Simplified, clear tax codes
+
+## 16.K: Explain how exogenous shocks may affect economic growth trends
+
+- Whilst government policy is a significant factor in the state of the economy, short-term external factors are also important
+  - Conflict, supply shocks and weather events, and financial crashes are all examples of these
+  - **Exogenous shocks** originate from outside an economy's normal state, and are usually unanticipated and not priced into markets
+  - It is not impossible for shocks to benefit economies, they are usually not positive events, and they also often spread from one market to another (**contagion**)
