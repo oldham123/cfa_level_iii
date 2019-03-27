@@ -279,3 +279,124 @@ $$
   - Conflict, supply shocks and weather events, and financial crashes are all examples of these
   - **Exogenous shocks** originate from outside an economy's normal state, and are usually unanticipated and not priced into markets
   - It is not impossible for shocks to benefit economies, they are usually not positive events, and they also often spread from one market to another (**contagion**)
+
+## 16.L: Identify and interpret macroeconomic, interest rate, and exchange rate linkages between economies
+
+- Globalisation is deepening the economic links between countries
+  - The resulting change is more stark for smaller, or less diversified economies
+  - Examples of **macroeconomic links** include:
+    - International capital flows
+      - As an economy slips into recession, investment to international partners may fall
+    - International trade
+      - If a trading partner's imports fall, a trading partner may no longer be able to afford their current level of imports
+    - Interest and FX rates
+      - FX pegs can produce strong links, as maintaining an exchange rate forces one country to adopt the economic policies of another
+      - FX pegs cause interest rates of the pegging country to exceed the pegged country, with the size of the discrepancy reflecting investor confidence in the integrity of the peg
+        - If confidence falls, the currency becomes less attractive and the value falls
+        - To maintain the peg interest rates must rise, as compensation for continuing to hold the currency
+
+## 16.M: Discuss the risks faced by investors in emerging-market securities and the country risk analysis techniques used to evaluate emerging market economies
+
+- Emerging markets generally involve taking on higher amounts of risk, and hence generating higher returns
+  - This investment must often take the form of actual physical infrastructure, or human capital
+  - This investment is usually financed through borrowing in foreign markets
+  - Additionally emerging economies generally have unstable politics, with the lack of a substantial middle class with the capability to agitate for reform
+  - Emerging economies are often heavily dependent on the sale of specific commodities, and are undiversified, leaving them subject to shocks
+
+- Before investing in emerging markets, the following should be considered:
+  - Is the government enacting sound monetary and fiscal policies?
+    - Deficit to GDP ratios greater than 4% are a sign of significant credit risk
+  - What level of growth is expected?
+    - Growth rates above 4% should be required as compensation for greater than average risk
+    - Growth rates below this can be a troubling indicator
+    - Taxation, trade restrictions, and capital flow restrictions are all important considerations
+  - Are currency values stable?
+    - Volatile currency values can jeopardise confidence
+    - OVervaluation can provide means to artificially stimulate the economy through excessive borrowing
+  - Is the amount of leverage appropriate?
+    - Debt is a necessary component of growth in emerging markets, but it should still be kept within acceptable levels
+    - Debt to GDP ratios exceeding 50% are troubling, as are debt to current account receipts exceeding 200%
+  - Are reserves of foreign currency sufficient to service short term debt?
+    - Debt from foreign nations must often be paid in foreign currencies
+    - If the value of reserves fall below the debt due within 12 months, this is a sign that default may be likely
+  - Are structural reforms likely?
+    - If prospects for an improvement in the legal environment that firms operate within are strong, then investor confidence will rise
+
+## 16.N: Compare the major approaches to economic forecasting
+
+- **Econometric analysis**
+  - Often features many variables
+  - Easily reused following model specification
+  - Produced a quantifiable output
+  - Complex, and difficult to specify
+  - Dependent on accurate choices of inputs
+  - Struggles to predict recessions
+  - Expert interpretation of the output may be required
+
+- **Economic indicators**
+  - Easy to understand
+  - Readily available data
+  - Can be chosen according to specific forecasting objectives
+  - Supported by research
+  - Results can be inconsistent
+
+- **Checklist approach**
+  - Less complex than the use of econometrics
+  - Allows for a mix of econometric analysis with human judgement
+  - Introduces subjectivity into the analysis
+
+## 16.O: Demonstrate the use of economic information in forecasting asset class returns
+
+## 16.P: Explain how economic and competitive factors can affect investment markets, sectors, and specific securities
+
+- Following the formation of overall capital market expectations, the next step is to derive expectations regarding the retrusn of various asset classes
+
+- **Cash intruments** refer to short-term debt (maturities below a year)
+  - Longer maturities, as well as lower creditworthiness, both increase risk, and provide higher returns
+  - Strong expectations regarding interest rates, as well as overall economic health, may lead an investor to switch to the higher risk instruments
+
+- **Credit risk-free bonds** are sovereign fixed income assets
+  - Yields include a real yield, and also factor in inflation expectations
+  - An increase in growth expectations increases yields due to an anticipated greater demand for debt to finance demand and investment
+
+- **Credit risky bonds** are comporate fixed income assets
+  - Stripping out the yield of sovereign assets with similar maturities can help determine the spread
+
+- **Emerging market government bonds** are similar to credit risk-free bonds
+  - However, they are usually riskier, and they are often denominated in a non-domestic currency
+
+- **Inflation indexed bonds**
+  - Several sovereign fixed income assets are indexed from inflation to shift inflation risk from the buyer of the bond back onto the issuer
+  - Yields generally track economy growth, and are affected by supply and demand, since the market for them is fairly small
+  - Additionally, yields fall with increasing inflation, as the desire to be isolated from inflation risk increases, and lower yields are required to compensate investors
+
+- **Common stock**
+  - Since the value of a stock ought to be predicated on the present value of future cash flows, this can be used as a guide to forming expectations about returns on a given stock
+  - The business cycle primarily determines short term growth, although this may depend on whether an exact stock is non-cyclical, or defensive
+  - Early in expansion, sales are increasing whilst input costs are more static, leading to stock price increases
+  - Later in the expansion, input costs may also start to rise, causing earnings growth to slow
+
+- **Emerging market stocks**
+  - Both risk and return are higher with stocks in emerging markets
+  - They are however reasonably closely linked to business cycles in developed markets due to contagion
+
+## 16.Q: Discuss the relative advantages and limitations of the major approaches to forecasting exchange rates
+
+- Currency values are a result of supply and demand forces, in turn a result of trade and capital flows between countries
+  - Suppose country A imports more from country B than they sell to country B
+    - Effectively this will amount to consumers in country A selling currency A for currency B, in order to buy from country B
+    - This is the aggregate impact of stores in country A paying currency B for the imported goods to sell
+  - Alternatively, suppose bonds from country A have an attractive risk and return profile
+    - Investors will sell their domestic currency, so that they can use currency A to buy the bonds
+
+- Capital flows can be volatile (although less so if invested in physical assets), as can currency values, making them difficult to forecast
+  - **Relative purchasing power parity** states that if there are inflation differences between economies, there will be currency value differences
+    - It only holds in the long term, and even then only approximately, since its effects can be obscured by other influences
+  - **Relative economy strength** states that a favourable investment climate increases demand for a country's currency, increasing its value
+    - High short-term interest rates can have the same impact, even if there is broad agreement that this has caused the currency to be overvalued
+  - The **capital flows approach** advocates focusing primarily on long-term capital flows, as opposed to more short-term factors in other approaches
+    - Note that this approach would support a different conclusion to the relative strength approach when considering short-term interest rates
+  - The **savings-investment balance approach** is an attempt at explaining long term currency divergences from theoretical estimates
+    - Investments must be funded with savings, and if investment exceeds savings, additional inflows are required
+    - Persistently high currency values are necessary to attract and keep this capital inflow
+    - Eventually, once the economy slows, investment reduces and savings increase, at which point the currency devalues
