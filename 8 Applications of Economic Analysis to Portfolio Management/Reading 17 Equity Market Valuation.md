@@ -120,6 +120,8 @@ $$
 \frac{E_1}{P_0} = Y_B - d \cdot \text{LTEG}
 $$
   - If the market earnings yield is higher than the Yardeni earnings yield, then this implied that equities are underpriced
+  - As compared to the Fed model, the Yardeni ratio substitutes the Treasury yield for the A-rated corporate bond yield minus some weighting of long term earnings growth
+    - If the equity risk premium is historically high (high corporate bond yields compared to treasury yields) these ratios might provide different conclusions
 
 - The **Cyclically Adjusted P/E Ratio (CAPE)** is the ratio of a broad market index against a trailing 10-year moving average of earnings
   - If above average, then this can be interpreted as a sign that equities are overvalued
