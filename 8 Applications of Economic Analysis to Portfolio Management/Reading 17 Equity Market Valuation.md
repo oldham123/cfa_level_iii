@@ -120,3 +120,16 @@ $$
 \frac{E_1}{P_0} = Y_B - d \cdot \text{LTEG}
 $$
   - If the market earnings yield is higher than the Yardeni earnings yield, then this implied that equities are underpriced
+
+- The **Cyclically Adjusted P/E Ratio (CAPE)** is the ratio of a broad market index against a trailing 10-year moving average of earnings
+  - If above average, then this can be interpreted as a sign that equities are overvalued
+  - When utilising the CAPE, it is important to adjust both inputs for inflation, by stating them in terms of the same base year
+  - This model can capture the effects of business cycles, but fails to account for changes in accounting methods
+  - Research also shows that abnormally high or low CAPE ratios can sustain for a long time, mitigating the value of the CAPE in developing short-term market expectations
+
+- Two asset based models are referred to as **Tobin's Q** and **Equity Q**:
+  - Tobin's Q is a ratio of market value of assets to replacement cost of assets
+    - Intuitively this ratio should be 1, and a value greater than that implies that the firm's stock is overvalued
+  - Equity Q is similar, but it replaces market value of assets with market value of equity
+  - Both rations are expected to eventually revert to 1 as stock prices correct
+    - This correction may not happen quickly
