@@ -40,6 +40,7 @@
     - Transcription errors can be serious if they occur in one direction
     - The deletion of a series of returns due to poor performance can result in survivorship bias
     - Infrequent appraisal of illiquid assets can unnaturally smooth prices, biasing risk measures down
+      - Whilst this doesn't impact expected returns, it can reduce apparent correlation with other asset classes, as it varies less erratically than assets which are more consistently prices (e.g. highly liquid stocks)
   - Limitations of historical estimates
     - Economic, political, demographical, and technological changes can reduce the predictive power of historical data
     - These *regime changes* can result in *nonstationary data*
@@ -80,6 +81,7 @@
   - Using a historical equity risk premium plus a bond yield is another approach
   - A **shrinkage estimate** weights another projection with a historical estimate
   - **Time series models** are used for volatility estimates, and assume past behaviour is a reasonable estimator of the future
+    - If volatility clustering is present (i.e. variance is persisting for a period of time), then a time-series model is appropriate
   - **Multifactor models** use sensitivities and risk factors to forecast returns
     - Inputs can be divided into levels, with the first being composed of broad market factors, and further levels being more specific
 
@@ -121,7 +123,8 @@ $$\hat{R} = \frac{\text{Div}_1}{P_0} + i + g -\Delta S + \Delta \left( \frac{P}{
     - Most markets have some degree of segmentation, with developed markets being slightly less segmented
       - Reasons include *home country bias*, and restrictions on capital flows
       - Segmentation premiums can be calculated using a weighted average of a premium assuming full integration, and a premium assuming full segmentation
-        - Note that full segmentation yields a premium simply equal to $\sigma_i \cdot \left( \frac{\text{ERP}_M}{\sigma_M} \right)$, since the relevant global market is simply the market of the asset, with a correlation of 1
+        - Note that full segmentation yields a premium simply equal to $\sigma_i \cdot \left( \frac{\hat{R}_M - R_F}{\sigma_M} \right)$, since the relevant global market is simply the market of the asset, with a correlation of 1
+        - It is important to recall that illiquidity risk premiums should still be accounted for in calculation of a full segmentation risk premium
 
 ## 16.D: Explain the use of suvery and panel methods and judgement in setting capital market expectations
 
@@ -148,7 +151,8 @@ $$\hat{R} = \frac{\text{Div}_1}{P_0} + i + g -\Delta S + \Delta \left( \frac{P}{
     - This has positive knock-on effect on employment, and growth
   - Eventually some factor will cause sales to fail to meet expectations, and inventories decline
     - When inventory peaks, growth slows as business try to sell off their inventory
-    - When invetory hits a trough, growth spikes as businesses add to their stock
+    - When inventory hits a trough, growth spikes as businesses add to their stock
+  - More recently, the rise of **just-in-time** manufacturing has more generally reduced inventory-sales ratios, and so this should be factored in when analysing longer periods of historical data
 
 ## 16.F: Discuss the effects that the phases of the business cycle have on short-term and long-term capital market returns
 
@@ -204,6 +208,8 @@ $$\hat{R} = \frac{\text{Div}_1}{P_0} + i + g -\Delta S + \Delta \left( \frac{P}{
   - Consumer spending is heavily seasonal, and primarily driven by after-tax income
   - Undertanding savings behaviour is also critical to predicting consumer spending, since spending is given by income less savings
     - Saving is negatively correlated with consumer confidence
+  - Whilst consumer spending is the biggest factor in determining long-term growth, it tends to relative stability over the course of the business cycle
+    - Because of this, focusing on other factors in one's analysis is often advisable
 
 - Business spending is more volatile, but a peak in inventory spending is a relatively bearish indicator, signalling that businesses may have overspent relative to sales
 
@@ -241,7 +247,7 @@ $$
   - Additionally, expansion of the economy will have a natural contractionary effect on the deficit that is not restrictive
     - Only deficit changes driven directly by government policy can act as stimulus
 
-## 16.I: Interpret the shape of the yielf curve as an economic predictor and discuss the relationship between the yield curve and fiscal and monetary policy
+## 16.I: Interpret the shape of the yield curve as an economic predictor and discuss the relationship between the yield curve and fiscal and monetary policy
 
 - The relationship between interest rates and debt maturities is captured by the **yield curve**
   - Both the central bank, and the economy itself, can have impacts on the yield curve
@@ -251,7 +257,7 @@ $$
     - If monetary policy is restrictive then the curve will tend towards flatness
     - If it is expansive however, the curve may tend towards moderate steepness
 
-## 16.J: Identify and interpret the compoentns of economic growth trends and demonstrate the application of economic growth trend analysis to the formulation of capital market expectations
+## 16.J: Identify and interpret the components of economic growth trends and demonstrate the application of economic growth trend analysis to the formulation of capital market expectations
 
 - The **long-term trend growth rate** functions as an effective limit on growth, and is determined by:
   - **Population**
@@ -259,7 +265,7 @@ $$
   - **Economic factors**
     - Increased productivity, or greater efficiency in capital allocation can also provide for faster growth
 
-- Develop economies usually grow at a stable rate, whilst emerging economies grow more erratically
+- Developed economies usually grow at a stable rate, whilst emerging economies grow more erratically
   - The most important factor is stability in consumer spending
     - According to the **wealth effect**, spending increases as wealth increases
     - In contrast, the **permanent income hypothesis** says that long-term expectations are the biggest factor in driving consumer spending
@@ -268,6 +274,8 @@ $$
   - Avoiding large, persistent government deficients
     - This does not preclude counter-cyclical fiscal policy, but the *twin deficit problem* should be avoided
     - A large deficit funded through foreign borrowing can leads to imports that exceed exports, causing the economy to overheat
+    - It can also lead to a perception of the economy as being *overleveraged*, and confidence in the country's ability to repay may fall
+      - This leads to a crisis where investors rapidly seek to withdraw invested capital, leading to currency collapses, and declines in asset values
   - Minimised intervention in capital markets
   - Preservation of competitive markets
   - Investment in infrastructure
@@ -292,8 +300,9 @@ $$
     - Interest and FX rates
       - FX pegs can produce strong links, as maintaining an exchange rate forces one country to adopt the economic policies of another
       - FX pegs cause interest rates of the pegging country to exceed the pegged country, with the size of the discrepancy reflecting investor confidence in the integrity of the peg
+        - If confidence in the ability to maintain the peg is high, then interest rates can remain stable, and low, since intervention to maintain the peg in the face of low confidence is not necessary
         - If confidence falls, the currency becomes less attractive and the value falls
-        - To maintain the peg interest rates must rise, as compensation for continuing to hold the currency
+        - To maintain the peg interest rates must rise, as compensation for continuing to hold the currency, leading to higher, and potentially volatile interest rates, as they move to counteract fluctuating sentiment
 
 ## 16.M: Discuss the risks faced by investors in emerging-market securities and the country risk analysis techniques used to evaluate emerging market economies
 
