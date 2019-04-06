@@ -38,3 +38,96 @@
     - They may limit investment to *ethical investments*
     - They may have limits on allocations to risky or alternative investment classes
     - There may be limits on the use of certain currencies
+
+## 20.B: Discuss tax considerations in asset alloction and rebalancing
+
+- It is important to account for taxation when making allocation decisions
+  - Interest income is usually taxed at higher, progressive rates than dividends or capital gains
+  - Capital gains are taxed at lower rates than income, and losses in one area can offset gains elsewhere
+
+- An unrealised gain or loss occurs when the market value of an asset diverges from the **cost basis** of the asset
+  - Adjustments for the associated **embedded tax liability/asset** include:
+    - Subtract any capital gains tax due as if the asset were sold today
+    - Assume the asset is sold later for a given price, and discount the present value of the tax liability associated with it
+      - Using after-tax return
+      - Using the risk-free rate
+
+- Capital gains tax reduces both gains and losses, therefore reducing risk
+  - Therefore $\sigma_\text{Posttax} = \sigma_\text{Pretax} \cdot (1 - t)$
+
+- Rebalancing is a necessity in order to maintain optimal allocation
+  - Rebalancing often requires realising gains and losses on assets
+  - It is required less often in taxable portfolios, since taxation reduces volatility
+  - This reduction in volatility means that, effectively, rebalancing ranges are different when calculated before or after tax
+
+- Tax loss harvesting involves purposely realising losses in order to offset gains made elsewhere
+
+## 20.C: Recommend and justify revisions to an asset allocation given changes in investment objectives or constraints
+
+- Re-evaluation of an allocation is common, and ideally occurs annually, or if a change in circumstances triggers it
+
+- Economic events, such as evolution of the business cycle may trigger a change in the aims of the portfolio
+  - For individuals, new stages of life may do the same
+
+- Additionally, constraints may also change
+  - Spending requirements to maintain tax-exemption may increase
+  - Large cash flows may be required temporarily
+  - The beneficiary of a foundation may require increased funding
+
+- A change in ethos may also require changes to investment behaviour
+  - The makeup of an investment committee may change over time
+  - Capital market expectations held may change willingness to accept risk
+
+## 20.D: Discuss the use of short-term shifts in asset allocation
+
+- Tactical asset allocations are short term shifts away from the strategic allocation
+  - The intent of these deviations is to exploit market opportunities as they present themselves
+    - Success of these deviations depends on timing, as opposed to security selection
+    - Tactical adjustments should be judged relative to the strategic allocation
+    - Adjustments may be limited to a certain range, or there may be limits on the additional volatility added by a tactical allocation
+  - It is important to note that tactical allocations can incur additional trading cost, taxation, and increases risk due to reduced diversification
+
+- Evaluating a tactical allocation can be done in several ways:
+  - Comparing sharpe rations
+  - Calculating the information ratio
+  - Compare to portfolios lying on the efficient frontier
+  - Determine which specific deviations are contribution additional risk and return
+
+- Discretionary TAA relies on being able to recognise when a market is rising or falling
+  - In a rising market, risk, and therefore returns, can be increased
+  - In a falling market, risk can be hedged, reducing losses
+  - This may be done using a combination of macroeconomic indicators, fundamentals, as well as sentiment analyis
+    - Increased use of leverage is a bullish sign, increased short selling is a bearish sign
+    - Volatility indices can also be used
+
+- Systematic TAA instead tries to employ predictable, and persistent quantitative strategies, two of which include *value* and *momentum*
+  - A value approach focuses on the additional returns of value stocks, measured wih dividend or cash flow yields
+  - Momentum approaches generally assume that trends will continue
+
+## 20.E: Identify behavioural biases that rise in asset allocation and recommend methods to overcome them
+
+- *Loss aversion* is having a dislike of losses that is greater than a fondness of gains of equal size
+  - It can jeopardise adherance to a strategy if investors experience losses
+  - One way to mitigate this bias is to use *goals-based investing*
+
+- *Illusion of control* can lead to poorly diversified portfolios, and overfrequent trading:
+  - This bias creates overconfidence in one's ability to time the market
+  - Institutional investors may believe they are well placed to engage in active selection
+  - Mitigation can be done by starting from a CPM MVO position, and reviewing deviations from it
+
+- *Mental accounting* is baseless or subjective segregation of assets or liabilities into mental "buckets"
+  - An example would be considering a refund as fully disposable income, despite having insufficient savings overall
+
+- *Recency bias* is the overweighting of more recent data, which can lead to overallocating investment towards those that have done well recently
+
+- *Framing bias* occurs when the way information is presented effects the way it is applied
+  - It can be avoided by ensuring that information regarding risk, for example, is not selectively provided
+
+- *Availability bias* leads to more easily recallable, or personally experienced events to be overweighted in decisionmaking
+  - *Familiarity bias* and *home bias* are examples of this
+
+- Many risks can be dealt with through discipline and adherence to a governance framework:
+  - Clear objectives
+  - Responsibility for asset allocation decisions clearly defined
+  - Rigorous protocol for creating and altering the IPS and SAA
+  - Rigorous protocol for monitoring performance
