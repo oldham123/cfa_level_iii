@@ -80,3 +80,37 @@
   - Repos can be bilateral aggreements between lender and borrower, or tri-party, with an intermediary managing the exchange and holding the collateral
     - This can often be less expensive than arranging an actual exchange of collateral
   - A security driven repo involves a lender with a temporary need for a specific security, possibly for hedging reasons, and may offer a lower repo rate in return for that specific asset being delivered as collateral
+
+- **Futures contracts** require only a small initial deposit to provide leverage
+  - The price of the contract gives the value of the asset controlled via a multiplier
+
+- **Swap agreements** can also provide leverage
+  - A receive-fixed swap provides fixed-income exposure and interest rate exposure
+  - Before the financial crisis entering a swap was reasonably unregulated and did not require collateral
+  - Since the crisis many swaps are settled via a clearinghouse
+
+- **Securities lending** often facilitates short-selling, allowing investors to sell assets they do not own by borrowing them
+  - The lender of the securities may require cash in return, and invest it until the security is returned
+  - Alternatively the lender may receive another securitiy, such as a government bond, earning interest on the collateral whilst they hold it
+  - If the interest on the collateral exceeds a fair price for the security, the borrower posting the collateral may receive a rebate
+  - These agreements typically persist until one counterparty requires that it is closed (as distinct from repo agreements
+    - This can possibly lead to counterparty risk
+
+- Leverage creates the risk of **fire sales**, which occur when rapid liquidations and selling occur within crisis
+  - If the cost of leverage exceeds returns, lenders may demand repayment within a short time frame
+  - This can lead to a vicious cycle where prices everywhere fall, further exacerbating the situation
+
+## 22.F: Discuss differences in managing fixed income portfolios for taxable and tax exempt investors
+
+- Fixed income investing usually produces two kinds of income, interest and capital gains, that may be taxed differently
+  - Both are usually taxable only when realised, but there are some exceptions
+    - For example, on zero coupon bonds, the approaching of the price towards par may be taxed annually, despite the lack of cash flows
+  - Capital gains taxes are usually only due upon sale, and at a lower rate than interest
+    - The rate may be higher if the assets are only held for a short period
+  - Capital gains (and only capital gains) can be offset by capital losses
+    - If losses exceed gains they can be carried forward
+
+- Taxation of funds varies by jurisdiction
+  - Interest and dividends are usually taxed when earned, not when distributed
+  - Some jurisdictions use **pass through taxation of gains** taxes investors in the fund when the gain is realised by the fund, reducing the tax payable by the investor when they sell a share in the fund
+  - Others simply tax investors when they sell shares in the fund
