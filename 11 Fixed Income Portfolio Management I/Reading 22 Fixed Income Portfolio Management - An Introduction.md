@@ -50,3 +50,33 @@
   - Bond futures are exchange traded, whilst interest-rate swaps are available over the counter
     - In some jurisdictions however, derivatives trading entails abiding by other regulations
   - ETFs that replicate features of fixed-income investment provide a more liquid alternative that may be attractive to some investors
+
+## 22.D: Describe and interpret a model for fixed-income returns
+
+- Return from fixed income has five main parts:
+  - **Income yield**
+    - This component is the annual coupon income divided by the price of the bond
+  - **Rolldown return**
+    - This component emerges from a projection of a bond's future prices assuming the yield curve remains fixed
+  - **Expected price change**
+    - Calculated from expected change in spreads and yield using $(-\text{modifed duration} \cdot \Delta Y)+(\frac{C}{2} \cdot \Delta Y^2)$
+  - **Credit losses**
+    - Simply, the probability of default multiplied by the amount loss in the event of default
+  - **Gains or losses vs. investor currency**
+    - Calculated as $R_\text{FC} \cdot \text{\% invested in foreign currency}$
+
+## 22.E: Discuss the use of leverage, alternative methods for leveraging, and risks that leverage creates in fixed income portfolios
+
+- As long as the interest onborrowed funds is below rates of return, leverage enhances return overall
+  - However, it also increases exposure to interest rate risk
+  - Since leverage normally utilises short term financing, asset duration usually exceeds that of liabilities
+
+- Repurchase agreements is an agreement to sell an asset for cash, and also to buy it back on a future date
+  - The asset effectively functions as collateral on the loan
+  - Terms are usually short, on the order of a day, but they can be renegotiated at expiry, as well as agreed for longer terms
+  - Typically the assets transferred are not specified, and instead take the form of "general collateral"
+  - Rather than adjusting the repo rate for the quality of collateral, the amount of collateral required is adjusted, with lower quality collateral entailing a larger *haircut*
+    - The haircut is the additional collateral required to provide additional security, beyond matching the value of the loan
+  - Repos can be bilateral aggreements between lender and borrower, or tri-party, with an intermediary managing the exchange and holding the collateral
+    - This can often be less expensive than arranging an actual exchange of collateral
+  - A security driven repo involves a lender with a temporary need for a specific security, possibly for hedging reasons, and may offer a lower repo rate in return for that specific asset being delivered as collateral
