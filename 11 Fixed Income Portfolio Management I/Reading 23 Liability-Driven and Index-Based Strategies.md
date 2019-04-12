@@ -37,3 +37,31 @@
   - Portfolio statistics are directly calculated from portfolio cash flows
   - With a flat yield curve using portfolio statistics instead will not yield any differences, but they will if the yield curve slopes upward
   - Whilst portfolio statistics are generally more appropriate, weighted average values can be used, but they can introduce errors into the approximation
+
+- **Dispersion** refers to the dispersion of cash flows from fixed income assets
+  - Dispersion has a non-negligible impact on the success of immunisation strategies due to convexity
+$$
+\text{convexity} = \frac{\text{Macaulay duration}^2 + \text{Macaulay duration} + \text{dispersion}}{(1 + \text{periodic IRR})^2}
+$$
+  - Consider an investor with a liability due in five years, with a portfolio they intend to use to immunise it
+    - The portfolio is composed of twofixed income assets, one with longer, and one with shorter duration than the liability
+    - Overall portfolio duration matches that of the liability, and the present values of both are equal
+    - Additionally, portfolio convexity exceeds that of the liability
+      - Higher convexity leads to a smaller price shift for a given change in yields, ensuring that the portfolio will exceed the amount required by the liability
+    - This scenario demonstrates that using duration matching instead of cash-flow matching preserves some structural risk
+      - Assets and liabilities that are matched only on durations but not cash flows can perform differently under the same yield curve shifts
+      - Since most shifts are parallel, this structural risk usually benefits the investor
+    - This also demonstrates why immunisation is also referred to as **zero-replication**
+      - As the yield curve shifts, the resulting changes in the present values of the assets and liabilities either perform as well as or better than a zero-coupon perfectly matched to the liability
+        - It is important to note that none parallel shifts that don't result in this positive outcome are possible, i.e. the strategy is not risk-free
+        - Additionally, the duration of the portfolio is not fixed, and so rebalancing will be required
+    - If the yield for the lower duration asset falls, whilst that of the higher duration increases (i.e. a *steepening twist*) the value of the longer duration bond will decrease by more than the increase for the shorter duration bond
+      - However, the likely increase in IRR may still allow the portfolio to fund the liablility
+      - In the opposite case (i.e. a *flattening twist*), the increase in value of the longer duration asset may exceed the fall of the shorter duration asset
+        - However, IRR is likely to decrease, which must also be considered
+    - In a *positive butterly twist* the yields of both assets rise, whilst the liability yield falls
+      - This is likely to lead to a significant chance of not being able to fund the liability due to a fall in value of the portfolio, and an increase in the present value of the liability
+        - IRR may increase but this yield curve movement may create significant structural risk
+    - In the inverse scenario, a *negative butterfly twist*, the values of the portfolio and liability are highly likely to shift favourable, but there is significant risk of a fall in portfolio IRR relative to the liability discount rate
+  - Overall, risk is reduced by reducing dispersion of asset cash flows around those of the liability
+    - This reduces convexity, and risks associated with yield curve shifts
