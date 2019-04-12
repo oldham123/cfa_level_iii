@@ -59,7 +59,10 @@
   - **Rolldown return**
     - This component emerges from a projection of a bond's future prices assuming the yield curve remains fixed
   - **Expected price change**
-    - Calculated from expected change in spreads and yield using $(-\text{modifed duration} \cdot \Delta Y)+(\frac{C}{2} \cdot \Delta Y^2)$
+    - Calculated from expected change in spreads and yield using the following:
+$$\Delta \text{PV}=(-\text{modifed duration} \cdot \Delta Y)+(\frac{C}{2} \cdot \Delta Y^2)$$
+    - $C$ denotes convexity, which adds an adjustment to the relationship between changes in price and changes in yield
+      - As yields go up, prices go down, but due to convexity the strength of this relationship weakens for greater changes in yield
   - **Credit losses**
     - Simply, the probability of default multiplied by the amount loss in the event of default
   - **Gains or losses vs. investor currency**
