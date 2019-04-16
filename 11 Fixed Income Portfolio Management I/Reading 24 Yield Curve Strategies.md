@@ -69,7 +69,89 @@
 
 ## 24.D: Formulate a portfolio position strategy given forward interest rates and an interest rate view
 
-- Optimal strategy is not always clear and may require futher analysis
-  - A simple approach may be to simply assume that the yield curve will remain unchanged
-  - A more complicated approach involves relying on some expectation of movement in the yield curve
-  - More complicated still, expectations of yield curve movements can be combined with implied forward yields
+- Consider an investor attempting to design a portfolio, from a selection of five government bonds, for a one year holding period
+  - In assessing the available options, the following calculations may be necessary:
+    - **Rolldown price**, the projected price of the bond in one year, assuming no changes to the yield curve
+      - This is a simple time of money problem, computing a present value given:
+        - A future value (simply the par value)
+        - An interest rate (this can be the yield of a bond one year closer to maturity, using the yield curve)
+        - A coupon payment
+        - A holding period (1 year in this case)
+    - **Holding period return (or yield)**, simply computed as cash inflows divided by cash outflows
+      - $\text{HPY} = \frac{\text{price}_f + \text{coupon}}{\text{price}_i} - 1$
+      - Note that rolldown price can be used in place of $\text{price}_f$
+    - **Manager forecast yield**, the managers predicted change in yields for each point on the yield curve
+      - This is normally expressed in terms of a basis point shift for each key rate
+    - **Manager's forecast of price**, the projected price given the manager forecast yield
+      - The calculation is identical to that of rolldown price, but it takes account of the forecast yields, instead of assuming that the curve will remain unchanged
+    - **Implied forward yield**, the forward yield that would generate the same one year holding period return as purchasing a bond immediately for the same time period
+      - For example, a bond trading at its two year implied forward yield, would generate the same return as immediately purchasing a two year bond at its spot rate
+      - These yields are calculated from spot rates, which are in turn calculated from par bond YTMs
+        - Alternatively the spot rates can be calculated through *bootstrapping*
+          - Given a one year bond that pays par value $P$, plus a coupon $C_1$, and a two year bond that pays $C_2$, the spot rate $S$ is given by:
+$$
+\frac{C_2}{C_1} + \frac{P + C_s}{(1 + S)^2} = P
+$$
+      - This approach can be repeated to continue determining spot rates for bonds of greater maturities
+        - Once these rates have been calculated, the implied forward rates can also be calculated
+        - To calculate a forward rate for a $j$-year bond in $k$ years $f_\text{j, k}$, the spot rates $S_\text{j}$ and $S_\text{k}$ are used:
+$$
+(1 + f_\text{j, k}) = \frac{(1 + S_\text{j})}{(1 + S_\text{k})}
+$$
+    - Finally, the **implied forward yield change**, the forward rate versus the spot rate
+  - With this data in hand, there remain several approaches
+    - One, is to assume the yield curve is likely to remain unchanges
+      - This approach would entail using the holding period return given the rolldown price assuming no yield changes
+    - A second approach involves trusting the manager yield forecast, and use a holding period return calculated from that forecast
+      - An alteration to this approach involves comparing the forecast yields with the implied forward yields
+
+## 24.E: Explain how derivates may be used to implement yield curve strategies
+
+- Adjusting portfolio duration can be difficult, and costly, given the low liquidity in the bond market
+  - Derivatives offer an alternative route, that can be more efficient
+  - Additionally, they are particularly apt for temporary adjustments, since they tend to have shorter terms than bond instruments
+    - In the case of parallel yield curve shifts, all strategies that change duration equally should be expected to perform equally
+    - For non-parallel shifts, strategies that increase durations at maturities likely to see a fall in yields, and decrease durations at maturities likely to see a rise in yields perform best
+
+- Bond futures contracts can be used to increase duration
+  - Shorting them can decrease duration
+  - The point on the yield curve at which duration is increased depends on the maturity of the bond the contract is for
+  - In order to achieve a desired shift $\Delta \text{PVBP}$, the number of futures $N_f$ required can be calculated using the following:
+$$
+N_f = \frac{\Delta \text{PVBP}}{\text{PVBP}_f}
+$$
+
+- A receive-fixed, pay-floating swap increases duration
+  - Conversely, a pay-fixed, receive-floating reduces duration
+  - The notional principal required in order to achieve a desired shift in $\text{PVBP}$ can be done in a similar way as for futures
+  - The point on the yield curve at which duration in increased depends on the length of the swap
+
+## 24.F: Evaluate a portfolio's sensitivity to a change in curve slope using key rate durations of the portfolio and its benchmark
+
+- A **key rate duration** (or **partial duration**) indicates the change in price given a shift in yields at one specific point on the yield curve
+  - Key rate durations at multiple points on the curve can be combined to more precisely estimate the impact of shifts to a specific new curve 
+  - Given an expected curve, this can be expressed as a group of expected shifts at each point
+  - Each expected shift can be multiplied by the key rate duration at that maturity, and then by the fixed income value at each maturity
+  - This would give an estimated change in portfolio value given a shift to a specific new estimated curve
+
+## 24.H: Construct a duration-neutral govenment bond portfolio to profit from a change in yield curve curvature
+
+- Consider a choice between three portfolios of identical duration
+  - A laddered portfolio
+  - A bullet portfolio
+  - A barbell portfolio
+- If the curve is steepening, the bullet is optimal since it has the least exposure to the significant rate increases at the far end of the curve
+- If the curve is flatterning, the barball is optimal since it has the most exposure to the significant rate decreases at the far end of the curve
+- If the curvature is increasing (intermediate rates increasing, long and short term rates static), the barbell is optimal, with no exposure to rate increases
+- If the curvature is decreasing, the bullet is optimal, with the most exposure to the rate decreases
+
+- **Butterfly trades** make use of leverage to generate return from shifts in curvature
+  - For example, shorting intermediate bonds, and investing in both short and long term bonds is effectively a *super barbell*
+  - The long and offsetting short position offset each other for zero duration
+  - No investor capital is required since the proceeds from the short finance the long
+  - There is also net positive convexity due to cash flow dispersion
+  - A **condor** trade is similar to a butterfly trade, with the difference being that two intermediate term bonds are used instead of a single bullet
+
+## 24.G: Discuss inter-market curve strategies
+
+- 
