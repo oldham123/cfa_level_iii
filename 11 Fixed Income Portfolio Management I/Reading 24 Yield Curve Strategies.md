@@ -1,4 +1,4 @@
-#Reading 24: Yield Curve Strategies
+# Reading 24: Yield Curve Strategies
 
 ## 24.A: Describe major types of yield curve strategies
 
@@ -54,7 +54,7 @@
       - The investor owns the bond and earns the return on it, whilst paying the shorter term interest rate in that same higher yield currency
       - As an alternative to paying in the same currency, the investor can enter into a currency swap to receive that higher yield currency, and pay a short term rate in a low yield currency in return
 
-## 24.C: Explain why and how a fixed income portfolio manager might choose to alter portfolio convexity 
+## 24.C: Explain why and how a fixed income portfolio manager might choose to alter portfolio convexity
 
 - When significant changes in yields are expected, increasing convexity enhances returns and reduces losses
   - Modest changes in convexity can be achieved through the selection of a barbell
@@ -129,7 +129,7 @@ $$
 ## 24.F: Evaluate a portfolio's sensitivity to a change in curve slope using key rate durations of the portfolio and its benchmark
 
 - A **key rate duration** (or **partial duration**) indicates the change in price given a shift in yields at one specific point on the yield curve
-  - Key rate durations at multiple points on the curve can be combined to more precisely estimate the impact of shifts to a specific new curve 
+  - Key rate durations at multiple points on the curve can be combined to more precisely estimate the impact of shifts to a specific new curve
   - Given an expected curve, this can be expressed as a group of expected shifts at each point
   - Each expected shift can be multiplied by the key rate duration at that maturity, and then by the fixed income value at each maturity
   - This would give an estimated change in portfolio value given a shift to a specific new estimated curve
@@ -154,4 +154,16 @@ $$
 
 ## 24.G: Discuss inter-market curve strategies
 
-- 
+- In addition to the strategies already discussed, managers can also invest across markets
+  - An investor can have unique yield curve expectations for each market
+  - Intra-market strategies include:
+    - A swap with payments made in the domestic currency, that entails receiving a rate at the steeper end of a yield curve, and paying a rate at the flatter portion of a curve
+    - Alternatively a bond can be bought at one end of the curve in one market, and shorted at the other end of the curve in another market
+
+## 24.I: Evaluate the expected return and risks of a yield curve strategy
+
+- In general, understanding the effect of a change to the yield curve involves analysing each source of return over a given period
+  - Coupon payments
+  - Rolldown return
+  - Returns from changes in the curve
+  - Currency fluctuations
