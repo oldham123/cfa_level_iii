@@ -160,4 +160,3 @@
   - Commodities can offer significant diversification benefits
     - Additionally, they can function as an inflation hedge, although some argue that this benefit has weakened
     - Commodity benchmarks are usually related to liquid derivates, meaning they are replicable and investable
-  - 
