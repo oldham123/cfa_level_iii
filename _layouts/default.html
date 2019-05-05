@@ -1,6 +1,18 @@
 <!doctype>
 <html>
-  <head>fgh</head>
+  <head>
+        <title>{{ page.title }}</title>
+        <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Config({
+            tex2jax: {
+              inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+              processEscapes: true
+            }
+          });
+        </script>
+        <title>{{ page.title }}</title>
+  </head>
   <body>
     {{ content }}
   </body>
