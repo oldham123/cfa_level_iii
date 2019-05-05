@@ -31,5 +31,22 @@ This is a collection of notes on the CFA Level III syllabus. Feel free to use th
 
 * [Reading 18: Introduction to Asset Allocation](./9 Asset Allocation and Related Decisions in Portfolio Management I/Reading 18 Introduction to Asset Allocation.md)
 * [Reading 19: Principles of Asset Allocation](./9 Asset Allocation and Related Decisions in Portfolio Management I/Reading 19 Principles of Asset Allocation.md)
-* [Reading 20 Asset Allocation with Real-World Constraints](./10 Asset Allocation and Related Decisions in Portfolio Management II/Reading 20 Asset Allocation with Real-World Constraints.md)
-* [Reading 21 Currency Management - An Introduction](./10 Asset Allocation and Related Decisions in Portfolio Management II/Reading 21 Currency Management - An Introduction.md)
+* [Reading 20: Asset Allocation with Real-World Constraints](./10 Asset Allocation and Related Decisions in Portfolio Management II/Reading 20 Asset Allocation with Real-World Constraints.md)
+* [Reading 21: Currency Management - An Introduction](./10 Asset Allocation and Related Decisions in Portfolio Management II/Reading 21 Currency Management - An Introduction.md)
+
+# Fixed Income Portfolio Management
+
+* [Reading 22: Fixed Income Portfolio Management - An Introduction](./11 Fixed Income Portfolio Management I/Reading 22 Fixed Income Portfolio Management - An Introduction.md)
+* [Reading 23: Liability-Driven and Index-Based Strategies](./11 Fixed Income Portfolio Management I/Reading 23 Liability-Driven and Index-Based Strategies.md)
+* [Reading 24: Yield Curve Strategies](./12 Fixed Income Portfolio Management II/Reading 24 Yield Curve Strategies.md)
+* [Reading 25: Fixed Income Active Management Credit Strategies](./12 Fixed Income Portfolio Management II/Reading 25 Fixed Income Active Management Credit Strategies.md)
+
+# Equity Portfolio Management
+
+* [Reading 26: Introduction to Equity Portfolio Management](./13 Equity Portfolio Management I/Reading 26 Introduction to Equity Portfolio Management.md)
+* [Reading 27: Passive Equity Investing](./13 Equity Portfolio Management I/Reading 27 Passive Equity Investing.md)
+* [Reading 28: Active Equity Investing](./14 Equity Portfolio Management II/Reading 28 Active Equity Investing.md)
+* [Reading 29: Active Equity Investing Portfolio Construction](./14 Equity Portfolio Management II/Reading 29 Active Equity Investing Portfolio Construction.md)
+
+# Alternative Investments For Portfolio Management
+* [Reading 30: Alternative Investments Portfolio Management](./15 Alternative Investments For Portfolio Management/Reading 30 Alternative Investments Portfolio Management.md)
