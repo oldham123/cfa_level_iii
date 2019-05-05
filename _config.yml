@@ -15,3 +15,4 @@ include:
   - PULL_REQUEST_TEMPLATE.md
 title: CFA Level III Notes by Matthew Oldham, 2019
 mathjax: true
+layout: post
