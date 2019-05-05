@@ -88,7 +88,7 @@
   - It is important to note that tactical allocations can incur additional trading cost, taxation, and increases risk due to reduced diversification
 
 - Evaluating a tactical allocation can be done in several ways:
-  - Comparing sharpe rations
+  - Comparing sharpe ratios
   - Calculating the information ratio
   - Compare to portfolios lying on the efficient frontier
   - Determine which specific deviations are contribution additional risk and return

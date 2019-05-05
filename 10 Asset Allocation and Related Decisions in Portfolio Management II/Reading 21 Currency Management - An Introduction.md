@@ -24,20 +24,20 @@
     - Forward points should be divided by $10^n$ where $n$ is the number of decimal places that the spot price is quoted to
     - They should then be added to the spot price
 
-- Forward trnsactions do not require market-to-market transactions before settlement
+- Forward transactions do not require market-to-market transactions before settlement
   - However, it may be desirable or regulatorily mandated to mark the position to market value
     - This is present value of any gain (loss) that would occur if the contract were closed early with an offsetting transaction
       - An offsetting transaction entails the opposite of whatever is required by the trade
       - For example, for an intial trade to deliver 100 EUR, the offsetting transaction is to buy 100 EUR, to settle on the same date
 
 - An FX swap is unlike other swaps, involving two transactions:
-  - First,a spot transaction is used to offset the existing forward
+  - First, a spot transaction is used to offset the existing forward
   - Secondly, a new forward is entered into
 
 - Currency options are expressed in terms of two currencies, where a call on one is a put on the other
   - For example, consider a call to buy 100 at a price of ZAR/GBP 14.56
     - This is an option to buy (a call) 100 GBP at a price of 14.56 ZAR per GBP
-    - It is also an option to sell (a put) 1,456 ZAR in return for 1,000 GBP
+    - It is also an option to sell (a put) 1,456 ZAR in return for 100 GBP
 
 - When considering the impact of currency on portfolios, the following terminology is important:
   - **Domestic currency** is the investor's currency
@@ -54,12 +54,14 @@
     - $R_\text{FX}$ is calculated from two exchange rates, $R_0$ and $R_T$ using the following:
       - $R_\text{FX} = \frac{R_0}{R_T}$
       - Note that the two rates $R_0$ and $R_T$ should be expressed with the foreign currency as the base currency
+  - Therefore, an expected return for a portfolio invested in multiple foreign assets can be calculated using a weighted average of each individual calculated return
 
-- Variance of a portfolio invested in foreign assets is influence by variance in asset value, and variance in foreign currency value:
+- Variance of a portfolio invested in foreign assets is influenced by variance in asset value, and variance in foreign currency value:
 $$
 \sigma^2_{R_\text{DC}} \approx w^2_{R_\text{FC}} \cdot \sigma^2_{R_\text{FC}} + w^2_{R_\text{FX}} \cdot \sigma^2_{R_\text{FX}} + 2 \cdot w_{R_\text{FC}} \cdot w_{R_\text{FX}} \cdot \sigma_{R_\text{FC}} \cdot \sigma_{R_\text{FX}} \cdot \rho_{(R_\text{FC}\text{, } R_\text{FX})}
 $$
   - Note that if $R_\text{FC}$ is a risk-free return, then its variance, as well as its correlation with any other return is zero
+  - This formula can be used for each foreign asset in the portfolio, with each value then inserted into the similar formula for standard deviation of the entire portfolio
 
 ## 21.B: Discuss strategic choices in currency management
 
@@ -78,7 +80,7 @@ $$
   - **Passive hedging** involves matching the currency exposure of a benchmark
   - **Discretionary hedging** involves allowing tactical deviations from benchmark currency exposure
   - **Active currency management** involves even larger deviations in currency exposure, with a goal of excess return, not risk reduction
-  - **A currency overlay** is an outsourcing of currency management, where an overlay management may treat currency as its own asset class, taking positions based on expectations to generate alpha
+  - **A currency overlay** is an outsourcing of currency management, where an overlay manager may treat currency as its own asset class, taking positions based on expectations to generate alpha
   - A decision on currency management should be recorded in the IPS, specifying, for example:
     - The amount of FX exposure to be hedged
     - Allowed deviations
@@ -116,7 +118,7 @@ $$
     - Signs that prices are *pushing through* support or resistance levels
 
 - A **carry trade** is an investment in higher interest rate currencies, financed by a lower interest rate currency
-  - **Covered interest rate parity (CIRP)** holds that the different between spot and forward currency rates is the different in the period interest rates
+  - **Covered interest rate parity (CIRP)** holds that the difference between spot and forward currency rates is the difference in the period interest rates
     - Higher interest rates cause a currency to trade at a discount
   - **Uncovered interest rate parity (UCIRP)** holds that the forward rate resulting from CIRP is an *unbiased estimator* of the future spot rate
     - However, the currency with the higher rate typically depreciates by less than predicted

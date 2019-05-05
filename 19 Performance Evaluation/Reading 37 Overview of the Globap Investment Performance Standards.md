@@ -116,7 +116,7 @@
   - The appropriate compliance statement
   - If performance is included:
     - The most recent one, three, and five year returns, or
-    - Period to date plus one, thjree and five year returns
+    - Period to date plus one, three and five year returns
     - Period to date plus five years of annual returns
     - Benchmark returns
     - Full disclosure regarding use of leverage, derivatives, and short selling
