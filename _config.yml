@@ -13,5 +13,5 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
-layout: default
+##layout: default
 title: CFA Level III Notes by Matthew Oldham, 2019
