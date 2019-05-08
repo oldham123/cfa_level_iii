@@ -16,3 +16,6 @@ include:
 title: CFA Level III Notes by Matthew Oldham, 2019
 mathjax: true
 layout: default
+collections:
+  readings:
+    output: true

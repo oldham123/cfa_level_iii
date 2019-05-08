@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+              tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                processEscapes: true
+              }
+            });
+          </script>
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+          >
+          </script>
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
+          >
+          </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Reading 33: Risk Management Applications of Option Strategies | CFA Level III Notes by Matthew Oldham, 2019</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Reading 33: Risk Management Applications of Option Strategies" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Reading 33: Risk Management Applications of Option Strategies" />
+<meta property="og:description" content="Reading 33: Risk Management Applications of Option Strategies" />
+<link rel="canonical" href="http://localhost:4000/readings/Reading%2033%20Risk%20Management%20Applications%20of%20Option%20Strategies.html" />
+<meta property="og:url" content="http://localhost:4000/readings/Reading%2033%20Risk%20Management%20Applications%20of%20Option%20Strategies.html" />
+<meta property="og:site_name" content="CFA Level III Notes by Matthew Oldham, 2019" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-05-08T21:33:13+01:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Reading 33: Risk Management Applications of Option Strategies","dateModified":"2019-05-08T21:33:13+01:00","datePublished":"2019-05-08T21:33:13+01:00","url":"http://localhost:4000/readings/Reading%2033%20Risk%20Management%20Applications%20of%20Option%20Strategies.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/readings/Reading%2033%20Risk%20Management%20Applications%20of%20Option%20Strategies.html"},"description":"Reading 33: Risk Management Applications of Option Strategies","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=c4126a73ac06730004ff9024fdf6e5b9636ec572">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">CFA Level III Notes by Matthew Oldham, 2019</a></h1>
+        
+        
+
+        <p>CFA Level III notes</p>
+
+        
+        <p class="view"><a href="https://github.com/oldham123/cfa_level_iii">View the Project on GitHub <small>oldham123/cfa_level_iii</small></a></p>
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <h1>CFA Level III Notes</h1>
+
+      <h1 id="reading-33-risk-management-applications-of-option-strategies">Reading 33: Risk Management Applications of Option Strategies</h1>
+
+<h2 id="secret-sauce-notes">Secret Sauce Notes</h2>
+
+<ul>
+  <li>For strategies using options, it is important to understand the payoff patterns that result from option combinations
+    <ul>
+      <li>This involves understanding the return generated at various final prices for the underlying</li>
+      <li>Sum the ending option value with returns or losses on the initial investment</li>
+    </ul>
+  </li>
+  <li>A <strong>covered call</strong> strategy combines an underlying security, with selling a call option
+    <ul>
+      <li>If the price of the underlying rises above the option strike price, the buyer of the investor’s call will exercise, limiting upside</li>
+      <li>The downside potential is retained</li>
+      <li>Option premium income is generated</li>
+      <li>Usually ideal for stable assets</li>
+    </ul>
+  </li>
+  <li>A <strong>protective put</strong> strategy combines an underlying security, with buying a put option
+    <ul>
+      <li>If the price of the underlying falls below the option strike price, the investor can exercise, limiting downside</li>
+      <li>The upside potential is retained</li>
+      <li>Option premium must be paid</li>
+      <li>Usually ideal for volatile assets</li>
+    </ul>
+  </li>
+  <li>A <strong>bull spread</strong> strategy combined a long call at a low strike price, and a short call at a high strike price
+    <ul>
+      <li>Alternatively a short put at a high strike price, and a long put at a low strike price have the same effect</li>
+      <li>If the price of the underlying rises above the strike price, the buyer of the call will exercise, which limits upside
+        <ul>
+          <li>Alternatively, both puts expire, worthless, with a limited upside equal to the net premium</li>
+        </ul>
+      </li>
+      <li>If the price of the underlying falls below the strike price, then both options are exercised, with downside limited to the difference between strike prices, minus the option premium income</li>
+    </ul>
+  </li>
+  <li>A <strong>bear spread</strong> strategy combines a long put at a high strike price, and a short put at a low strike price
+    <ul>
+      <li>Alternatively a short call at a low strike price, and a long call at a high strike price</li>
+      <li>If the price of the underlying rises above the strike price, both options expire worthless, with a loss equal to the option premiums paid
+        <ul>
+          <li>Alternatively, both calls are exercised, with a loss equal to the difference between strike prices, plus option premiums</li>
+        </ul>
+      </li>
+      <li>If the price of the underlying falls below the strike price, both options are exercised, leading to a profit equal to the difference between strike prices, minus the option premiums paid</li>
+    </ul>
+  </li>
+  <li>A <strong>butterfly spread</strong> strategy combines four options at three different strike prices, and gains if the underlying is stable, composed of:
+    <ul>
+      <li>Long calls at a high and low strike price, and two short calls at a medium price</li>
+      <li>The same but with puts</li>
+      <li>A short put and call at a medium strike price, a long put at a low strike price, and a long call at a high strike price</li>
+    </ul>
+  </li>
+  <li>A <strong>straddle</strong> combines a long put and call at the same strike price to gain from volatility
+    <ul>
+      <li>A reverse straddle is the same but shorts the options to gain from decreasing volatility</li>
+    </ul>
+  </li>
+  <li>A <strong>collar</strong> is similar to a bull spread
+    <ul>
+      <li>It combines a long put at a low strike price, a short call at a high strike price, as well as the underlying</li>
+    </ul>
+  </li>
+  <li>A <strong>box spread</strong> combines  bull and bear spread
+    <ul>
+      <li>Assuming options are priced fairly, it will yield the risk-free rate</li>
+    </ul>
+  </li>
+  <li><strong>Interest rate options</strong> are usually based on LIBOR
+    <ul>
+      <li>The call receives the underlying rate, and pays the strike rate, whilst the put receives the strike rate and pays the underlying rate</li>
+      <li>An <strong>interest rate cap</strong> is a series of interest rate calls, which compensates the buyer for rising interest rates, effectively keeping them fixed
+        <ul>
+          <li>Each constituent call is called a <strong>caplet</strong></li>
+          <li>The inverse can be achieved with series of puts, creating a <strong>floor</strong>, which each put called a <strong>floorlet</strong></li>
+        </ul>
+      </li>
+      <li>Combining a short cap with a long floor creates an interest rate collar</li>
+    </ul>
+  </li>
+  <li><strong>Delta hedging</strong> is a strategy that earns the risk-free rate by taking equal and opposite positions in an option, and the underlying asset
+    <ul>
+      <li>The number of shares $#<em>\text{shares}$ required to perfectly hedge a given number of options $#</em>\text{options}$ is given by $\Delta_\text{option} \cdot #_\text{options}$</li>
+      <li><strong>True delta</strong> is the change in option value given a change in value of the underlying
+        <ul>
+          <li>It is the $N(d_1)$ term from the Blak-Scholes-Merton formula</li>
+          <li>$\Delta_\text{option} \approx \frac{\Delta V_\text{option}}{\Delta V_\text{share}}$</li>
+          <li>Similarly, <strong>gamma</strong> is the change in delta given a change in value of the underlying</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/oldham123">oldham123</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

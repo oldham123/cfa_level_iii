@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+              tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                processEscapes: true
+              }
+            });
+          </script>
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+          >
+          </script>
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
+          >
+          </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Reading 25: Fixed Income Active Management Credit Strategies | CFA Level III Notes by Matthew Oldham, 2019</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Reading 25: Fixed Income Active Management Credit Strategies" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Reading 25: Fixed Income Active Management Credit Strategies" />
+<meta property="og:description" content="Reading 25: Fixed Income Active Management Credit Strategies" />
+<link rel="canonical" href="http://localhost:4000/readings/Reading%2025%20Fixed%20Income%20Active%20Management%20Credit%20Strategies.html" />
+<meta property="og:url" content="http://localhost:4000/readings/Reading%2025%20Fixed%20Income%20Active%20Management%20Credit%20Strategies.html" />
+<meta property="og:site_name" content="CFA Level III Notes by Matthew Oldham, 2019" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-05-08T21:33:13+01:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Reading 25: Fixed Income Active Management Credit Strategies","dateModified":"2019-05-08T21:33:13+01:00","datePublished":"2019-05-08T21:33:13+01:00","url":"http://localhost:4000/readings/Reading%2025%20Fixed%20Income%20Active%20Management%20Credit%20Strategies.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/readings/Reading%2025%20Fixed%20Income%20Active%20Management%20Credit%20Strategies.html"},"description":"Reading 25: Fixed Income Active Management Credit Strategies","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=c4126a73ac06730004ff9024fdf6e5b9636ec572">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">CFA Level III Notes by Matthew Oldham, 2019</a></h1>
+        
+        
+
+        <p>CFA Level III notes</p>
+
+        
+        <p class="view"><a href="https://github.com/oldham123/cfa_level_iii">View the Project on GitHub <small>oldham123/cfa_level_iii</small></a></p>
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <h1>CFA Level III Notes</h1>
+
+      <h1 id="reading-25-fixed-income-active-management-credit-strategies">Reading 25: Fixed Income Active Management Credit Strategies</h1>
+
+<h2 id="25a-describe-risk-cnsiderations-in-investment-grade-and-high-yield-corporate-bond-portfolios">25.A: Describe risk cnsiderations in investment-grade and high yield corporate bond portfolios</h2>
+
+<ul>
+  <li>The <strong>credit market</strong> is the market containing all assets with non-zero credit risk
+    <ul>
+      <li>They can be public
+        <ul>
+          <li>Sovereign debt</li>
+          <li>Corporate debt</li>
+          <li>Supranational debt</li>
+          <li>Money market instruments</li>
+        </ul>
+      </li>
+      <li>They can be private
+        <ul>
+          <li>Loans</li>
+        </ul>
+      </li>
+      <li>Other assets such as MBSs can be public or private</li>
+    </ul>
+  </li>
+  <li><strong>Investment grade</strong> assets are generally held to be those rated above <em>BB</em>
+    <ul>
+      <li>This is equivalent to Baa3+ for Moody’s, and BBB- for Standard &amp; Poor and Fitch Ratings</li>
+      <li>The remaining assets are referred to as <em>speculative</em>, or <em>junk</em> bonds</li>
+    </ul>
+  </li>
+  <li>Individual analysts may investigate deeper than public ratings, and consider the five Cs of credit analysis
+    <ul>
+      <li>Capacity to pay</li>
+      <li>Collateral</li>
+      <li>Covenants</li>
+      <li>Character of the issuer</li>
+      <li>Capital of the issuer</li>
+    </ul>
+  </li>
+  <li>A single bond can provide multiple types of risk exposure:
+    <ul>
+      <li><strong>Credit risk</strong>, formed from <strong>default risk</strong> and <strong>loss severity</strong></li>
+      <li><strong>Spread risk</strong> is the risk of a fall in price relative to risk free bonds due to a widening of the spread
+        <ul>
+          <li>Modified duration is used in calculating a price change due to a general shift in interest rates</li>
+          <li><strong>Spread duration</strong> is used in calculation a price change due to a change in spread
+            <ul>
+              <li>Most bonds have identical spread and modified duration</li>
+              <li>Floating rate bonds can have low modified duration but high spread duration</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><strong>Credit migration risk</strong> is a fall in price due to an asset being recategorised</li>
+      <li><strong>Liquidity risk</strong> is the risk of having to accept a below-market value due to the need to sell an asset quickly
+        <ul>
+          <li>wider bid-ask spreads and regulatory issues mean liquidity risk is most pronounced for high-yield securities</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Risk-free rates and spread often move in opposite directions
+    <ul>
+      <li>In strong economic conditions, risk-free rates rise, but spreads tighten as probability of default falls</li>
+      <li>In weaker conditions, the opposite is true</li>
+      <li>This means investors using investment grade securities are mostly exposed to interest rate risk</li>
+      <li>Investors using high-yield assets are mostly exposed to credit risk and spread risk</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="25b-compare-the-use-of-credit-spread-measures-in-portfolios">25.B: Compare the use of credit spread measures in portfolios</h2>
+
+<ul>
+  <li>There are several ways to measure credit spread
+    <ul>
+      <li><strong>Benchmark spread</strong> is the difference between a bond’s YTM, and that of a risk-free benchmark of a similar duration
+        <ul>
+          <li>The on the run government issue is normally used for this purpose</li>
+          <li>Due to a limited number of govenment bonds available for this purpose, linear interpolation between the two closest matches is used</li>
+          <li>This spread is the <strong>G-spread</strong>, and can be used to calculate a hedge of the interest rate risk whilst retaining the credit spread of a bond
+            <ul>
+              <li>By matching a long position in a corporate bond with a short position in government bonds, a return equal to the G-spread can be earned</li>
+            </ul>
+          </li>
+          <li>The <strong>I-spread</strong> is calculated in a similar fashion but using swap fixed rates instead
+            <ul>
+              <li>This yields a smoother curve due to a greater abundance of rates available, however
+                <ul>
+                  <li>They do not reflect fully risk free rates, especially not during times of economic hardship</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>The <strong>Z-spread</strong> is a trial and error calculation
+        <ul>
+          <li>It is the spread that, if added to implied initial spot rates of risk-free bonds, will discount the cash flows to the current market value</li>
+          <li>The <strong>option-adusted spread (OAS)</strong> is a version of the Z-spread that accounts for the impact of embedded options
+            <ul>
+              <li>Using an assumed interest rate volatility, an interest rate tree can be constructed, determining future cash flows</li>
+              <li>The OAS is then determined by trial and error such that if added to each node of the tree, cash flows are discounted to current market value</li>
+              <li>It is important to note that the OAS is an average rate that incorporates the multiple paths that a bond with an embedded option may take</li>
+              <li>Over time, rates will follow a single path, and the actual rate can shift significantly</li>
+              <li>If a portfolio includes a mix of bonds with and without embedded options, the OAS will be the best measure</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Credit spread can be interpreted as the return above the used benchmark
+    <ul>
+      <li>If the spread is stable then excess return is the spread</li>
+      <li>If the spread is not stable then the change in spread, as well as the spread duration will become important factors
+        <ul>
+          <li>If the spread widens, performance falls, and vice versa</li>
+          <li>Losses due to probability of default and loss severity can also be included in return measures</li>
+        </ul>
+      </li>
+      <li>Therefore, excess return $\text{XR}$ can be estimated as a function of spread $\text{s}$, change of spread $\Delta \text{s}$, spread duration $\text{SD}$, time period $\text{T}$, a probability of default $\text{p}$, and a loss severity $\text{L}$:
+<script type="math/tex">\text{XR} = (\text{s} \cdot \text{t}) - (\Delta \text{s} \cdot \text{SD}) - (\text{t} \cdot \text{p} \cdot \text{L})</script></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="25c-discuss-bottom-up-approaches-to-credit-strategies">25.C: Discuss bottom-up approaches to credit strategies</h2>
+
+<h2 id="25d-discuss-top-down-approaches-to-credit-strategies">25.D: Discuss top-down approaches to credit strategies</h2>
+
+<ul>
+  <li>Bottom-up strategies involve focusing specifically on the least efficient sectors to determine which securities may be incorrectly priced
+    <ul>
+      <li>They work best when comparing bonds with similar credit risk</li>
+      <li>However, changes in the portfolio can be dominated by macro factors such as interest rates</li>
+    </ul>
+  </li>
+  <li>Top down strategies focus primarily on the macro factors that drive things such as interest rates
+    <ul>
+      <li>However, these factors are closely observed by many, and it is difficult to achieve an informational advantage</li>
+    </ul>
+  </li>
+  <li>A combined approach can be acheived in two main ways
+    <ul>
+      <li>Build a portfolio that over or underweights individual securities according to bottom-up analysis</li>
+      <li>Then adjust the portfolio according to macro factors</li>
+    </ul>
+  </li>
+  <li>Bottom-up analysis involves a number of processes:
+    <ul>
+      <li>Divide the set of bonds available for investment into individual sectors</li>
+      <li>Determine the sector weights in the benchmark, and evaluate them for reasonableness</li>
+      <li>Identify inefficiencies and misvaluations within each sector to identify securities with potential</li>
+      <li>Assess credit risks by collecting default rates and loss rates</li>
+      <li>Plot spread curves for individual issuers
+        <ul>
+          <li>Higher spread, assuming other factors are equal, means a more attractive investment</li>
+          <li>Individual bonds issues that are above the curve are more attractive</li>
+        </ul>
+      </li>
+      <li>In determining final allocations, evaluate spread duration and portfolio value allocation in tandem
+        <ul>
+          <li>For IG bonds, default is not considered likely, and hence spread duration is the most useful measure of risk</li>
+          <li>For HY bonds, actual value allocated is more important, due to increased likelihood of default</li>
+        </ul>
+      </li>
+      <li>Due to the nature of fixed income, the desired issue may not be available
+        <ul>
+          <li>The investor can identify the next most suitable candidate</li>
+          <li>The investor can use an index fund, swaps, or derivates to replicate the desired exposure until the bond is available</li>
+          <li>The investor can simply hold cash and wait until the desired bond is available</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>A top-down approach focuses on macro factors like economic growth, or corporate profits
+    <ul>
+      <li>This can also help identify sectors which are likely to face changing prospects and therefore have their weight adjusted</li>
+      <li>Historical patterns such as the credit cycle may also be used</li>
+      <li>Anticipating changes in economic conditions is vital in timing movements up and down in credit quality</li>
+      <li>The means of calculating average credit risk is important
+        <ul>
+          <li>Some methods assign numeric values to each risk rating that increase linearly</li>
+          <li>More complex methods use non-linear systems that assign progressively higher weights to riskier ratings</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Simultaneously managing credit risk and interest rate risk without derivatives can be difficult
+    <ul>
+      <li>If expectations are that spreads are likely to narrow, and rates are likely to increase, it would be difficult to invest appropriately with bonds alone</li>
+      <li>Adjusting option exposure through putable or callable bonds may be more difficult than using options on bond contracts</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="25e-discuss-liquidity-risk-in-credit-markets-and-how-liquidity-risk-can-be-managed-in-a-credit-portfolio">25.E: Discuss liquidity risk in credit markets and how liquidity risk can be managed in a credit portfolio</h2>
+
+<ul>
+  <li>The market for risky fixed income instruments is relatively illiquid compared to that of risk free instruments
+    <ul>
+      <li>Liquidity is also reduced following the crisis of 2008 and 2009</li>
+      <li>Credit spread is sensitive to trading volume flows
+        <ul>
+          <li>e.g. Flows to IG instruments from HY instruments would increase HY yields and reduce IG yields, widening spreads</li>
+        </ul>
+      </li>
+      <li>Bid-ask spreads are often used as a measure of liquidity but more recently this has become less reliable</li>
+      <li>However, dispersion and distribution of the market has increased, with the ten largest funds holding a smaller percentage</li>
+    </ul>
+  </li>
+  <li>To manage liquidity risk, managers can
+    <ul>
+      <li>Hold more cash and cash equivalents</li>
+      <li>Make use of ETFs until desired securities become available</li>
+      <li>Make use of liquid derivatives to achieve similar exposure</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="25f-describe-how-to-assess-and-manage-tail-risk-in-credit-portfolios">25.F: Describe how to assess and manage tail risk in credit portfolios</h2>
+
+<ul>
+  <li><strong>Tail risk</strong> reflects the way in which markets can experience more drastic declines than their standard deviation implies
+    <ul>
+      <li>Anticipating or modelling these declines is difficult</li>
+      <li><strong>Scenario analysis</strong> can begin with an assumption of conditions that may be unusual</li>
+      <li><strong>Historical analysis</strong> can use values from a previous crisis as inputs into a model</li>
+    </ul>
+  </li>
+  <li>During a crisis the benefits of diversification can fall dramatically as correlations increase
+    <ul>
+      <li>Liquidity dries up rapidly, and so managers can try to retain securities that maintain liquidity, even in these scenarios</li>
+      <li>If tail risks can be identified, also identify securities which may benefit if they come to pass</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="25g-discuss-considerations-in-constructing-and-managing-portfolios-across-international-credit-markets">25.G: Discuss considerations in constructing and managing portfolios across international credit markets</h2>
+
+<ul>
+  <li>Restricting a credit portfolio to domestic bonds does not isolate an investor from global opportunities and risks
+    <ul>
+      <li>The issuers often have international operations</li>
+    </ul>
+  </li>
+  <li>The emerging market (EM) sector has increased in size to almost match the US HY sector
+    <ul>
+      <li>Commodities and banking make up a significant proportion of the EM sector</li>
+      <li>State ownership of issuers is common
+        <ul>
+          <li>Whilst this creates an implicit expectation that they will step in to ensure creditworthiness, there is also the risk that domestic creditors will take priority</li>
+        </ul>
+      </li>
+      <li>The rating giving to a corporate EM bond may be understated since some ratings agencies will not allow it to exceed the rating given to the government of that state</li>
+    </ul>
+  </li>
+  <li>Liquidity is a greater issue in the EM market
+    <ul>
+      <li>The US sector has transparency and public reporting on trade volumes and prices, encouraging further trade</li>
+    </ul>
+  </li>
+  <li>Trading internationally introduces currency risk
+    <ul>
+      <li>This is particularly pronounced for low yield bonds, since in those cases currency return is a larger proportion of total return</li>
+    </ul>
+  </li>
+  <li>With less developed or familiar legal and regulatory structures, there can be significant legal risk</li>
+</ul>
+
+<h2 id="25h-describe-the-use-of-structured-financial-instruments-as-an-alternative-to-corporate-bonds-in-credit-portfolios">25.H: Describe the use of structured financial instruments as an alternative to corporate bonds in credit portfolios</h2>
+
+<ul>
+  <li>Structured finance instruments can function as an alternative to corporate bonds
+    <ul>
+      <li>They have higher yields</li>
+      <li>Tailored risk exposures</li>
+      <li>Specific sector exposures</li>
+      <li>Diversification benefit</li>
+    </ul>
+  </li>
+  <li>A <strong>mortgage backed security (MBS)</strong> is a pool of mortgage-backed loans
+    <ul>
+      <li>They offer similar yields to corporate bonds</li>
+      <li>Higher liquidity than corporate bonds</li>
+      <li>Tailored exposures to portions of the real estate market (e.g. commercial or residential)</li>
+      <li>Provide exposure to interest rate volatility due to the prepayment option in most mortgages
+        <ul>
+          <li>Prepayment is more likely if interest rate volatility increases</li>
+          <li>If an investor expects lower volatility, they can increase exposure to that volatility by purchasing more MBSs</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Asset backed securities (ABS)</strong> are similar, collateralised with other debt such as car loans, credit card receivables, or student loans</p>
+  </li>
+  <li><strong>Collateralised debt obligations (CDO)</strong> are usually backed by a form of corporate debt, arranged into tranches
+    <ul>
+      <li>Senior tranches are paid first</li>
+      <li>Credit quality falls, the less senior the tranche</li>
+      <li>Provide opportunities for investors to identify misvaluation compared to the underlying collateral</li>
+      <li>Leveraged exposure
+        <ul>
+          <li>An investment in the lowest tranches is equivalent to a leveraged investment in the corporate debt underlying it</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/oldham123">oldham123</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

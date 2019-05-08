@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+              tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                processEscapes: true
+              }
+            });
+          </script>
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+          >
+          </script>
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
+          >
+          </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Reading 19: Principles of Asset Allocation | CFA Level III Notes by Matthew Oldham, 2019</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Reading 19: Principles of Asset Allocation" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Reading 19: Principles of Asset Allocation" />
+<meta property="og:description" content="Reading 19: Principles of Asset Allocation" />
+<link rel="canonical" href="http://localhost:4000/readings/Reading%2019%20Principles%20of%20Asset%20Allocation.html" />
+<meta property="og:url" content="http://localhost:4000/readings/Reading%2019%20Principles%20of%20Asset%20Allocation.html" />
+<meta property="og:site_name" content="CFA Level III Notes by Matthew Oldham, 2019" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-05-08T21:33:13+01:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Reading 19: Principles of Asset Allocation","dateModified":"2019-05-08T21:33:13+01:00","datePublished":"2019-05-08T21:33:13+01:00","url":"http://localhost:4000/readings/Reading%2019%20Principles%20of%20Asset%20Allocation.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/readings/Reading%2019%20Principles%20of%20Asset%20Allocation.html"},"description":"Reading 19: Principles of Asset Allocation","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=c4126a73ac06730004ff9024fdf6e5b9636ec572">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">CFA Level III Notes by Matthew Oldham, 2019</a></h1>
+        
+        
+
+        <p>CFA Level III notes</p>
+
+        
+        <p class="view"><a href="https://github.com/oldham123/cfa_level_iii">View the Project on GitHub <small>oldham123/cfa_level_iii</small></a></p>
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <h1>CFA Level III Notes</h1>
+
+      <h1 id="reading-19-principles-of-asset-allocation">Reading 19: Principles of Asset Allocation</h1>
+
+<h2 id="19a-describe-and-critique-the-use-of-mean-variance-optimisation-in-asset-allocation">19.A: Describe and critique the use of mean-variance optimisation in asset allocation</h2>
+
+<ul>
+  <li><strong>Asset allocation</strong> is the process of establishing the weights of each asset class within the portfolio
+    <ul>
+      <li><strong>Implementation decisions</strong> are the specific choices of asset to include within the portfolio</li>
+    </ul>
+  </li>
+  <li><strong>Mean-variance optimisation</strong> is an asset-allocation apprach that aims to provide maximum return for a given level of risk
+    <ul>
+      <li>Its inputs include:
+        <ul>
+          <li>A set of assets which may be included in a portfolio</li>
+          <li>Risk and return expectations for each asset</li>
+          <li>Correlations between each pair of assets</li>
+        </ul>
+      </li>
+      <li>The set of allocations produced form the <strong>mean-variance efficient frontier</strong>, each giving the greatest return for each risk level</li>
+      <li>Once the frontier has been established, the appropriate portfolio must be selected from it
+        <ul>
+          <li>One approach to this is to make use of a utility function, with the aim of maxmimsing utility:
+<script type="math/tex">U_m = \text{E}(R_m) - \frac{\lambda \cdot \sigma^2_m}{2}</script></li>
+        </ul>
+      </li>
+      <li>This function captures the nature of an investor’s utility to increase with return, and decrease with risk</li>
+      <li>$\lambda$ denotes the investor’s individual preference for accepting additional units of risk in order to generate additional units of return
+        <ul>
+          <li>A truly <strong>risk neutral</strong> investor would have a value of 0, but it is more common to use a value between 1 and 10, with an average of 4</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>MVO is, at its core, an optimisation problem, where a certain value is maximised subject to contraints, including:
+    <ul>
+      <li>Asset-allocation weights</li>
+      <li>The <em>budget constraint</em> requiring that weights sum to 100%</li>
+      <li>The <em>non-negativity constraint</em> requiring that weights are between 0% and 100%</li>
+      <li>Other investor specific constraints
+        <ul>
+          <li>Note that if too many additional constraints are applied, then the value of optimisation is reduced</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Disadvantages of MVO include:
+    <ul>
+      <li>Dependence on the quality of inputs</li>
+      <li>Veers towards portfolios highly skewed towards some asset classes, with little to no allocation to others</li>
+      <li>Neglects skew and kurtosis in asset returns, despite empirical demonstration that both are present
+        <ul>
+          <li>It is possible to extend MVO in order to account for additional inputs by adjusting the utility function, or by using a different risk measure</li>
+        </ul>
+      </li>
+      <li>Different asset classes may still give exposure to the same risk factors</li>
+      <li>Neglects the liabilities that a portfolio may be intended to eventually fund, and the correlations between those liabilities and returns</li>
+      <li>Takes a single period view, and therefore neglects the costs of rebalancing</li>
+    </ul>
+  </li>
+  <li>Since poor return estimates are a large source of error in MVO, improving those inputs is usually a worthwhile exercise
+    <ul>
+      <li><strong>Reverse optimisation</strong> is a possible way of doing that
+        <ul>
+          <li>Begin with optimal weights from the global portfolio</li>
+          <li>Determine asset returns consistent with those weights</li>
+          <li>Input these implied returns into MVO to generate optimal weights for an individual investor</li>
+        </ul>
+      </li>
+      <li>This process assumes that the global portfolio is diversified
+        <ul>
+          <li>Since these returns are derived from a diversified portfolio, this can also address the problem of MVO recommending highly concentrated positions</li>
+        </ul>
+      </li>
+      <li><strong>Black-Litterman</strong> is an adjustment to reverse optimisation which includes further adjustment of implied returns in order to account for specific return expectations that an investor may have</li>
+    </ul>
+  </li>
+  <li><strong>Resampling</strong> involves applying Monte-Carlo techniques to MVO
+    <ul>
+      <li>Generate an efficient frontier using initial best estimates of the inputs</li>
+      <li>Generate distributions of randomised inputs around those best estimates, generating a set of efficient frontiers</li>
+      <li>Combine these to create a <em>resampled efficient frontier</em> which averages the individual frontiers</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="19c-interpret-and-critique-an-asset-allocation-in-relation-to-an-investors-economic-balance-sheet">19.C: Interpret and critique an asset allocation in relation to an investor’s economic balance sheet</h2>
+
+<ul>
+  <li>The MVO approach can be adapted in order to account for non-financial assets, such as human capital, or real estate
+    <ul>
+      <li>Income from employment can be modelled as an inflation-linked bond
+        <ul>
+          <li>If income is more volatile, such that this is inappropriate, equities or corporate bonds can be added into the model</li>
+        </ul>
+      </li>
+      <li>This allows capabilty to take on risk to be raised, in accordance with an investors true characteristics
+        <ul>
+          <li>It is important to recall that since human capital is not a tradeable asset, it’s proportion within the final allocation is fixed</li>
+        </ul>
+      </li>
+      <li>Real estate can be encorporated in a similar way using reference to a real estate index</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="19g-discuss-the-use-of-monte-carlo-simulation-and-scenario-analysis-to-evaluate-the-robustness-of-an-asset-allocation">19.G: Discuss the use of Monte Carlo simulation and scenario analysis to evaluate the robustness of an asset allocation</h2>
+
+<ul>
+  <li>Monte Carlo simulation has multiple applications in asset allocation decisions
+    <ul>
+      <li>Account for complications of multi-period investing, including rebalancing, and tax consequences</li>
+      <li>Illustrate the consequences of different risk tolerances to guide investors to selecting the best risk levels for them</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="19d-discuss-asset-class-liquidity-considerations-in-asset-allocation">19.D: Discuss asset class liquidity considerations in asset allocation</h2>
+
+<ul>
+  <li>It is difficult to include illiquid asset classes into MVO
+    <ul>
+      <li>There is a lack of availablity of good data required to make reliable estimates regarding return, risk, and correlation</li>
+      <li>Passive investment in the indices that exist are usually not comparable to active investment</li>
+      <li>Specific investments into illiquid assets generally do not share the risk and return profile of the class as a whole</li>
+    </ul>
+  </li>
+  <li>To address these concerns:
+    <ul>
+      <li>Exclude such illiquid asset classes from the MVO process</li>
+      <li>Include illiquid asset classes but specifically model the characteristics of the actual investments planned</li>
+      <li>Include inputs from a highly diversified alternative investments index, whilst being mindful that the actual investments made may differ</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="19e-explain-absolute-and-relative-risk-budgets-and-their-use-in-determining-and-implementing-an-asset-allocation">19.E: Explain absolute and relative risk budgets and their use in determining and implementing an asset allocation</h2>
+
+<ul>
+  <li>The goal of risk budgeting is to ensure that the maximum amount of return is generated per unit of risk taken
+    <ul>
+      <li><strong>Marginal contribution to portfolio risk (MCTR)</strong> is the change in risk given a small change in the allocation of an asset class
+        <ul>
+          <li>$\text{MCTR}_i = \beta_i \cdot \sigma_M$</li>
+        </ul>
+      </li>
+      <li><strong>Absolute contribution to total risk (ACTR)</strong> is the total risk contribution from the allocation to an asset class
+        <ul>
+          <li>$\text{ACTR}_i = \text{weight}_i \cdot \text{MCTR}_i$</li>
+        </ul>
+      </li>
+      <li>Using the MCTR of each asset class, the impact on portfolio risk as the allocation to each class changes is easily observed</li>
+      <li>This allows for the indentification of optimal allocations
+        <ul>
+          <li>Optimal allocations are those where $\frac{R_i - R_F}{\text{MCTR}_i}$ is equal for all $i$</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="19f-describe-how-client-needs-and-preferences-regarding-investment-risks-can-be-incorporated-into-asset-allocation">19.F: Describe how client needs and preferences regarding investment risks can be incorporated into asset allocation</h2>
+
+<ul>
+  <li>The risk preferences of investors can be incorporated in the following ways:
+    <ul>
+      <li>Allowing the investor to specify additional constraints</li>
+      <li>Determine a risk averision factor to be used in a utility function when applying MVO</li>
+      <li>Apply MCS to illustrate to an investor the implications of multiple risk choices</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="19h-describe-the-use-of-investment-factors-in-constructing-and-analysing-an-asset-allocation">19.H: Describe the use of investment factors in constructing and analysing an asset allocation</h2>
+
+<ul>
+  <li>The MVO process can also be used to identify optimal exposures to multiple risk factors, in place of asset classes
+    <ul>
+      <li>These include:
+        <ul>
+          <li>Exposure to a market</li>
+          <li>Firm size</li>
+          <li>Firm value</li>
+          <li>Price momentum</li>
+          <li>Liquidity</li>
+          <li>Interest rate risk</li>
+          <li>Creditworthiness</li>
+          <li>Variance</li>
+        </ul>
+      </li>
+      <li>The choice of whether to apply MVO using asset classes or risk factor exposures depends mostly on that which an investor is most familiar, and most comfortable forming capital market expectations</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="19j-describe-and-evaluate-characteristics-of-liabilities-that-are-relevant-to-asset-allocation">19.J: Describe and evaluate characteristics of liabilities that are relevant to asset allocation</h2>
+
+<ul>
+  <li>When considering asset allocation, and attempting to account for investor liabilities, it is important to consider the following:
+    <ul>
+      <li>Do the liabilities have fixed cash flows, or are they contingent on future events?</li>
+      <li>Do the liabilities represent legal obligations on the part of the investor?</li>
+      <li>What are the duration and onvexity characteristics of the liability?</li>
+      <li>How large is the liability relative to the total assets owned by the investor?</li>
+      <li>What may influence the future cash flows?</li>
+      <li>Are the liabilities subject to regulations?</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="19k-discuss-approaches-to-liabilitiy-relative-asset-allocation">19.K: Discuss approaches to liabilitiy-relative asset allocation</h2>
+
+<h2 id="19l-recommend-and-justify-a-liability-relative-asset-allocation">19.L: Recommend and justify a liability-relative asset allocation</h2>
+
+<ul>
+  <li><strong>Surplus optimisation</strong> is an alteration to MVO in which an efficient frontier is defined by the surplus, using the variance of that surplus as the risk measure
+    <ul>
+      <li>Surplus return $R_s = \frac{\left(\Delta \text{portfolio value} - \Delta \text{liability value}\right)}{\text{initial portfolio value}}$</li>
+      <li>This can then be substituted into the utilty function</li>
+      <li>Determining risk and return profiles for liabilities can be done by either modelling them as corporate bonds, or by using a risk factor approach</li>
+    </ul>
+  </li>
+  <li>The <strong>two-portfolio</strong> approach involves dividing the total portfolio into two subportfolios
+    <ul>
+      <li>One is designed to hedge the investor’s liability</li>
+      <li>The other is managed with an MVO approach to generate additional return</li>
+      <li>Modifications to the approach are possible:
+        <ul>
+          <li>Allocate more capital to the return-seeking subportfolio</li>
+          <li>Allocate more capital to the hedging subportfolio</li>
+        </ul>
+      </li>
+      <li>Limitations include:
+        <ul>
+          <li>Hedging portfolios are difficult to construct effectively before the liability is fully funded</li>
+          <li>Some unique risks faced by insurance firms are either difficult, or impossible to hedge against (e.g. natural disasters)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>The <strong>integrated asset-liability approach</strong>
+    <ul>
+      <li>If the liabilities held by the investor are not fixed, and involve decisions to be made in response to portfolio performance, then they can be integrated into the portfolio itself as an asset class</li>
+      <li>An example of an investor that may need to take this approach is a bank</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="19m-recommend-and-justify-an-asset-allocation-using-a-goals-based-approach">19.M: Recommend and justify an asset allocation using a goals-based approach</h2>
+
+<ul>
+  <li>For investors with multiple aims, each with different priorities and time horizons, a goals-based approach may be appropriate
+    <ul>
+      <li>Portfolios are divided into subportfolios, with each targeting a specific goal</li>
+      <li>Each subportfolio aims to provide a minimum expected return necessary to confer a specified probability of success of a goal</li>
+      <li>Advisors may have subportfolios ready to meet various goals, rather than customising them for every client
+        <ul>
+          <li>These may be referred to as <em>modules</em> with each having certain risk-return profiles, liquidity characteristics, and asset classes</li>
+        </ul>
+      </li>
+      <li>Given a desired probability of success, the module with the highest expected return is selected
+        <ul>
+          <li>The amount invested into that module is the amount demanded by the goal, discounted at the expected rate of return</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="19n-describe-and-critique-heuristic-and-other-approaches-to-asset-allocation">19.N: Describe and critique heuristic and other approaches to asset allocation</h2>
+
+<ul>
+  <li>“<strong>120 minus your age</strong>” is an approach designed to estimate an appropriate allocation to equities based on the age of the investor
+    <ul>
+      <li>Whilst this approach is not sophisticated, it successfully reflects the fact that human capital declines as investors age, requiring their financial capital to be reallocated from equity-like investments to bond-like investments over time</li>
+      <li>Additionally, it often comes close to the recommendations of more sophisticated approaches</li>
+    </ul>
+  </li>
+  <li><strong>60/40 split</strong> simply advocates maintaining 60% to 40% allocation between equities and bonds
+    <ul>
+      <li>This is reasonably close to the allocations within the global market portfolio</li>
+    </ul>
+  </li>
+  <li>The <strong>Endowment / Yale model</strong> advocates larger investments in alternative asset markets
+    <ul>
+      <li>These markets are less efficient and so there are opportunities for excess return</li>
+      <li>In addition, investors with longer time horizons can tolerate the high liquidity risk of these investments in return for a liquidity premium</li>
+    </ul>
+  </li>
+  <li>The <strong>Risk Parity</strong> approach advocates insuring that each asset class constributes the same amount of risk to the overall port
+    <ul>
+      <li>Whilst this approach avoids an MVO approach from recommending highly concentrated positions, it also ignores return characteristics</li>
+    </ul>
+  </li>
+  <li>The <strong>$\frac{1}{N}$ rule</strong> advocates simply allocating equally to all classes
+    <ul>
+      <li>Empirical evidence suggests that this approach performs surprisingly well, but not optimally</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="19o-discuss-factors-affecting-reblancing-policy">19.O: Discuss factors affecting reblancing policy</h2>
+
+<ul>
+  <li>Rebalancing of portfolios may be needed for several reasons:
+    <ul>
+      <li>Changing investor goals</li>
+      <li>Changing market conditions or expectations</li>
+      <li>Realigning a portfolio to agreed upon asset allocations</li>
+    </ul>
+  </li>
+  <li>Percentage-range rebalancing is an approach that determines <em>corridors</em> around the intended allocation for an asset class, and if market movements send the allocation outside that corridor then that triggers rebalancing
+    <ul>
+      <li>Determining the optimal size of that corridor involves considering a number of factors:
+        <ul>
+          <li>Transactional costs incurred by rebalancing</li>
+          <li>Tolerance of the additional risk created as some allocations naturally fluctuate</li>
+          <li>Correlation of the asset class with the portfolio as a whole</li>
+          <li>Asset class volatility</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/oldham123">oldham123</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

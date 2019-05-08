@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+              tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                processEscapes: true
+              }
+            });
+          </script>
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+          >
+          </script>
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
+          >
+          </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Reading 21: Currency Management - An Introduction | CFA Level III Notes by Matthew Oldham, 2019</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Reading 21: Currency Management - An Introduction" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Reading 21: Currency Management - An Introduction" />
+<meta property="og:description" content="Reading 21: Currency Management - An Introduction" />
+<link rel="canonical" href="http://localhost:4000/readings/Reading%2021%20Currency%20Management%20-%20An%20Introduction.html" />
+<meta property="og:url" content="http://localhost:4000/readings/Reading%2021%20Currency%20Management%20-%20An%20Introduction.html" />
+<meta property="og:site_name" content="CFA Level III Notes by Matthew Oldham, 2019" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-05-08T21:33:13+01:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Reading 21: Currency Management - An Introduction","dateModified":"2019-05-08T21:33:13+01:00","datePublished":"2019-05-08T21:33:13+01:00","url":"http://localhost:4000/readings/Reading%2021%20Currency%20Management%20-%20An%20Introduction.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/readings/Reading%2021%20Currency%20Management%20-%20An%20Introduction.html"},"description":"Reading 21: Currency Management - An Introduction","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=c4126a73ac06730004ff9024fdf6e5b9636ec572">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">CFA Level III Notes by Matthew Oldham, 2019</a></h1>
+        
+        
+
+        <p>CFA Level III notes</p>
+
+        
+        <p class="view"><a href="https://github.com/oldham123/cfa_level_iii">View the Project on GitHub <small>oldham123/cfa_level_iii</small></a></p>
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <h1>CFA Level III Notes</h1>
+
+      <h1 id="reading-21-currency-management---an-introduction">Reading 21: Currency Management - An Introduction</h1>
+
+<h2 id="21a-analyse-the-effects-of-currency-movements-on-portfolio-risk-and-return">21.A: Analyse the effects of currency movements on portfolio risk and return</h2>
+
+<ul>
+  <li>Consider an example exchange rate: Sell spot 1,000 at CAD/USD 0.98
+    <ul>
+      <li>CAD is the <strong>price currency</strong></li>
+      <li>USD is the <strong>base currency</strong></li>
+      <li>This rate means that 1,000 USD is being offered for immediate sale, at a price of 0.98 CAD per USD
+        <ul>
+          <li>In reality this transaction would take two days to settle but this is often ignored, except in the case of an FX swap</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Consider this example rate: Buy 500 USD/CHF six months forward at 1.07
+    <ul>
+      <li>This rate means that USD is being offered to buy 500 CHF, at a price of 1.07 USD per CHF, with the trade intended to settle in six months</li>
+    </ul>
+  </li>
+  <li>Currency prices are usually expressed in terms of a <strong>bid</strong> and an <strong>ask</strong> price
+    <ul>
+      <li>The lowest figure is presented first, by convention</li>
+      <li>The difference between the two is the profit going to the dealer</li>
+      <li>Given a quote of 0.9790/0.9810 CAD/USD, this means the following:
+        <ul>
+          <li>One USD can be bought for 0.9810 CAD</li>
+          <li>One USD can be sold for 0.9790 CAD</li>
+        </ul>
+      </li>
+      <li>Note that the dealer always receives more, or delivers less</li>
+    </ul>
+  </li>
+  <li>Transactions can be settled immediately (spots) or in the future (forwards)
+    <ul>
+      <li>Forwards can be expressed as a direct quote, or as an adjustment to the spot quote in terms of forward points
+        <ul>
+          <li>Forward points should be divided by $10^n$ where $n$ is the number of decimal places that the spot price is quoted to</li>
+          <li>They should then be added to the spot price</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Forward transactions do not require market-to-market transactions before settlement
+    <ul>
+      <li>However, it may be desirable or regulatorily mandated to mark the position to market value
+        <ul>
+          <li>This is present value of any gain (loss) that would occur if the contract were closed early with an offsetting transaction
+            <ul>
+              <li>An offsetting transaction entails the opposite of whatever is required by the trade</li>
+              <li>For example, for an intial trade to deliver 100 EUR, the offsetting transaction is to buy 100 EUR, to settle on the same date</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>An FX swap is unlike other swaps, involving two transactions:
+    <ul>
+      <li>First, a spot transaction is used to offset the existing forward</li>
+      <li>Secondly, a new forward is entered into</li>
+    </ul>
+  </li>
+  <li>Currency options are expressed in terms of two currencies, where a call on one is a put on the other
+    <ul>
+      <li>For example, consider a call to buy 100 at a price of ZAR/GBP 14.56
+        <ul>
+          <li>This is an option to buy (a call) 100 GBP at a price of 14.56 ZAR per GBP</li>
+          <li>It is also an option to sell (a put) 1,456 ZAR in return for 100 GBP</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>When considering the impact of currency on portfolios, the following terminology is important:
+    <ul>
+      <li><strong>Domestic currency</strong> is the investor’s currency</li>
+      <li>A <strong>domestic asset</strong> is an asset with a value denominated in the investor’s currency</li>
+      <li>A <strong>foreign currency</strong> is any other currency, and a <strong>foreign asset</strong> is any asset denominated in a foreign currency</li>
+      <li><strong>Foreign currency return</strong> is the return of a foreign asset, $R_\text{FC}$ expressed in its local currency</li>
+      <li><strong>Local currency return</strong> is the percentage change in foreign currency value $R_\text{FX}$</li>
+      <li><strong>Domestic currency return</strong> is the return of a foreign asset expressed in domestic currency $R_\text{DC}$, accounting for both $R_\text{FC}$ and $R_\text{FX}$</li>
+    </ul>
+  </li>
+  <li>Any investment in a foreign asset is exposed to:
+    <ul>
+      <li>Risk of the asset</li>
+      <li>Risk of the asset’s local currency</li>
+      <li>Hence, $R_\text{DC} = (1 + R_\text{FC}) \cdot (1 + R_\text{FX}) - 1$
+        <ul>
+          <li>$R_\text{FX}$ is calculated from two exchange rates, $R_0$ and $R_T$ using the following:
+            <ul>
+              <li>$R_\text{FX} = \frac{R_0}{R_T}$</li>
+              <li>Note that the two rates $R_0$ and $R_T$ should be expressed with the foreign currency as the base currency</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Therefore, an expected return for a portfolio invested in multiple foreign assets can be calculated using a weighted average of each individual calculated return</li>
+    </ul>
+  </li>
+  <li>Variance of a portfolio invested in foreign assets is influenced by variance in asset value, and variance in foreign currency value:
+<script type="math/tex">\sigma^2_{R_\text{DC}} \approx w^2_{R_\text{FC}} \cdot \sigma^2_{R_\text{FC}} + w^2_{R_\text{FX}} \cdot \sigma^2_{R_\text{FX}} + 2 \cdot w_{R_\text{FC}} \cdot w_{R_\text{FX}} \cdot \sigma_{R_\text{FC}} \cdot \sigma_{R_\text{FX}} \cdot \rho_{(R_\text{FC}\text{, } R_\text{FX})}</script>
+    <ul>
+      <li>Note that if $R_\text{FC}$ is a risk-free return, then its variance, as well as its correlation with any other return is zero</li>
+      <li>This formula can be used for each foreign asset in the portfolio, with each value then inserted into the similar formula for standard deviation of the entire portfolio</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="21b-discuss-strategic-choices-in-currency-management">21.B: Discuss strategic choices in currency management</h2>
+
+<h2 id="21c-formulate-an-appropriate-currency-management-program-given-financial-market-conditions-and-portfolio-objectives-and-constraints">21.C: Formulate an appropriate currency management program given financial market conditions and portfolio objectives and constraints</h2>
+
+<ul>
+  <li>There is no optimal strategy for currency management that is either empirically or academically supported
+    <ul>
+      <li>Arguments in favour of a passive approach include:
+        <ul>
+          <li>Hedging is costly in both time and money</li>
+          <li>Currency markets are <em>zero-sum</em> in the long run, in that appreciation in one place is a depreciation elsewhere</li>
+          <li>Eventually they revert to fair values</li>
+        </ul>
+      </li>
+      <li>Arguments in favour of an active approach include:
+        <ul>
+          <li>Short run fluctuations can be significant, and present opportunities</li>
+          <li>Capital flow restrictions and monetary policy cause values to deviate from true fair values</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Management strategies include:
+    <ul>
+      <li><strong>Passive hedging</strong> involves matching the currency exposure of a benchmark</li>
+      <li><strong>Discretionary hedging</strong> involves allowing tactical deviations from benchmark currency exposure</li>
+      <li><strong>Active currency management</strong> involves even larger deviations in currency exposure, with a goal of excess return, not risk reduction</li>
+      <li><strong>A currency overlay</strong> is an outsourcing of currency management, where an overlay manager may treat currency as its own asset class, taking positions based on expectations to generate alpha</li>
+      <li>A decision on currency management should be recorded in the IPS, specifying, for example:
+        <ul>
+          <li>The amount of FX exposure to be hedged</li>
+          <li>Allowed deviations</li>
+          <li>Rebalancing frequency</li>
+          <li>Benchmarks used</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Strategic considerations in currency management include the following:
+    <ul>
+      <li>Currency is more volatile in the short run, whilst in the long run it is less important</li>
+      <li>Correlation between foreign asset value and value of the local currency of that foreign asset increases volatility
+        <ul>
+          <li>Negative correlation dampens volatility</li>
+        </ul>
+      </li>
+      <li>Correlation can vary over time</li>
+      <li>The costs of a single hedging transaction can be small, but full hedging and repeated rebalancing can quickly become expensive</li>
+      <li>If hedging options expire out-of-the-money, then the premium is forfeit</li>
+      <li>The time periods to be hedged are often longer than the time horizons of available currency forwards, necessitating FX swaps
+        <ul>
+          <li>These FX swaps realise gains and losses, increasing cash flow volatility</li>
+        </ul>
+      </li>
+      <li>Maintaining cash accounts in multiple currencies increases overhead costs</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="21d-compare-active-currency-trading-strategies-based-on-economic-fundamentals-technical-analysis-carry-trade-and-volatility-trading">21.D: Compare active currency trading strategies based on economic fundamentals, technical analysis, carry-trade, and volatility trading</h2>
+
+<ul>
+  <li>The use of economic fundamentals is based on an assumption that prices revert to true values over time
+    <ul>
+      <li>Currency value increases are considered likely if:
+        <ul>
+          <li>They appear undervalued to a larger degree than others</li>
+          <li>Their true value has upward momentum</li>
+          <li>Higher interest rates are creating greater demand</li>
+          <li>Lower inflation is eroding purchasing power more slowly</li>
+          <li>The local market has lower risk associated with it</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>The use of technical analysis assumes that past price movements can be a good indicator of future price movements
+    <ul>
+      <li>Since humans are likely to react to pricing signals in similar ways, certain patterns can be expected to persist</li>
+      <li>The true theoretical value is deemed unimportant by users of this approach</li>
+      <li>Typical patterns that are observed include:
+        <ul>
+          <li>Currencies that have been <strong>overbought</strong> or <strong>oversold</strong> are likely to reverse</li>
+          <li>The existence of <strong>support levels</strong> at prices which, for psychological reasons, investors are more willing to buy at</li>
+          <li>The existence of <strong>resistance levels</strong> at prices which there are more offers to buy at</li>
+          <li>Signs that prices are <em>pushing through</em> support or resistance levels</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>A <strong>carry trade</strong> is an investment in higher interest rate currencies, financed by a lower interest rate currency
+    <ul>
+      <li><strong>Covered interest rate parity (CIRP)</strong> holds that the difference between spot and forward currency rates is the difference in the period interest rates
+        <ul>
+          <li>Higher interest rates cause a currency to trade at a discount</li>
+        </ul>
+      </li>
+      <li><strong>Uncovered interest rate parity (UCIRP)</strong> holds that the forward rate resulting from CIRP is an <em>unbiased estimator</em> of the future spot rate
+        <ul>
+          <li>However, the currency with the higher rate typically depreciates by less than predicted</li>
+          <li>A carry trade exploits this violation of UCIRP</li>
+        </ul>
+      </li>
+      <li>Consider a current BRL/USD rate of 2.41, with respective interest rates at 6% and 1%
+        <ul>
+          <li>This implies a forward rate for BRL roughly 5% lower</li>
+          <li>To initiate a carry trade, an investor can borrow 100 USD at 1%, convert to 241 BRL and invest at 6%</li>
+          <li>The amount repayable would be 101 USD, whilst the amount generated by the BRL investment would be 255.46 BRL</li>
+          <li>If, due to a violation of UCIRP, BRL has not sufficiently depreciated against USD, this will be convertable into more USD than is due on the loan</li>
+        </ul>
+      </li>
+      <li>Carry trades are usually profitable, but can yield significant losses in periods of volatility and financial distress</li>
+    </ul>
+  </li>
+  <li>Volatility trading is a strategy of profiting from volatility
+    <ul>
+      <li><strong>Delta</strong> is the change of an option price with respect to the price of the underlying</li>
+      <li><strong>Vega</strong> is the change of an option price with respect to the volatility of the underlying</li>
+      <li><strong>Delta-hedging</strong> is the creation of a portfolio that is <strong>delta-neutral</strong> or has a delta of zero
+        <ul>
+          <li>Price fluctuations in the underlying have no impact, only changes in their volatility</li>
+          <li>For example, if volatility is expected to increase, an investor can enter a <strong>long straddle</strong> by purchasing an at-the-money call and put
+            <ul>
+              <li>If volatility is expected to increase, an investor can sell them</li>
+              <li>Since these options, when combined, are delta-neutral, they are effective a way of buying or selling volatilty</li>
+            </ul>
+          </li>
+          <li>A <strong>strangle</strong> is cheaper to enter into, using out-of-the-money options to establish a <em>minimum</em> fluctuation required to create an intrinsic value</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="21e-describe-how-changes-in-factors-underlying-active-trading-strategies-affect-tactical-trading-decisions">21.E: Describe how changes in factors underlying active trading strategies affect tactical trading decisions</h2>
+
+<ul>
+  <li>Each of the following events should then trigger an appropriate response:
+    <ul>
+      <li>Relative currency appreciation should lead to reducing a hedge or increasing a long position</li>
+      <li>If volatility is rising then investors should make use of a strangle or straddle</li>
+      <li>If market conditions are stable, then carry trades can be executed</li>
+      <li>Carry trades can be composites of trades in multiple currencies, with exposure tilted towards and away from individual currencies based on market expectations</li>
+      <li>Delta-neutral portfolios can be adjusted into having net positive or negative deltas if expectations indicate the corresponding movement in the underlying is likely</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="21f-describe-how-forward-contracts-and-fx-swaps-are-used-to-adjust-hedge-ratios">21.F: Describe how forward contracts and FX swaps are used to adjust hedge ratios</h2>
+
+<ul>
+  <li>Forward contracts have the following advantages:
+    <ul>
+      <li>More flexible than futures</li>
+      <li>Available in terms of almost any desired currency</li>
+      <li>Do not require margin, reducing the complexity of engaging in the trade, and the required cash flows</li>
+      <li>Significantly more liquid markets</li>
+    </ul>
+  </li>
+  <li>Hedges can be either <strong>static</strong> (held until expiration) or <strong>dynamic</strong> (continuously reblanced)
+    <ul>
+      <li>Consider a portfolio containing a foreign asset of a certain value to be hedged:
+        <ul>
+          <li>Sell an amount of currency equal to the current foreign asset price in the forward market for a given period</li>
+          <li>Two days before maturing of the forward buy the required currency to cover the initial short position</li>
+          <li>Sell another amount of currency equal to the new value of the foreign asset if it has changed</li>
+        </ul>
+      </li>
+      <li>If the amount hedged is not adjusted between the initiation of the hedge and its expiration, then it is static</li>
+      <li>If the amount hedged is adjusted by changing the amount hedged with a given periodicity, then it is dynamic</li>
+    </ul>
+  </li>
+  <li><strong>Roll yield</strong> is return accrued due to the convergence of the forward price to the spot price
+    <ul>
+      <li>Consider an investor entering a one month forward contract to sell 100 CHF for USD at 1.05, whilst the spot price is 1.04
+        <ul>
+          <li>100 CHF can be bought for 104 USD at the initial spot price</li>
+          <li>It can then be delivered at contract expiration for 105 USD, with a profit of 1 USD</li>
+          <li>Shorting CHF generates a profit because the forward is at a premium</li>
+        </ul>
+      </li>
+      <li>By increasing the value of trades with positive roll yield, and decreasing that of trades with negative roll yield, hedging costs can be offset</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="21g-describe-trading-strategies-used-to-reduce-hedging-costs-and-modify-the-risk-return-characteristics-of-a-foreign-currency-portfolio">21.G: Describe trading strategies used to reduce hedging costs and modify the risk-return characteristics of a foreign-currency portfolio</h2>
+
+<ul>
+  <li>Hedging can be expensive, perfect hedging even more so
+    <ul>
+      <li>Costs rise further if an investor wants to eliminate downside risks whilst maintaining upside gain</li>
+      <li>The following are all potential hedging strategies, in decreasing order of hedging cost:
+        <ul>
+          <li><strong>Over-hedging</strong> when depreciation is expected allows for potential gain if the expectation is correct</li>
+          <li>At-the-money put options eliminate downside risk only, but can be expensive and have no instrinsic value</li>
+          <li>Out-of-the-money put options are cheaper, but retain some downside risk, until the underlying price hits the strike price</li>
+          <li>A <strong>collar</strong> combines an out-of-the-money put (bought) and call (sold), with the call removing some upside potential and generating premium income, whilst the put removes some downside risk</li>
+          <li>A <strong>put spread</strong> involves the purchase of an out of the money put, and selling another put even further out of the money, providing a corridor of downside protection between the two strike prices</li>
+          <li>A <strong>seagull spread</strong> combines a put spread with selling a call, to generate premium income in return for limiting upside potential</li>
+        </ul>
+      </li>
+      <li>Even more exotic options can create more complex strategies:
+        <ul>
+          <li>A <strong>knock-in</strong> option prevents a vanilla option from activating unless the underlying reaches a prespecified price</li>
+          <li>A <strong>knock-out</strong> option kills a vanilla option if the underlying hits a prespecified price</li>
+          <li><strong>Binary</strong> or <strong>digital</strong> options have payoffs that do not vary with the price of the underlying</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="21h-describe-the-use-of-cross-hedges-macro-hedges-and-minimum-variance-hedge-ratios-in-portfolios-exposed-to-multiple-foreign-currencies">21.H: Describe the use of cross-hedges, macro-hedges, and minimum-variance-hedge ratios in portfolios exposed to multiple foreign currencies</h2>
+
+<ul>
+  <li>A <strong>cross-hedge</strong>is a hedge that is achieved using an instrument without perfect correlation to the hedged asset
+    <ul>
+      <li>Whilst the hedging is imperfect, it can ocasionally be more efficient than constructing a perfect hedge</li>
+    </ul>
+  </li>
+  <li>A <strong>macro-hedge</strong> is a form of cross-hedge that operates at a risk factor level instead of an asset level
+    <ul>
+      <li>Bond futures might be used to hedge interest rate risk, and volatility trading might be used to hedge against volatility</li>
+      <li>Derivatives contracts built on multiple currencies can modify the currency exposure of an entire portfolio</li>
+      <li>The hedging is not perfect, but may still be adequate whilst being significantly cheaper and simpler than perfect hedging</li>
+    </ul>
+  </li>
+  <li>The <strong>minimum-variance hedge ratio</strong> is a rigorous approach to determining the appropriate hedging ratio, using regression to minimise tracking error between the hedging instrument and the portfolio
+    <ul>
+      <li>The hedge ratio is the beta of this regression</li>
+      <li>Note that this correlation is not static, and as the relationship changes, the effectiveness of the hedge can too</li>
+      <li>This technique is important when engaged in cross-hedging</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="21i-discuss-challenges-for-managing-emerging-market-currency-exposures">21.I: Discuss challenges for managing emerging market currency exposures</h2>
+
+<ul>
+  <li>Emerging market currency trading involves the following potential problems:
+    <ul>
+      <li>Larger bid/ask spreads due to lower trading volume</li>
+      <li>Lower liquidity and higher transaction costs</li>
+      <li>Making markets between two emerging market currencies is especially difficult, and compounds most of these issues</li>
+      <li>Trading in these currencies entails non-normal return distributions, with a higher probability of extreme events</li>
+      <li>Correlation between emerging market currencies can approach 1 in financial crises, due to contagion</li>
+      <li>Higher yields leads to significant forward discounts, which means that negative roll yield occurs for anyone attempting to sell the currency</li>
+      <li><strong>Tail risk</strong> is the higher than expected likelihood of negative events, caused by regular government intervention suppressing market forces until the intervention becomes insufficient, leading to negative spikes</li>
+    </ul>
+  </li>
+  <li>Due to restrictions on capital flows from countries attempting to manage their currency, regular forwards may not be settleable
+    <ul>
+      <li><strong>Non-deliverable forwards</strong> deal with that by allowing for settlement in a developed market currency</li>
+    </ul>
+  </li>
+</ul>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/oldham123">oldham123</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

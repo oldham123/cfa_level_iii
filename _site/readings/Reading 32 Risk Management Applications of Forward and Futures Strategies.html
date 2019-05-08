@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+              tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                processEscapes: true
+              }
+            });
+          </script>
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+          >
+          </script>
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
+          >
+          </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Reading 32: Risk Management Applications of Forward and Futures Strategies | CFA Level III Notes by Matthew Oldham, 2019</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Reading 32: Risk Management Applications of Forward and Futures Strategies" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Reading 32: Risk Management Applications of Forward and Futures Strategies" />
+<meta property="og:description" content="Reading 32: Risk Management Applications of Forward and Futures Strategies" />
+<link rel="canonical" href="http://localhost:4000/readings/Reading%2032%20Risk%20Management%20Applications%20of%20Forward%20and%20Futures%20Strategies.html" />
+<meta property="og:url" content="http://localhost:4000/readings/Reading%2032%20Risk%20Management%20Applications%20of%20Forward%20and%20Futures%20Strategies.html" />
+<meta property="og:site_name" content="CFA Level III Notes by Matthew Oldham, 2019" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-05-08T21:33:13+01:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Reading 32: Risk Management Applications of Forward and Futures Strategies","dateModified":"2019-05-08T21:33:13+01:00","datePublished":"2019-05-08T21:33:13+01:00","url":"http://localhost:4000/readings/Reading%2032%20Risk%20Management%20Applications%20of%20Forward%20and%20Futures%20Strategies.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/readings/Reading%2032%20Risk%20Management%20Applications%20of%20Forward%20and%20Futures%20Strategies.html"},"description":"Reading 32: Risk Management Applications of Forward and Futures Strategies","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=c4126a73ac06730004ff9024fdf6e5b9636ec572">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">CFA Level III Notes by Matthew Oldham, 2019</a></h1>
+        
+        
+
+        <p>CFA Level III notes</p>
+
+        
+        <p class="view"><a href="https://github.com/oldham123/cfa_level_iii">View the Project on GitHub <small>oldham123/cfa_level_iii</small></a></p>
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <h1>CFA Level III Notes</h1>
+
+      <h1 id="reading-32-risk-management-applications-of-forward-and-futures-strategies">Reading 32: Risk Management Applications of Forward and Futures Strategies</h1>
+
+<h2 id="secret-sauce-notes">Secret Sauce Notes</h2>
+
+<ul>
+  <li>Derivates can be used to adjust portfolio exposures
+    <ul>
+      <li>Buying equity contracts increases equity exposure, and portfolio beta</li>
+      <li>Buying bond contracts increases bond exposure, and portfolio duration</li>
+      <li>The inverse can be achieves by selling them</li>
+      <li>The number to buy or sell is determined by the desired shift in exposure</li>
+      <li>Where $T$ denotes target, $P$ denotes portfolio, $f$ denotes future, $P$ denotes price, $\beta$ denotes beta, $\text{MD}$ denotes duration, and $V$ denotes value, the number of contracts can be calculated thusly:
+<script type="math/tex">\text{number of contracts} = \left( \frac{\beta_T - \beta_P}{\beta_f} \right) \cdot \left( \frac{V_p}{P_f} \right)</script>
+<script type="math/tex">\text{number of contracts} = \left( \frac{\text{MD}_T - \text{MD}_P}{\text{MD}_f} \right) \cdot \left( \frac{V_p}{P_f} \right) \cdot (\text{yield beta})</script></li>
+    </ul>
+  </li>
+  <li>The modifications achieved by these methods is rarely perfect, due to <strong>basis risk</strong>
+    <ul>
+      <li>This occurs when the item being hedged is not a good match for the hedging instrument</li>
+      <li>This causes the relationship between the portfolio and the derivatives purchased to change in unexpected ways:
+        <ul>
+          <li>The portfolio being hedged is different to the index on which the hedging instrument is based</li>
+          <li>The estimated beta and duration are incorrect</li>
+          <li>The results of the hedge are inspected at a time other than contract expiration (where future and spot prices are known)</li>
+          <li>The initial prices where not fair according to arbitrage formulae</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Synthetic positions make the use of derivatives to create positions equivalent to the purchasing of an actual asset, including resulting cashflows
+    <ul>
+      <li>A synthetic equity position combines equity futures with sufficient cash assets invested at the risk-free rate to “pay for” the position at expiration</li>
+      <li>A synthetic cash position combines selling equity futures with holding sufficient underlying securities to settle the position</li>
+      <li>Formulae for futures contract hedging can be used to construct these positions, with future values used in place of portfolio values</li>
+      <li>Futures can also be used to adjust from equity exposure to bond exposure by shorting stock index futures to eliminate systematic risk, and then purchasing bond futures
+        <ul>
+          <li>The inverse can be done to shift exposure from bonds to equities</li>
+        </ul>
+      </li>
+      <li>Value can be effectively “transferred” from one asset class to another by converting exposure from one class, to cash, and then to the target class</li>
+      <li><strong>Pre-investing</strong> involves taking long positions in futures contracts to create exposure to convert future cash flows into a synthetic position</li>
+    </ul>
+  </li>
+  <li>Exchange rate risk comes in three main forms
+    <ul>
+      <li><em>Economic exposure</em> is a domestic exporter’s loss of sales due to currency appreciation</li>
+      <li><em>Translation exposure</em> is a domestic investor’s loss of value in foreign assets due to foreign currency depreciation</li>
+      <li><em>Transaction exposure</em> is loss due to exchange rate fluctuations reducing the value of foreign cash flows, or increasing the cost of foreign purchases</li>
+    </ul>
+  </li>
+</ul>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/oldham123">oldham123</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

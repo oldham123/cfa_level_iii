@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+              tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                processEscapes: true
+              }
+            });
+          </script>
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+          >
+          </script>
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
+          >
+          </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Reading 23: Liability-Driven and Index-Based Strategies | CFA Level III Notes by Matthew Oldham, 2019</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Reading 23: Liability-Driven and Index-Based Strategies" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Reading 23: Liability-Driven and Index-Based Strategies" />
+<meta property="og:description" content="Reading 23: Liability-Driven and Index-Based Strategies" />
+<link rel="canonical" href="http://localhost:4000/readings/Reading%2023%20Liability-Driven%20and%20Index-Based%20Strategies.html" />
+<meta property="og:url" content="http://localhost:4000/readings/Reading%2023%20Liability-Driven%20and%20Index-Based%20Strategies.html" />
+<meta property="og:site_name" content="CFA Level III Notes by Matthew Oldham, 2019" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-05-08T21:33:13+01:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Reading 23: Liability-Driven and Index-Based Strategies","dateModified":"2019-05-08T21:33:13+01:00","datePublished":"2019-05-08T21:33:13+01:00","url":"http://localhost:4000/readings/Reading%2023%20Liability-Driven%20and%20Index-Based%20Strategies.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/readings/Reading%2023%20Liability-Driven%20and%20Index-Based%20Strategies.html"},"description":"Reading 23: Liability-Driven and Index-Based Strategies","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=c4126a73ac06730004ff9024fdf6e5b9636ec572">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">CFA Level III Notes by Matthew Oldham, 2019</a></h1>
+        
+        
+
+        <p>CFA Level III notes</p>
+
+        
+        <p class="view"><a href="https://github.com/oldham123/cfa_level_iii">View the Project on GitHub <small>oldham123/cfa_level_iii</small></a></p>
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <h1>CFA Level III Notes</h1>
+
+      <h1 id="reading-23-liability-driven-and-index-based-strategies">Reading 23: Liability-Driven and Index-Based Strategies</h1>
+
+<h2 id="23a-describe-liability-driven-investing">23.A: Describe liability-driven investing</h2>
+
+<ul>
+  <li>When a portfolio exists in order to meet a definable future liability, <strong>liability-driven investing</strong> may be used
+    <ul>
+      <li><strong>Asset-liability management</strong> is the use of strategies focused on the overall surplus or deficit between portfolio assets and liabilities
+        <ul>
+          <li>If the present value of liabilities and assets both change with variable rates then this approach may be appropriate</li>
+        </ul>
+      </li>
+      <li><strong>Liability-driven investing</strong> accepts the existence of future liabilities as a given and manages assets in order to cover those liabilities</li>
+      <li><strong>Asset-driven investing</strong> accepts the existence of current assets as a given and manages future liabilities with respect to those assets</li>
+    </ul>
+  </li>
+  <li>LDI is usually more applicable to institutional investors, but it can be useful for individuals too, for example if they have a future goal that they want to be able to meet
+    <ul>
+      <li>There are four main types of liability
+        <ul>
+          <li><strong>Type I liabilities</strong> have known amounts and payment dates</li>
+          <li><strong>Type II liabilities</strong> have known amounts but uncertain payment dates</li>
+          <li><strong>Type III liabilities</strong> have uncertain amounts but known payment dates</li>
+          <li><strong>Type IV liabilities</strong> have uncertain amounts and payment dates</li>
+        </ul>
+      </li>
+      <li>Whilst simple duration is appropriate for modelling liabilities of type I, modified duration is required for the other three</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="23b-evaluate-strategies-for-managing-a-single-liability">23.B: Evaluate strategies for managing a single liability</h2>
+
+<ul>
+  <li><strong>Immunisation</strong> is the minimisation of return variability over a given time period
+    <ul>
+      <li>This allows for reliable calculation of the future value of plan assets, and assurance that a future liability can be met</li>
+      <li>The goal of an immunised portfolio is to earn its initial IRR, in order to grow to a future value sufficient to fund the liability</li>
+      <li><strong>Cash-flow matching</strong> is a simple form of immunisation, which involves purchased a fixed-income instrument that provides inflows identical to the outflows associated with a liability
+        <ul>
+          <li><strong>Macaulay duration</strong> is the weighted-average time until cash flows due from an asset are received
+            <ul>
+              <li>Since all the cash flows of a zero-coupon bond are received at maturity, macaulay duration of a zero coupon bond is also maturity</li>
+              <li>Non-zero-coupon bonds have coupon payments that cause the macaulay duration to be less than maturity</li>
+              <li>A cash-flow matched portfolio will have the same macaulay duration as the liabilities it aims to fund
+                <ul>
+                  <li><strong>Price risk</strong> is the risk to returns if the bond must be sold before maturity</li>
+                  <li><strong>Reinvestment risk</strong> is the risk to returns due to the uncertain returns on reinvested cash flows</li>
+                  <li>Macaulay duration is a point at which these risks offset each other</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><strong>Modified duration</strong> is the macaulay duration divided by the periodic discount rate used in calculating the present values of cash flows
+            <ul>
+              <li>Modifed duration is slightly more suited to measuring price change of an asset</li>
+              <li>Macaulay duration is slightly more suited as a measure of time for immunisation purposes</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Rather than computing values based on weighted averages of the assets within the portfolio, <strong>portfolio statistics</strong> can be used
+    <ul>
+      <li>Portfolio statistics are directly calculated from portfolio cash flows</li>
+      <li>With a flat yield curve using portfolio statistics instead will not yield any differences, but they will if the yield curve slopes upward</li>
+      <li>Whilst portfolio statistics are generally more appropriate, weighted average values can be used, but they can introduce errors into the approximation</li>
+    </ul>
+  </li>
+  <li><strong>Dispersion</strong> refers to the dispersion of cash flows from fixed income assets
+    <ul>
+      <li>Dispersion has a non-negligible impact on the success of immunisation strategies due to convexity
+<script type="math/tex">\text{convexity} = \frac{\text{Macaulay duration}^2 + \text{Macaulay duration} + \text{dispersion}}{(1 + \text{periodic IRR})^2}</script></li>
+      <li>Consider an investor with a liability due in five years, with a portfolio they intend to use to immunise it
+        <ul>
+          <li>The portfolio is composed of twofixed income assets, one with longer, and one with shorter duration than the liability</li>
+          <li>Overall portfolio duration matches that of the liability, and the present values of both are equal</li>
+          <li>Additionally, portfolio convexity exceeds that of the liability
+            <ul>
+              <li>Higher convexity leads to a smaller price shift for a given change in yields, ensuring that the portfolio will exceed the amount required by the liability</li>
+            </ul>
+          </li>
+          <li>This scenario demonstrates that using duration matching instead of cash-flow matching preserves some structural risk
+            <ul>
+              <li>Assets and liabilities that are matched only on durations but not cash flows can perform differently under the same yield curve shifts</li>
+              <li>Since most shifts are parallel, this structural risk usually benefits the investor</li>
+            </ul>
+          </li>
+          <li>This also demonstrates why immunisation is also referred to as <strong>zero-replication</strong>
+            <ul>
+              <li>As the yield curve shifts, the resulting changes in the present values of the assets and liabilities either perform as well as or better than a zero-coupon perfectly matched to the liability
+                <ul>
+                  <li>It is important to note that none parallel shifts that don’t result in this positive outcome are possible, i.e. the strategy is not risk-free</li>
+                  <li>Additionally, the duration of the portfolio is not fixed, and so rebalancing will be required</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>If the yield for the lower duration asset falls, whilst that of the higher duration increases (i.e. a <em>steepening twist</em>) the value of the longer duration bond will decrease by more than the increase for the shorter duration bond
+            <ul>
+              <li>However, the likely increase in IRR may still allow the portfolio to fund the liablility</li>
+              <li>In the opposite case (i.e. a <em>flattening twist</em>), the increase in value of the longer duration asset may exceed the fall of the shorter duration asset
+                <ul>
+                  <li>However, IRR is likely to decrease, which must also be considered</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>In a <em>positive butterly twist</em> the yields of both assets rise, whilst the liability yield falls
+            <ul>
+              <li>This is likely to lead to a significant chance of not being able to fund the liability due to a fall in value of the portfolio, and an increase in the present value of the liability
+                <ul>
+                  <li>IRR may increase but this yield curve movement may create significant structural risk</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>In the inverse scenario, a <em>negative butterfly twist</em>, the values of the portfolio and liability are highly likely to shift favourable, but there is significant risk of a fall in portfolio IRR relative to the liability discount rate</li>
+        </ul>
+      </li>
+      <li>Overall, risk is reduced by reducing dispersion of asset cash flows around those of the liability
+        <ul>
+          <li>This reduces convexity, and risks associated with yield curve shifts</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="23c-compare-strategies-for-a-single-liability-and-for-multiple-liabilities-including-alternative-means-of-implementation">23.C: Compare strategies for a single liability and for multiple liabilities, including alternative means of implementation</h2>
+
+<ul>
+  <li><strong>Cash flow matching</strong> is the lowest risk immunisation strategy
+    <ul>
+      <li>Risks are so low that it may allow <em>accounting defeasance</em>, where liabilities are removed from the balance sheet entirely, along with the assets dedicated to funding them</li>
+      <li>Zero-coupon bonds are the simplest instruments to achieve cash flow matching, but it can also be done with coupon bearing bonds
+        <ul>
+          <li>The precise coupon bearing bonds required for cash flow matching are unlikely to be available</li>
+          <li>A <em>cash in advance</em> constraint requires assets used to fund liabilities to pay out slightly before those liabilities are due, but this can create reinvestment risk</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Duration matching</strong> is a more flexible approach, where asset and liability macaulay durations must match
+    <ul>
+      <li>Matching <strong>money duration</strong> however is a more common methodology, featuring the following steps:
+        <ol>
+          <li>Ensure that $\text{PV(assets)}&gt;\text{PV(liabilities)}$</li>
+          <li>Ensure that $\text{BPV}<em>\text{assets} = \text{BPV}</em>\text{liabilities}$
+            <ul>
+              <li>$\text{BPV} = \text{modified duration} \cdot \text{value} \cdot 0.0001$</li>
+            </ul>
+          </li>
+          <li>Ensure that dispersion and convexity of assets slightly exceeds that of liabilities</li>
+          <li>Rebalance the portfolio regularly to maintain $\text{BPV}$ matching</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>The costs of adjusting portfolio assets can be avoided through the use of a <strong>derivatives overlay</strong>
+    <ul>
+      <li>Futures contracts can be included into a portfolio to adjust its duration</li>
+      <li>In the US, such contracts are available based on the 30 year bond, and the two, five, and ten year Treasury notes</li>
+      <li>The seller of these contracts must provide $100,000 par of a deliverable security</li>
+      <li>In return the buyer pays the price of the contract, multiplied by some conversion factor $\text{CF}_\text{CTD}$</li>
+      <li>The bond that the seller chooses to use to satisfy the terms of the contract determines the duration of the contract
+<script type="math/tex">\text{BPV}_\text{future} \approx \frac{\text{BPV}_\text{CTD}}{\text{CF}_\text{CTD}}</script></li>
+      <li>This can be used to determine the number of futures contract should be added to a portfolio in order to restore duration matching
+<script type="math/tex">N_f = \frac{\text{BPV}_\text{liability} - \text{BPV}_\text{portfolio}}{\text{BPV}_\text{futures}}</script></li>
+    </ul>
+  </li>
+  <li><strong>Contingent immunisation</strong> combines an active and passive outlook
+    <ul>
+      <li>Provided that the portfolio has a sufficient surplus, active management can be used with a goal of generating alpha</li>
+      <li>If the surplus shrinks, the portfolio should be immunised before it reaches zero</li>
+      <li>Some CI approaches can create liquidity risk, particularly if the entire portfolio is being actively managed (instead of just the surplus)
+        <ul>
+          <li>Rapid immunisation would require rapid liquidation of assets</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="23d-evaluate-liability-based-strategies-under-various-interest-rate-scenarios-and-select-a-strategy-to-achieve-a-portfolios-objectives">23.D: Evaluate liability-based strategies under various interest rate scenarios and select a strategy to achieve a portfolio’s objectives</h2>
+
+<ul>
+  <li>Recall how duration effects the relationship between a change in yields and a change in prices
+<script type="math/tex">\Delta \text{PV}=(-\text{modifed duration} \cdot \Delta Y)+(\frac{C}{2} \cdot \Delta Y^2)</script>
+    <ul>
+      <li>Keeping everything else fixed, for a given increase in interest rates, higher duration means a larger fall in prices, and vice versa</li>
+      <li>If an increase in interest rates is expected, instead of duration matching, it may be desirable to ensure that asset value falls by less than that of liabilities</li>
+      <li>This can be done by underhedging, or buying fewer futures contracts, so that asset duration is lower than liability duration</li>
+      <li>If rates are expected to fall, overhedging can be used</li>
+    </ul>
+  </li>
+  <li>The use of a derivatives overlay creates additional risks
+    <ul>
+      <li>There is a requirement to post margin daily</li>
+      <li>Interest rate swaps may be an alternative that avoid this requirement
+        <ul>
+          <li>Purchasing a receive-fixed swap is equivalent to purchasing a bond, and reduces duration</li>
+          <li>Purchasing a pay-fixed swap increases duration</li>
+          <li>The lack of a requirement to post daily margin is not necessarily the case everywhere, or permanently the case
+            <ul>
+              <li>In some cases regular marking to market is required</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>A <strong>swaption</strong> is the right to enter a swap, purchased by paying an initial premium
+    <ul>
+      <li>To increase portfolio duration, an investor could purchase a receiver swaption
+        <ul>
+          <li>The investor now has the right to initiative a receive-fixed swap at a predetermined <strong>swap fixed rate (SFR)</strong></li>
+          <li>To establish whether a swap has value, its SFR can be combined to the SFR of new swaptions</li>
+          <li>If the new SFR is lower, then the right to receive fixed adds value to the portfolio</li>
+          <li>Otherwise, the swaption expires worthless
+            <ul>
+              <li>Note that entering a swap would have entailed losses</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Investors can also combine swaptions into a <strong>swaption collar</strong>
+        <ul>
+          <li>This technique reduces the cost of a receive-fixed swaption by selling a pay-fixed swaption
+            <ul>
+              <li>This however reduces the upside of an increase in rates, as the investor would have to pay variable in return for fixed if the swaption is activated</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="23e-explain-risks-associated-with-managing-a-portfolio-against-a-liability-structure">23.E: Explain risks associated with managing a portfolio against a liability structure</h2>
+
+<ul>
+  <li>Managing a portfolio with the express purpose of funding liabilities has a series of risks associated with it:
+    <ul>
+      <li>The calculated hedge amounts are, ultimately, approximations, and many calculations neglect convexity
+        <ul>
+          <li>Convexity must be accounted for if the yield curve shifts are significant</li>
+        </ul>
+      </li>
+      <li>Duration calculations assume that the yield curve shifts in a parallel fashion</li>
+      <li>A twisting yield curve can nullify the ability of an immunisation strategy to replicate a zero-coupon bond
+        <ul>
+          <li>Portfolio convexity relative to liabilities should be slightly increased whilst minimising dispersion</li>
+        </ul>
+      </li>
+      <li>Measurement errors can accumulate if portfolio statistics are neglected in favour of weighted averages of assets</li>
+      <li>The CTD of a futures contract can change, whilst many calculations assume it does not</li>
+      <li>The use of OTC derivatives as part of a derivative overlay exposes the investor to counterparty risk</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="23f-discuss-bond-indices-and-the-challanges-of-managing-a-fixed-income-portfolio-to-mimic-the-characteristics-of-a-bond-index">23.F: Discuss bond indices and the challanges of managing a fixed income portfolio to mimic the characteristics of a bond index</h2>
+
+<ul>
+  <li>Bond indices providing a range of exposure options exist
+    <ul>
+      <li>Investing in an index is an alternative to management of fixed income assets, providing a similar diversification benefit</li>
+      <li>The aim of such an index is to minimise <strong>tracking error</strong>
+        <ul>
+          <li>Tracking error is the standard deviation of active return</li>
+        </ul>
+      </li>
+      <li>The <strong>pure index</strong>, or <strong>full replication</strong> methodology involves holding the same assets with the same weights as the index</li>
+      <li><strong>Enhanced indexing</strong> aims to replicate the same risk exposures but using different assets, since actual full replication can entail significant transaction costs</li>
+    </ul>
+  </li>
+  <li>Fixed income indexing presents several challenges:
+    <ul>
+      <li>The market is larger and more varied than the equities market</li>
+      <li>Each issue from a single issuer is likely to vary greatly in liquidity</li>
+      <li>Capital requirements have increased, leading to larger dealer spreads, and reduced liquidity</li>
+      <li>Transactions for a specific issue may be rare, and are likely to be private, leading to a lack of reliable data
+        <ul>
+          <li>Bond prices can be implied through matrix pricing, but this is not a perfect technique</li>
+        </ul>
+      </li>
+      <li>The composition of a fixed income index can undergo significant changes rapidly as issues mature, and new bonds are issued</li>
+    </ul>
+  </li>
+  <li>As an alternative to full replication, an investor may attempt to match the following:
+    <ul>
+      <li>Modified duration, in order to reduce tracking error due to parallel yield curve shifts
+        <ul>
+          <li>The presence of embedded options necessitates the use of <strong>effective duration</strong></li>
+        </ul>
+      </li>
+      <li>Matching durations at specific <em>key rates</em> can reduce tracking error from non-parallel yield curve shifts</li>
+      <li>Match exposures to various sectors, and credit qualities</li>
+      <li>Another technique is to match the present value distribution of cash flows</li>
+    </ul>
+  </li>
+  <li><strong>Stratified sampling</strong> is a technique used to implement enhanced indexing
+    <ul>
+      <li>Identify the main attributes of the index to match (e.g. credit quality, sector, maturity)</li>
+      <li>Determine the weights of each present in the index</li>
+      <li>Choose assets that replicate these weights</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="23g-compare-alternative-methods-for-establishing-bond-market-exposure-passively">23.G: Compare alternative methods for establishing bond market exposure passively</h2>
+
+<ul>
+  <li>Indirect exposure provides the diversification benefits of fixed income investing without directly investing in bonds
+    <ul>
+      <li>This can be done using funds, or derivates</li>
+      <li>Whilst some costs of fixed income investing are avoided, these approaches can incur costs and risks of their own</li>
+    </ul>
+  </li>
+  <li><strong>Mutal funds</strong> with a focus on the fixed income market may be appropriate for smaller, or individual investors
+    <ul>
+      <li>By leveraging large amounts of aggregated capital they may be able to benefit from tighter spreads in OTC trades</li>
+      <li>Shares in <strong>open-ended</strong> funds can be bought or sold with respect to the fund’s <strong>net asset value (NAV)</strong>
+        <ul>
+          <li>Participation in these funds can entail transactional costs</li>
+          <li>Shares in these funds, unlike bonds, do not mature, and the income stream from them can change over time</li>
+          <li>They can only be bought or sold once per day</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Exchange traded funds</strong> trade shares continuously on exchanges
+    <ul>
+      <li><strong>Authorised participants</strong> can sell shares in the fund and receive a share of the fund assets</li>
+      <li>They can also sell a package of underlying assets to the fund in return for an increased share</li>
+      <li>Whilst this leads to arbitrage between shares in the fund and the NAV, it isn’t a very effective process due to the illiquidity of underlying assets</li>
+    </ul>
+  </li>
+  <li><strong>Synthetic strategies</strong> make use of derivatives in order to obtain passive exposure
+    <ul>
+      <li>A <strong>total return swap</strong> involves an investor agreeing to paying LIBOR plus some rate, in return for receiving the rate of return on a fixed income index
+        <ul>
+          <li>Unless collateralised, this is effectively the same as a leveraged investment in the index</li>
+          <li>The counterparty to such a transaction is in general a dealer who can replicate the index more efficiently than an individual investor</li>
+          <li>Disadvantages of this strategy include:
+            <ul>
+              <li>The underlying assets are not owned</li>
+              <li>The term is normally shorter, and introduces rollover risk</li>
+              <li>If the point of the transaction is to gain exposure where it would otherwise be difficult (e.g. due to illiquidity), this will be reflected in the spread paid</li>
+              <li>Regulatory changes are increasing costs and requirements on dealers, making these transactions more costly in turn for investors</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><strong>Exchange traded derivatives</strong> are another alternative, although regulatory changes are affecting them also
+        <ul>
+          <li>Futures contracts that provide exposure to bond indices have been available since 2006 but their popularity, and thus availability, has waned</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="23h-discuss-criteria-for-selecting-a-benchmark-and-justify-the-selection-of-a-benchmark">23.H: Discuss criteria for selecting a benchmark and justify the selection of a benchmark</h2>
+
+<ul>
+  <li>Selection of bond indices has several complications:
+    <ul>
+      <li>Duration declines over time for a static fixed income portfolio</li>
+      <li>Index composition may undergo dramatic shifts due to issue maturation, or new issuance</li>
+      <li>A value-weighted index may overweight issuers with lower creditworthiness, since they issue more bonds</li>
+    </ul>
+  </li>
+  <li>One way of constructing fixed income portfolios is the use of <strong>smart beta rules</strong>
+    <ul>
+      <li>This is a methodology that involves establishing simple rules that can be followed to add value
+        <ul>
+          <li>One example is to determine desired exposures to various sectors, as well as desired duration, leading to a <em>custom index</em></li>
+          <li>Another is a <strong>credit barbell</strong>, with longer term US treasuries used to increase duration, with shorter term corporate bonds used to increase return</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="23i-describe-construction-benefits-limitations-and-risk-return-characteristics-of-a-laddered-bond-portfolio">23.I: Describe construction, benefits, limitations, and risk-return characteristics of a laddered bond portfolio</h2>
+
+<ul>
+  <li>A <strong>laddered portfolio</strong> features roughly equal par amounts of fixed income securities maturing each year
+    <ul>
+      <li>This portfolio has identical duration to both a bullet portfolio and a barbell portfolio, but with other key differences
+        <ul>
+          <li>A laddered portfolio has higher liquidity due to bonds maturing each year</li>
+          <li>A laddered portfolio achieves greater diversification across maturities</li>
+          <li>This portfolio protects against reinvestment risk because naturally some cash will be reinvested at higher rates, and some at lower rates</li>
+          <li>A laddered portfolio has higher convexity than a bullet portfolio, which can generate returns in the event of a parallel yield curve shift</li>
+        </ul>
+      </li>
+      <li>Instead of a laddered portfolio of bonds, one can be constructed from <strong>target date</strong> bond ETFs
+        <ul>
+          <li>Each will mature in a designated year, passively managed to replicate a bond maturing</li>
+          <li>This can reduce management costs compared to actual fixed income investing</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/oldham123">oldham123</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>
