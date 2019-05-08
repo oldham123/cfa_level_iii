@@ -22,6 +22,7 @@ layout: reading
 
 - Equities have correlations with other asset classes below one, and so including them in a portfolio brings diversification benefits
   - Note that during times of economic hardship, these diversification benefits may decrease due to increasing correlation
+  - Additionally, volatilities of assets increase
 
 - Equity investments can function as an inflation hedge, because firms can increase prices as costs of inputs rise
   - It is important to note that the relationship between equity values and inflation rates, whilst present, is unstable
