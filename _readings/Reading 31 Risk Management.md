@@ -58,6 +58,8 @@ layout: reading
   - VaR for a portfolio cannot be calculated without considerng asset correlations
   - Methods for calculating it include:
     - Use of historical data
+      - When calculating at a given significance percentage, take that percentage of the lowest returns, and then select the highest return of that subset
+      - Multiply by portfolio value to get historical VaR
     - Use of Monte Carlo simulation
     - Use of the **analytical method**
       - For a portfolio with an expected daily return of $\hat{\text{R}}_p$, a daily standard deviation of $\sigma$, a value of $\text{V}_p$, and a critical value given by the chosen significance level of $\text{z}$, VaR is given by:
@@ -71,6 +73,10 @@ $$
 
 - VaR is useful in that it is relevant regardless of the type of assets
   - However, it fails to capture the potentiality of extreme losses
+
+- In order to calculate analytical VaR for a portfolio of two assets, first:
+  - Calculate the weighted average of expected returns of each asset
+  - Calculate the combined variance of the portfolio using the two-asset portfolio variance formula
 
 - **Incremental VaR** expresses the impact on VaR of a specific change to a portfolio (i.e. adding a new security)
   - **Cash flow at risk** is the same technique applied to cash flows, similar to **earnings at risk**
@@ -103,7 +109,8 @@ $$
 - Credit risk can be managed in several ways
   - Limit exposure to a single debtor
   - Mark to market
-  - Use of collateralUse of special purpose vehicles and enhanced derivatives products companies
+  - Use of collateral
+  - Use of special purpose vehicles and enhanced derivatives products companies
   - Transfer risk to other investors
 
 - Risk adjusted performance can be measured in the following ways:
