@@ -76,10 +76,10 @@ $$
   - **Pooled investments**
     - Open-ended mutual funds and exchange traded funds are examples of this
     - Costs are low, and the fund structure provides convenience for the participating investors
-    - ETFs can usually provide shareholder redemption more cheaply through delivery of actual shares, reducing taxable gains and losses
-    - ETFs also suffer from higher transaction costs and illiquidity
+    - ETFs can usually provide shareholder redemption more cheaply than open-ended mutual funds, through delivery of actual shares, reducing taxable gains and losses
+    - ETFs also suffer from higher transaction costs (due to commissions) and illiquidity in some secondary ETF markets
   - **Derivatives-based strategies**
-    - Derivates can be added to portfolios as an *overlay* to adjust overall risk and return characteristics
+    - Derivatives can be added to portfolios as an *overlay* to adjust overall risk and return characteristics
       - *Completion overlays* restore risk exposure to that of a benchmark
       - *Rebalancing overlays* restore the constitution of the portfolio to match the benchmark
       - *Currency overlays* can increase or reduce currency risk
@@ -115,6 +115,7 @@ $$
   - However, as managers run out of more liquid stocks to select, tracking error starts to increase due to higher transaction costs
   - Furthermore, the more rebalancing and reconstitution that is required, the more cash must be paid for trade execution
   - Higher cash requirements, such as needed to meet redemptions, create **cash drag**, since cash is the lowest return asset
+  - An equity index is designed to represent theoretical pure investment in equities, whereas actual passive equity portfolios will always have some level of cash requirements, for example, to cover transaction costs
   - In general, there are trade-offs between more accurate replication, and transaction costs
 
 ## 27.F: Explain sources of return and risk to a passively managed equity portfolio
