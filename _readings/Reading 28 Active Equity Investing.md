@@ -24,6 +24,7 @@ layout: reading
     - Analysts seek to uncover relationships between risk factors and returns across a large set of stocks
     - Optimisation methods determine asset allocations that maximise alpha
     - The portfolio is rebalanced with a predetermined frequency
+  - Note that it is the way in which the final investment decision is made that determines what form of strategy is being used
 
 ## 28.B: Analyse bottom-up active strategies, including their rationale and associated processes
 
@@ -130,7 +131,7 @@ layout: reading
 
 - Issues with fundamental investing include:
   - Behavioural biases
-  - **Value traps**, where a price drop makes a stock appear attractive, in turn leading to overvaluation, only for the price to continue falling
+  - **Value traps**, where a price drop makes a stock appear attractive, in turn leading to overvaluation, only for the price to continue falling, since the reason the price is low is due to weak fundamentals
   - **Growth traps**, where growth prospects have already been priced in, possibly to an excessive degree
 
 ## 28.H: Describe how quantitative active investment strategies are created
@@ -178,8 +179,9 @@ layout: reading
         - Consider for example, classification as either *value* or *growth*
         - A stock can be assigned a *style score* between one and one hundred, determining to what degree a stock is value, and to what degree it is growth
         - The difference of these is a *net style score*, used to classify
-      - **Returns-based**
-        - By regressing fund returns against a collection of indices, each thought to strongly represent investment of a certain style
-        - The degree to which a fund's returns are correlated with the returns of an index, the fund can be thought of as being of that style
+      - Holdings-based analysis is difficult to perform if a derivatives overlay is used, unless there is good information available about the strategy being followed
+    - **Returns-based**
+      - By regressing fund returns against a collection of indices, each thought to strongly represent investment of a certain style
+      - The degree to which a fund's returns are correlated with the returns of an index, the fund can be thought of as being of that style
   - Additionally, a fund manager will often self-identify a fund's style
     - This self-identification can be compared to the results of both approaches, perhaps identifying a need for further investigation if results are inconsistent
