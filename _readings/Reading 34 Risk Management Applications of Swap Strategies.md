@@ -21,6 +21,8 @@ layout: reading
 
 - Since the cash flows of an interest rate swap can be replicated by combining pay fixed and pay floating instruments, duration can be calculated in a similar way
   - The duration of a pay floating swap, is the duration of a fixed-rate bond, minus the duration of a floating-rate bond
+    - Whilst the duration of a floating-rate bond is generally zero, the next payment is usually fixed in advance, creating slight non-zero duration
+      - The convention is to set this duration half the number of years until the next reset period
   - The duration of a pay fixed swap is the duration ofa floating-rate bond, minus the duration of a fixed-rate bond
 
 - Given a swap with modified duration $\text{MD}_\text{swap}$, and a portfolio of current duration $\text{MD}_\text{P}$ and value $V_\text{P}$, and a desired duration $\text{MD}_\text{T}$, the required number of swaps is given by:
@@ -34,6 +36,11 @@ $$
     - The cheaper financing currency is borrowed, and then exchanged in return for the desired currency
     - The investor then makes coupon payments in the desired currency, and in return receives coupon payments in the financing currency
   - A special form of currency swaps neglects the transfer of the initial principals in order to convert streams of payments in one currency to payments in another
+  - The notional principal for a currency swap is given by the following:
+$$
+\text{NP} = \frac{\text{cash flow}}{\text{swap rate} \cdot \frac{1}{T}}
+$$
+  - The notional principal for the other side of the swap can be calculated by converting according to the current FX rate
 
 - **Equity swaps** allow investors to provide the return on one position to receive the return on another
   - This allows investors to, for example, py the return on a concentrated stock position in return for receiving the return on a diversified index

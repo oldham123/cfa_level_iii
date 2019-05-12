@@ -31,6 +31,19 @@ $$
 S = B - M
 $$
 
+- Time-weighted return gives a compounded growth rate over a given period that would apply to a single unit of money invested in the account
+  - Individual holding period returns are calculated for each period between external cash flows
+    - The cash flows themselves are neglected, and the resultng return rate is unaffected by those cash flows
+  - These individual returns are then linked together by adding one to each, multiplying, and then subtracting one
+- This is often a more valid measure of performance, since managers rarely have control over contributions
+- Valuations of the portfolio are required for every date on which an external cash flow occurs
+  - This can lead to higher administration costs
+
+- Money-weighted return is simply an internal IRR on all funds invested
+  - It is the return rate that, if applied to every individual cash flow, over the correct period of time, gives the final portfolio value
+  - It is simpler to calculate, but is significantly affected by cash flow timing
+  - Chain-linking frequent money-weighted returns can give a good approximation of the time-weighted return if external cash flows are not too large, and performance isn't too volatile
+
 - A valid benchmark should have the following seven attributes:
   - Pre-specified
   - Appropriate
@@ -77,6 +90,10 @@ $$
       - At this level funds are passively managed, but allocations into manager *style benchmarks*
     - Investment managers
     - Allocation effects
+  - Inputs to micro-performance attribution include:
+    - Return due to sector allocation
+    - Return due to allocation selection
+    - Return due to within-sector selection
 
 - **Value-added return** can be used to perform micro-performance attribution, and it features three main components, which can be summed together:
   - Return due to sector allocation:
@@ -150,3 +167,12 @@ $$
       - i.e. *Failing to reject when appropriate*
     - A Type II error would be the replacement of a manager that does add value
       - i.e. *Rejecting when inappropriate*
+
+- Hedge funds pose some specific chalenges to performance management
+  - A long short portfolio can have an initial value of zero, breaking return calculations
+  - An absolute return approach reduces the usefulness of benchmark comparions
+  - Alternative measures include:
+    - **Value-added return**, which is the difference between portfolio return and benchmark return
+      - Portfolio return can be calculated by considering the long and short portions of the portfolio separately
+    - Another approach is to construct separate benchmarks for the long and short components
+    - Sharpe ratio compared to other hedge funds is also a valid approach

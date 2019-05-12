@@ -36,10 +36,12 @@ $$
   - A synthetic equity position combines equity futures with sufficient cash assets invested at the risk-free rate to "pay for" the position at expiration
   - A synthetic cash position combines selling equity futures with holding sufficient underlying securities to settle the position
   - Formulae for futures contract hedging can be used to construct these positions, with future values used in place of portfolio values
+    - Note that dividend yields are already priced into the futures contracts
   - Futures can also be used to adjust from equity exposure to bond exposure by shorting stock index futures to eliminate systematic risk, and then purchasing bond futures
     - The inverse can be done to shift exposure from bonds to equities
   - Value can be effectively "transferred" from one asset class to another by converting exposure from one class, to cash, and then to the target class
   - **Pre-investing** involves taking long positions in futures contracts to create exposure to convert future cash flows into a synthetic position
+  - Synthetic positions can be constructed by inputting portfolio values of beta and duration as zero in the formulae above
 
 - Exchange rate risk comes in three main forms
   - *Economic exposure* is a domestic exporter's loss of sales due to currency appreciation

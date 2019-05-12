@@ -58,6 +58,11 @@ layout: reading
     - Each constituent call is called a **caplet**
     - The inverse can be achieved with series of puts, creating a **floor**, which each put called a **floorlet**
   - Combining a short cap with a long floor creates an interest rate collar
+  - When interest rate options are combined with a loan, they result in a new **effective annual rate (EAR)** for the bank
+    - First calculate the amount that the bank parts with at the beginning of the loan, encorporating the future value of any option premium
+    - Second, calculate the option payoff, based on the difference between the strike rate and the underlying rate
+    - Third, calculate interest income from the loan
+    - The EAR can be calculated as the rate that converts the amount parted with at the loan onset, with the total amount of income received upon loan conclusion
 
 - **Delta hedging** is a strategy that earns the risk-free rate by taking equal and opposite positions in an option, and the underlying asset
   - The number of shares $\#_\text{shares}$ required to perfectly hedge a given number of options $\#_\text{options}$ is given by $\Delta_\text{option} \cdot \#_\text{options}$
@@ -65,3 +70,4 @@ layout: reading
     - It is the $N(d_1)$ term from the Blak-Scholes-Merton formula
     - $\Delta_\text{option} \approx \frac{\Delta V_\text{option}}{\Delta V_\text{share}}$
     - Similarly, **gamma** is the change in delta given a change in value of the underlying
+  - Delta hedging requires regular rebalancing, which can be financed through borrowing

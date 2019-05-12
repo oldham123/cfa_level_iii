@@ -19,9 +19,12 @@ layout: reading
   - If not fulfilled, the trade expires
   - This method has *execution uncertainty*
 
+- The *size* of the bid or ask is referring to the number of shares being offered or sought by the market
+
 - **Effective spread** compares the actual achieved price against the **midquote**, and then doubles the difference
-  - The midquote is the price at the center of the **inside bid-ask spread**
+  - The midquote is the price at the center of the **inside bid-ask spread**, or the **quoted spread**
   - The inside bid-ask spread is the spread implied by the best bid (**inside bid**) and the best ask (**inside ask**) on the market
+  - If the effective spread is tighter than the quoted spread, this is a sign of *price improvement*
 
 - Security markets offer three main advantages to investors:
   - **Liquidity**
@@ -47,17 +50,20 @@ layout: reading
     - VWAP is easy to understand and compute
     - However, it fails to account for delayed, or unfilled orders, or market movements or trade volume
   - **Implementation shortfall (IS)** measures transaction costs by comparing actual performance to that of a hypothetical portfolio that executes all trades costlessly
+    - IS as a measure of trading costs is preferable both to VWAP and effective spread, which can both be gamed by traders
     - It can be expressed as a total dollar amount, an amount per share, or a basis point amount by dividing by the value of the order
     - It is important to note that some tades are not executed in a timely manner, and others never execute at all
     - These events would necessitate adjustments to an IS calculation
       - *Decision price* is the price at which an order initiates
+        - If an order is placed during market close, the decision price is the close of the previous day
       - *Execution price* is the price at which an order executes
       - *Revised benchmark price* is the price of the security if the trade isn't completed sufficiently quickly
       - *Cancellation price* is the price of the security if the trade is cancelled
     - Total IS is the difference between portfolio value after the trade, and hypothetical value after the trade is completed fully at the decision price, divided by the hypothetical portfolio investment, and can be expressed as the sum of:
-      - Explicit costs
-      - **Missed trade**, the difference between cancellation and decision prices, multiplied by order volume
-      - **Delay (slippage)**, the difference between revised benchmark price and decision price, multiplied by trade volume
+      - Explicit costs, given by commission, divided by the hypothetical costless investment
+      - Realised profit and los is given by the difference between the execution price, and either the decision price or revised benchmark price, divided by the decision price and weighted by the proportion of the order filled
+      - **Missed trade**, the difference between cancellation and decision prices, multiplied by the portion of the order not filled
+      - **Delay (slippage)**, the difference between revised benchmark price and decision price, multiplied by proportion of the order filled
       - **Market impact**, the difference between execution and decision prices multiplied by trade volume
     - IS can express the tradeoff between rapid execution and market impact
     - IS decomposes various contributions to trade cost more accurately
@@ -78,6 +84,7 @@ layout: reading
     - Achieves the market price, but incurs higher administrative costs and possibly causes front-running
   - *Low-cost-whatever-the-liquidity*
     - Prioritises minimal trading costs, but leads to uncertain, and possibly unfavourable timing of the trade
+      - Momentum markets can be problematic for these traders, because the moment of prices in a prevailing direction means that the price on a limit order may never be reached, with orders going unfilled
 
 - **Algorithmic trading** is automated trading with the objective of minimising trade costs, and comes in three main forms:
   - *Logical participation*
@@ -85,3 +92,7 @@ layout: reading
     - **Implementation shortfall strategies** focus on trading quickly to minimise IS
   - *Opportunistic*
   - *Specialised strategies*
+
+- The development of complex trading techniues and the decline of explicit trading costs has increased both the opportunity and incentive to act unethically
+  - Buy-side traders should prioritise their clients over their relationships with sell-side traders
+  - The increased anonymity of modern trading has created the opportunity to gain information from one trader and use it discreetly against them

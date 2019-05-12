@@ -39,9 +39,15 @@ layout: reading
   - Is capital allocated in respect of risk?
   - Are relevant risks identified by the system?
   - Is the model for quantifying risk appropriate?
+    - Are correlations of risk factors considered?
+    - Does the model allow for changing factor sensitivities
   - Are risks managed effectively?
+    - Is there a distinction between risks that can be managed, and risks that must be hedged?
   - Is there a committee with the duty of monitoring the system as a whole?
   - Are there built-in controls?
+    - Does it feature continual monitoring of risk factors?
+    - Can new risks be included?
+    - Does the system monitor itself?
 
 - **Market risk** refers to the changing of values such as interest and exchange rates, as well as asset prices
   - **Standard deviation** is a common measure of risk
@@ -119,6 +125,8 @@ $$
   - Risk-adjusted return on invested capital
   - Return over maximum drawdown $\rightarrow \frac{\bar{R_p}}{\text{maximum drawdown}}$
   - Sortino ratio $\rightarrow \frac{\bar{R_p} - \text{MAR}}{\text{downside deviation}}$
+    - The motivation behind the Sortino ratio, is that strong performance can inflate measures of volatility
+    - This means that if standard deviations are used as a performance indicator, high performing managers can be punished
 
 - **Nominal position limits** are alocations of dollar amounts
   - Their use has several drawbacks:
