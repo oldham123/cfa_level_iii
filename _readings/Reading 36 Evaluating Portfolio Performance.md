@@ -128,10 +128,10 @@ $$
     - Mathmematically complex, possibly leading to spurious correlations
 
 - Fixed-Income performance can be thought of as being composed of the following:
-  - Success in predicting interest rate movements
-  - Success in over or under weighting various sectors
-  - Success in selection superior securities
-  - Residual performance thought of as representing returns to successful active trading
+  - *Interest rate management effects* - Success in predicting interest rate movements
+  - *Sector effects* - Success in over or under weighting various sectors
+  - *Security effects* - Success in selection superior securities
+  - *Trading effects* -  Residual performance thought of as representing returns to successful active trading
 
 - Risk-adjusted performance measures include:
   - **Ex-post alpha**
@@ -139,12 +139,14 @@ $$
 $$
 \alpha_p = R_p - \left[R_F + \beta_p \cdot (R_m - R_F)\right]
 $$
-  - The **Treynor Measure** compares active return against *beta*
-  - The **Sharpe Ratio** compares active return against *total risk*
+  - The **Treynor Measure** compares active return versus the risk-free rate, against *beta*
+  - The **Sharpe Ratio** compares active return versus the risk-free rate, against *total risk*
   - The **$M^2$ Measure** uses the capital market line, and the Sharpe ratio to compare portfolio performance to that of the market:
 $$
 M^2_P = R_F + \left( \frac{R_P - R_F}{\sigma_P} \right) \cdot \sigma_M
 $$
+  - The **information ratio** compares active return and active risk
+
 
 - Quality control charts can illustrate whether a portfolio is performing according to expectations with respect to a chosen benchmark
   - Value-added return is plotted over time, alongside the upper and lower bounds of the 95% confidence interval of expectations

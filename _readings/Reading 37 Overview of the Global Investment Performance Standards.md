@@ -19,13 +19,15 @@ layout: reading
   - Compliance is determined on a firmwide basis
     - However, firms have flexibility in defining themselves
   - Fair market value of AUM must be disclosed, regardless of whether those assets exist in discretionary or non-discretionary accounts, and whether those accounts are fee-paying or not
+    - Assets managed by sub-advisors are not required unless the firm has discretion over the selection of the sub-advisor
   - When reporting results, only discretionary assets are included
     - The criteria that determines whether an account is "discretionary" or not should also be disclosed
   - Partial compliance with GIPS cannot be claimed
     - However, individual result sets can be delivered to clients with the statement that they were calculated in accordance with GIPS
+    - Returns from cash and cash equivalents must be included in return calculations if managers control how much cash is allocated to them, even if there is no direct control over the cash accounts
 
 - There are various input data that are important to achieving GIPS compliance
-  - All figures shout be based on fair value using trade-date accounting, including accrued income for fixed-income securities
+  - All figures should be based on fair value using trade-date accounting, including accrued income for fixed-income securities
   - If market value does not exist, the following alternatives should be considered in turn
     - Prices of similar assets in active markets
     - Prices of similar assets in inactive markets
@@ -51,6 +53,7 @@ layout: reading
     - Each segment exists as a separate account
     - That account as its own cash balance
     - The account is managed by the manager of the composite
+  - Terminated portfolios must be included in the historical record of a composite through the last full reporting period that the portfolio was under management, to prevent the inclusion of a portfolio for partial periods
 
 - The following items must be disclosed in a GIPS compliance report:
   - The appropriate statement based on whether the firm as been verified, and whether the firm has had a performance examination
@@ -65,7 +68,7 @@ layout: reading
   - A list of composite descriptions should be available on request, including any composites terminated within the last five years
   - The following disclosures are also required if relevant
     - Any fees deducted if reporting gross of fees
-    - IF any fees are deducted, which fees are considered, and if returns are net of performance fees, if reporting net of fees
+    - If any fees are deducted, which fees are considered, and if returns are net of performance fees, if reporting net of fees
     - An explanation of the use and extent of use of derivatives, leverage, and short selling
     - Any significant events that would aid in understanind, providing important context
     - Any firm definition, composite definition, or composite name changes
@@ -86,7 +89,7 @@ layout: reading
     - Explanation of custom benchmarks
     - Whether performance of a past concern is included
 
-- GIPS reporting is done annual by composite
+- GIPS reporting is done annually by composite
   - Returns of the relevant benchmark should be included also
   - The initial GIPS report should include five years of performance data
     - If the strategy has been in place for less than five years, add at least one additional year of data until there are ten years of data
@@ -117,9 +120,10 @@ layout: reading
   - Composites presented to WFSMA prospects should be for WFSMAs
   - The composites of the sub-advisor should be style-specific, not sponsor specific
     - If the sub-advisor manages accounts for multiple sponsors, they should all be included in the sub-advisor's composite
+    - The sub-advisor can prepare a GIPS compliant composite containing only results for accounts managed for a single sponsor, but these results can only be presented to that sponsor
 
 - GIPS allows the use of summarised material for marketing, and if used this advertising should include:
-  - A description of the girm
+  - A description of the firm
   - Instructions on obtaining a full GIPS report
   - The appropriate compliance statement
   - If performance is included:
@@ -137,6 +141,19 @@ layout: reading
 - After-tax reporting is supplementary and optional
   - Firms claiming to manage in a tax aware manner may want to justify this claim
   - This is a representation of how management would have transferred results to after-tax results
+  - It is important to note that there are no after-tax capital market indices available that account for the impact of capital gains
   - Assumed tax rates and rules should be disclosed
     - Pre-liquidation methods consider only the realised taxes that period
     - Mark-to-liquidation approaches assume that taxes are fully rcognised each year and never deferred
+
+- Time-weighted return calculations in the event of external cash flows (ECFs) introduce complications
+  - Several methods have been, and are now, allowed:
+    - The **Dietz method** assumed ECFs occurred in the middle of time periods, acceptable until 2005
+      - The numerator is the ending value, minus both the beginning value and the ECF
+      - The denominator is the beginning value, plus half the ECF
+    - The **Modifed Diets method** weights each cash flow by the number of days they were present in the portfolio for, acceptable until 2010
+      - The numerator is the same as the Dietz method
+      - The denominator is the beginning value, plus each ECF multiplied by the percentage of the period for which those cash flows were present in the portfolio
+      - The **Daily Valuation method** simply defines a new calculation period whenever an ECF occurs, and geometrically links them together
+        - This is the most accurate method
+    - The **MIRR** method uses an IRR calculation as an approximation for time-weighted return
