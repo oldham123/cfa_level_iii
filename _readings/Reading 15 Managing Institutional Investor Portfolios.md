@@ -55,7 +55,7 @@ layout: reading
     - Legal constraints
   - Additionally, unique circumstances should also be considered
 
-## 15.C: Evaluate pension fund risk tolereance when risk is considered from the perspective of the 1) plan surplus, 2) sponsor financial status and profitability, 3) sponsor and pension fund common risk exposures, 4) plan features, and 5) workforce characteristics
+## 15.C: Evaluate pension fund risk tolerance when risk is considered from the perspective of the 1) plan surplus, 2) sponsor financial status and profitability, 3) sponsor and pension fund common risk exposures, 4) plan features, and 5) workforce characteristics
 
 - Risk tolerance for a DB plan depends on several factors:
   - The ability of the fund to deal with poor performance is greater with a larger plan surplus
@@ -254,8 +254,8 @@ layout: reading
 ## 15.M: Comapre the asset/liability management needs of pension funds, foundations, endowments, insurance companies, and banks
 
 - For portfolios with clear measurable liablities, ALM is the preferred means of evaluation
-  - This facilitates a focus on surplus, and stability of that surplus
   - Primarily, management should have the aim of matching asset and liability duration
+  - Secondarily, a focus on surplus, and stability of that surplus
   - Deviation from this matching may be acceptable to exploit interest rate variation, but this depends on risk tolerance
 
 ## 15.L: Contrast investment companies, commodity pools, and hedge funds to other types of institutional investors

@@ -162,6 +162,8 @@ $$\hat{R} = \frac{\text{Div}_1}{P_0} + i + g -\Delta S + \Delta \left( \frac{P}{
     - When inventory peaks, growth slows as business try to sell off their inventory
     - When inventory hits a trough, growth spikes as businesses add to their stock
   - More recently, the rise of **just-in-time** manufacturing has more generally reduced inventory-sales ratios, and so this should be factored in when analysing longer periods of historical data
+    - A traditional perspective would advise caution if inventory-sales ratios are falling, since this suggests businesses are reducing purchases of investory
+    - A more modern perspective factoring in the effects of technology may result in less caution
 
 ## 16.F: Discuss the effects that the phases of the business cycle have on short-term and long-term capital market returns
 
@@ -397,6 +399,11 @@ $$
 - **Emerging market stocks**
   - Both risk and return are higher with stocks in emerging markets
   - They are however reasonably closely linked to business cycles in developed markets due to contagion
+
+- **Levered assets**
+  - In the event of deflation, bond prices rise, but those of assets fall
+  - If an asset is financed with debt, there will be even steeper declines in the investor's equity position
+  - This may lead to panic-selling and further price falls
 
 ## 16.Q: Discuss the relative advantages and limitations of the major approaches to forecasting exchange rates
 
