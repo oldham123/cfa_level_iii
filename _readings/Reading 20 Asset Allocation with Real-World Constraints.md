@@ -35,10 +35,11 @@ layout: reading
   - Insurance companies may face the following:
     - Required to state bond assets at book value (to assist a prioritisation of incoming cash flows rather than fluctuating market values)
     - Limitations on allocations to certain asset classes, such as equities, private equity, and high-yield bonds
-  - Pension funds also face limitatios:
+  - Pension funds also face limitations:
     - They also have to restrict allocations into certain asset classes
     - There may also be tax investives to invest domestically
     - Deferred recognition of losses may also be allowed
+    - When considering funding as a constraint, the risk of funding costs exceeding a given value is compared to the present value of expected contributions, both of which should be minimised
   - Endowments and foundations do not have many onerous requirements:
     - Regulation is sparse, and such entities have effectively infinite time horizons
     - There may be minimum spending requirements to maintain tax exemption

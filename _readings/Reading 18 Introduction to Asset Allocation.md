@@ -33,6 +33,7 @@ layout: reading
 - **Asset-only** approaches to asset allocation consider only the investor's assets
   - **Mean-variance optimisation** is an example of this approach, incorporating returns, volatilities, and correlations of assets
     - Maximising the Sharpe ratio is the objective of this strategy
+      - This is because Sharpe ratio maximisation may entail increasing overall risk, and so pursuing it involves being focused purely on assets
 
 - **Liability-relative** approaches have the aim of ensuring payment of liabilities as they are due
   - **Surplus optimisation** is an example of this approach

@@ -212,6 +212,11 @@ $$
   - Note that this correlation is not static, and as the relationship changes, the effectiveness of the hedge can too
   - This technique is important when engaged in cross-hedging
 
+- **Basis risk** occurs when movements in the hedged asset and hedging instrument are not identical
+  - A direct hedge typically has low basis risk
+  - A cross-hedge can vary in basis risk
+  - The use of an MVHR is likely to entail the highest basis risk, since it is exposed to the problems of changing correlations over time
+
 ## 21.I: Discuss challenges for managing emerging market currency exposures
 
 - Emerging market currency trading involves the following potential problems:

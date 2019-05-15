@@ -103,6 +103,11 @@ $$
   - Determine a risk averision factor to be used in a utility function when applying MVO
   - Apply MCS to illustrate to an investor the implications of multiple risk choices
 
+- A range of **corner portfolios** that sit along the efficient frontier can be used to devise an ideal portfolio
+  - Each portfolio will have an expected return, standard deviation, Sharpe Ratio, and set of asset class allocations
+  - The returns of each portfolio will increase along the frontier
+  - The investor's required return will usually land inbetween two portfolios, at which point linearly interpolating between the two can be used to weight a portion of investment into each corner portfolio
+
 ## 19.H: Describe the use of investment factors in constructing and analysing an asset allocation
 
 - The MVO process can also be used to identify optimal exposures to multiple risk factors, in place of asset classes
@@ -189,6 +194,10 @@ $$
 - Percentage-range rebalancing is an approach that determines *corridors* around the intended allocation for an asset class, and if market movements send the allocation outside that corridor then that triggers rebalancing
   - Determining the optimal size of that corridor involves considering a number of factors:
     - Transactional costs incurred by rebalancing
+      - Higher costs will necessitate a wider corridor, as frequent rebalancing will cause significant costs
     - Tolerance of the additional risk created as some allocations naturally fluctuate
+      - Higher risk tolerance allows for a wider corridor
     - Correlation of the asset class with the portfolio as a whole
     - Asset class volatility
+      - High volatility means more rapid rebalancing is needed, as the asset mix moves away from the target allocation faster
+      - Hence, a tighter corridor is required

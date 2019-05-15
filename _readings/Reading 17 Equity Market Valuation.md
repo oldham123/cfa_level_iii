@@ -139,7 +139,8 @@ $$
 
 - Two asset based models are referred to as **Tobin's Q** and **Equity Q**:
   - Tobin's Q is a ratio of market value of assets to replacement cost of assets
-    - Intuitively this ratio should be 1, and a value greater than that implies that the firm's stock is overvalued
+    - Intuitively this ratio should be 1, and a value greater than that implies that the firm's stock is overvalued, however the interpreted signal should take the equilibrium into account
+    - If a market equilibrium value is available, then this should be used instead of one
   - Equity Q is similar, but it replaces market value of assets with market value of equity
   - Both rations are expected to eventually revert to 1 as stock prices correct
     - This correction may not happen quickly
