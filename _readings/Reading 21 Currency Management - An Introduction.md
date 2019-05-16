@@ -128,6 +128,7 @@ $$
 - A **carry trade** is an investment in higher interest rate currencies, financed by a lower interest rate currency
   - **Covered interest rate parity (CIRP)** holds that the difference between spot and forward currency rates is the difference in the period interest rates
     - Higher interest rates cause a currency to trade at a discount
+    - If one country has a higher interest rate than another, then the currency with the higher interest rate will depreciate, and the other will appreciate
   - **Uncovered interest rate parity (UCIRP)** holds that the forward rate resulting from CIRP is an *unbiased estimator* of the future spot rate
     - However, the currency with the higher rate typically depreciates by less than predicted
     - A carry trade exploits this violation of UCIRP

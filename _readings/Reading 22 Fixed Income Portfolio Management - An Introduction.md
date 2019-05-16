@@ -33,6 +33,7 @@ layout: reading
 
 - **Total return mandates** have a goal of generating return instead of covering some liability
   - **Pure indexing** aims for no additional return above that of a benchmark, seeking merely to replicate the index
+    - This does allow some leeway in individual securities selected, whilst matching factor exposures, and targeting no active return or active risk
   - **Enhanced indexing** targets some level of restrained seeking of alpha (around 30 bps), mostly still duration matched with some deviation
   - **Active management** seeks even higher levels of alpha, above 50 bps
 
@@ -56,7 +57,7 @@ layout: reading
 - Investors with lower liquidity needs may actually seek bonds that are less frequently traded in order to earn a liquidity premium
 
 - There are alternatives to fixed income investment available as derivatives
-  - Bond futures are exchange traded, whilst interest-rate swaps are available over the counter
+  - Bond futures and options, are exchange traded, whilst interest-rate swaps and credit default swaps are available over the counter
     - In some jurisdictions however, derivatives trading entails abiding by other regulations
   - ETFs that replicate features of fixed-income investment provide a more liquid alternative that may be attractive to some investors
 
@@ -65,6 +66,7 @@ layout: reading
 - Return from fixed income has five main parts:
   - **Income yield**
     - This component is the annual coupon income divided by the price of the bond
+    - Note that neither of these inputs are projections, and use actual known amounts
   - **Rolldown return**
     - This component emerges from a projection of a bond's future prices assuming the yield curve remains fixed
   - **Expected price change**
@@ -89,6 +91,7 @@ $$\Delta \text{PV}=(-\text{modifed duration} \cdot \Delta Y)+(\frac{C}{2} \cdot 
   - Typically the assets transferred are not specified, and instead take the form of "general collateral"
   - Rather than adjusting the repo rate for the quality of collateral, the amount of collateral required is adjusted, with lower quality collateral entailing a larger *haircut*
     - The haircut is the additional collateral required to provide additional security, beyond matching the value of the loan
+    - The haircut will be larger if the underlying asset is more volatile
   - Repos can be bilateral aggreements between lender and borrower, or tri-party, with an intermediary managing the exchange and holding the collateral
     - This can often be less expensive than arranging an actual exchange of collateral
   - A security driven repo involves a lender with a temporary need for a specific security, possibly for hedging reasons, and may offer a lower repo rate in return for that specific asset being delivered as collateral

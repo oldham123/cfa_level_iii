@@ -211,6 +211,10 @@ $$
   - **Exchange traded derivatives** are another alternative, although regulatory changes are affecting them also
     - Futures contracts that provide exposure to bond indices have been available since 2006 but their popularity, and thus availability, has waned
 
+- Bonds with embedded options can be incorporated into passive strategies to reduce the costs of pure indexing
+  - Callable bonds provide value to issuers, and therefore can generate higher yields in return
+  - Putable or convertible bonds provide value to the holder, and therefore produce reduced yields in return
+
 ## 23.H: Discuss criteria for selecting a benchmark and justify the selection of a benchmark
 
 - Selection of bond indices has several complications:
