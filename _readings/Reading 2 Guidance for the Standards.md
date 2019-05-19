@@ -1,0 +1,326 @@
+---
+sequence: 2
+title: 'Reading 2: Guidance for the Standards'
+section: 1
+sectionTitle: 'Code of Ethics and Standards of Professional Conduct'
+firstReading: false
+layout: reading
+---
+
+# Reading 1: Guidance for the Standards
+
+## 2.A: Demonstrate a thorough knowledge of thge CFA Institute Code of Ethics and Standards of Progressional Conduct by interpreting the Code and Standards involving issues of professional integrity
+
+## 2.B: Recommend practices and procedures designed to prevent violations of the Code and Standards
+
+- **Standard I(A): Knowledge of the Law**
+  - *Violations*
+    - Do not violate any applicable laws or rules governing professional activity, including the Code and Standards
+    - This includes laws of the country in which a member resides, as well as those in which the member does business
+    - If violations are taking place, a supervisor or compliance department must be approached to remedy the situation
+      - If this won't happen, disassociate from the activity
+      - In extreme cases, resignation may be required in order to comply with the standard
+  - *Recommendations*
+    - Establish procedures that keep employees informed of applicable laws
+    - Review the firm's written compliance procedures
+    - Maintain copies of applicable laws
+    - When in doubt, seek legal counsel
+    - When disassociating, keep records documenting the violation
+    - Encourage ending the violation
+    - Reporting violations to the CFA Institute Professional Conduct Program is not required but highly encouraged
+    - The Code and Standards do not require reporting to authorities
+    - Have a code of ethics
+    - Have procedures for reporting violations
+- **Standard I(B): Independence and Objectivity**
+  - *Violations*
+    - Allowing professional activities to be influenced by external pressures or inducements will have violated this standard
+    - Allocating shares to oversubscribed IPOs is a violation
+    - Normal business entertainment is permitted
+      - Beyond this, accepting, soliciting, or offering gifts is a violation
+    - Gifts from clients are considered less of a threat to objectivity than those from third parties
+    - Gifts from clients should be disclosed to employers prior to acceptance if possible, and afterwards if not
+    - Members can provide research in return for payment from the subject firm if:
+      - The fee is a flat-fee not tied to conclusions
+      - The fee is disclosed
+  - *Recommendations*
+    - Members and their employers should cover travel costs when practiceable and limit the use of corporate air travel where possible
+    - Require research sreports to reflect the unbiased opinion of the analyst
+      - Align compensation to this principle
+    - Establish written policies assuring that research is independent and objective
+    - Limit gifts from third parties to token amounts
+    - Establish a list of restricted securities for which the firm will not issue adverse opinions
+    - Limit, and require approval of, employee participation in IPOs
+    - Establish procedures for supervisory review of actions taken
+    - Appoint a senior compliance officer
+- **Standard I(C): Misrepresentation**
+  - *Violations*
+    - Knowingly misleading investors, and plagiarism without attribution are both violations
+      - Crediting a source is not required if making use of a recognised reporting service
+      - If contributors are no longer with the firm, their name can be omitted in attribution, but implying the work was done by a current employee is a violation
+    - Guaranteeing a given return level based on assets that do not provide a guaranteed return is a violation
+    - Selecting a valuation service because it places the highest value on untraded holdings is a violation
+    - Selecting non-comparable benchmarks is a violation
+    - Using marketing details from a third party that is misleading is a violation
+  - *Recommendations*
+    - Understand and be honest about the capabilities and limits of the firm
+    - Summarise qualifications and experience accurately
+    - Make reasonable efforts to verify third party information
+    - Maintain webpages for accuracy
+    - Maintain copies of research reports, supporting documents, and ensure that attributions to source materials are also maintained
+- **Standard I(D): Misconduct**
+  - *Violations*
+    - No dishonesty, fraud, or deceit
+    - No actions that reflect adversely on reputation, integrity, or compentence
+    - Do not use enforcement of this standard to settle personal quarrels
+  - *Recommendations*
+    - Develop and adopt a code of ethics
+    - Make clear that violations will not be tolerated
+    - Provide example violations and sanctions, including dismissal
+    - Check references of potential new hires
+- **Standard II(A): Material Non-Public Information**
+  - *Violations*
+    - Material information is that which would affect the price of a security
+    - Nonpublic information has not been disseminated to the public
+      - Discussion on an analyst conference call does not constitute public dissemination
+    - This prohibition extends to the use of mutual funds that contain the relevant securities
+    - It is the member's responsibility to determine if information has been disseminated
+    - Members may be involved in transactions with non-public material information as part of their work (e.g. investment banking)
+      - This is not a violation as long as the information is used exclusively for this purpose
+  - *Recommendations*
+    - Make reasonable efforts to achieve public dissemination
+    - Adopt procedures to prevent misuse of material nonpublic information
+    - Issue press releases before analyst meetings to assure public dissemination
+    - Adopt procedures ensuring equitable distribution of information
+    - Establish firewalls within the firm to ensure only the appropriate people have access to nonpublic information
+      - Interdepartmental communications should be cleared by compliance
+      - Review employee trades
+      - Document information flow procedures
+    - Restrict proprietary trading when the firm possesses material nonpublic information
+    - Physically separate departments
+    - Record when information is shared
+    - Limit and document personal trading
+- **Standard II(B): Market Manipulation**
+  - *Violations*
+    - Actions with intent to mislead are violations, not simply affecting security prices
+    - Spreading false information is also a violation if there is intent to mislead and affect prices
+- **Standard III(A): Loyalty, Prudence, and Care**
+  - *Violations*
+    - Client interests always come first
+    - This standard does not create fiduciary duties were none already exist
+    - Investment decisions should be made with a "whole portfolio" perspective
+    - Managment should be done in accordance with governing documents
+    - Clients should be informed of any limitations to advisory
+      - For example, only being able to recommend their employer's products
+    - Vote proxies in an informed an responsible manner
+      - Use a cost-benefit analysis to determine which proxies should be voted
+    - Client brokerage should be used to benefit the client
+  - *Recommendations*
+    - Submit quarterly itemised statements to clients showing all securities and transactions
+    - Client assets should be kept separately
+    - If in doubt, disclose and seek written client approval
+    - Follow applicable laws
+    - Establish client objectives
+    - Consider client suitability for any investments
+    - Diversify unless guidelines dictate otherwise
+    - Deal fairly with all clients
+    - Disclose conflicts of interest
+    - Disclose compensation arrangements
+    - Regularly review consistency between actions and documented protocols
+    - Maintain confidentiality
+    - Seek best execution
+- **Standard III(B): Fair Dealing**
+  - *Violations*
+    - Do not discriminate against any clients
+    - Differences in communication timing are part of the normal course of business and do not represent a violation
+    - Different service levels are acceptable
+    - Service levels available should be disclosed
+    - All clients should have fair opportunity to act on recommendations
+      - Clients unaware of a change should be advised before orders are accepted
+    - Do not take advantage of position within the industry to disadvantage clients
+  - *Recommendations*
+    - Establish procedures governing recommendation dissemination
+    - Maintain a list of clients and holdings
+    - Limit the number of individuals with advance knowledge of a recommendation change
+    - Shorten the delay between decision and dissemination
+    - Establish guidelines prohibiting personnel with prior knowledge from discussing it or acting on it
+    - Disseminate simultaneously to all clients who have expressed an interest, or for whom an investment is suitable
+    - Establish systematic account review to identify potentially unfair treatment
+    - Disclose trade allocation procedures
+      - Document and timestamp all orders
+      - Bundle orders and execute on a first come, first fill basis
+      - Allocate partially filled orders
+      - Provide the same net execution price to all clients in a block trade
+- **Standard III(C): Suitability**
+  - *Violations*
+    - Gather client information at the beginning of the relationship in the form of an IPS
+    - Consider needs and circumstances, to determine a risk tolerance
+    - Consider the suitability of leverage
+    - Managers should not act on unsolicited trade requests from clients for unsuitable investments before discussing with the client why it is unsuitable
+      - If the effect on risk/return profile is minimal, follow firm policy with regards to unsuitable trades
+      - The client must acknowledge the discussion
+      - If the effect on risk/return profile is material, update the IPS, or follow firm-policy
+      - This may lead to consideration of whether to continue the relationship
+  - *Recommendations*
+    - Establish a written IPS, including type of client, account beneficiaries, objectives, constraints, and the portion of assets managed
+    - Review the IPS annually and update where necessary
+    - Develop procedures to asset suitability, considering diversification, risk, and client strategy
+- **Standard III(D): Performance Presentation**
+  - *Violations*
+    - Do not misstate performance or mislead clients or prospects regarding performance
+    - Do not state or imply the ability to achieve gains similar to those achieved previously
+    - For brief presnetations, detailed information must be available on request, and indicate that information is limited
+  - *Recommendations*
+    - Adhere to GIPS
+    - Consider the sophistication of the target audience
+    - Present performance of weighted composites, rather than single accounts
+    - Include terminated accounts and state when termination occured
+    - Include the required disclosures regarding model results, and fees for example
+    - Maintain the data and records necessary to calculate performance presented
+- **Standard III(E): Preservation of Confidentiality**
+  - *Violations*
+    - If illegal activities are involved, there may be an obligation to report to the authorities
+    - This standard applies to former clients
+    - This standard does not prevent cooperation with a CFA Institute PCP investigation
+  - *Recommendations*
+    - Avoid disclosing client information except to authorised coworkers
+    - Consider whether disclosure is both necessary and beneficial to the client
+    - Follow firm procedures for electronic data storage
+- **Standard IV(A): Loyalty**
+  - *Violations*
+    - This standard applies to employees, and not contractors
+      - Contractors have duties detailed in their agreements
+      - A contractor is their own employer, with relationships with multiple clients
+    - Do not injure the firm, deprive it of profit, or the advantage of one's skill
+    - Client interests should supersede those of one's employer, but consider impacts on firm integrity and sustainability
+    - Placing employer interests above those of one's family, and other personal obligations is not required by this standard
+    - This standard does not prohibit whistleblowing
+    - Independent, compensation practice is allowed if the employer consents, after being informed of compensation, duration, and the nature of services rendered before it starts
+    - When leaving an employer, duties remain in place until resignation is effective, and so one should avoid
+      - Misappropriation of trade secrets
+      - Misuse of confidential information
+      - Soliciting employer clients before resignation
+      - Self-dealing
+      - Misappropriation of client lists
+    - Employer records are the property of the firm
+    - There is no prohibition on the use of knowledge gained whilst with a former employer
+  - *Recommendations*
+    - Separate personal and professional social media accounts
+- **Standard IV(B): Additional Compensation Arrangements**
+  - *Violations*
+    - A bonus based on future performance is an additional compensation arrangement requiring written consent in advance
+    - A bonus based on past performance is a gift that requires disclosure to one's employer
+  - *Recommendations*
+    - Reports of proposed compensation and services should be immediately disclosed in writing to one's employer
+    - Any arrangements competing for one's time should be discussed
+- **Standard IV(C): Responsibilities of Supervisors**
+  - *Violations*
+    - Members with employees must have in-depth knowledge of the Code and Standards
+    - Reasonable efforts to prevent employees engaging in violations must be made
+    - Reasonable efforts to detect violations must be made
+    - Supervisory responsibilities create an obligation to bring inadequate compliance procedures to the attention of the firm and recommend corrective action
+    - Supervisory responsibility must be declined in writing if adequate compliance procedures are not in place
+  - *Recommendations*
+    - Once a compliance program is in place:
+      - Distribute it as appropriate
+      - Update it as appropriate
+      - Continually educate on adherence
+      - Issue reminders as appropriate
+      - Require professional conduct evaluations
+      - Review employee actions to monitor and identify violations
+      - Respond promptly to violations, investigating thoroughly and increasing supervision
+    - A compliance program should:
+      - Be clear
+      - Designate a compliance office with defined authority
+      - Have a system of checks and balances
+      - Establish a supervisory hierarchy
+      - Outline the scope of procedures
+      - Outline permitted conduct
+      - Establish the protocol for reporting violations
+      - Outline possible sanctions
+- **Standard V(A): Diligence and Reasonable Basis**
+  - *Violations*
+    - In order to ensure that recommendations and actions have a sound basis, consider:
+      - Prevailing economic conditions
+      - Fundamentals
+      - Fees and historical results for a mutual fund
+      - Limitations of quantitative techniques
+      - Discussion of the appropriateness of peer group comparisons
+      - Assumptions used
+      - Analytical rigour
+      - Timliness of research
+      - Objectivity and independence of conclusions
+    - When creating quantitative models, a strong and detailed understanding is necessary
+    - When using quantitative models, basic assumptions, risks, and the range of input values and resulting outputs should be understood at a minimum
+    - Establish standardised criteria against which third party advisors can be measured, that includes consideration of their ethics
+    - Individuals disagreeing with the conclusions of a group research effort need not dissent or dissassociate, provided there is still a reasonable and adequate, independent and objective basis for those conclusions
+  - *Recommendations*
+    - Require that research conclusions have a basis that can be substantiated as reasonable and adequate
+    - Establish detailed, written guidance for proper research
+    - Establish measurable criteria for research quality, and use as a basis for compensation
+    - Establish minimum acceptable levels of scenario testing and model accuracy
+    - Measure sensitivity of final cash flows to input adjustments
+- **Standard V(B): Communication with Clients and Prospective Clients**
+  - *Violations*
+    - Opinions and facts must always be distinguished
+    - Include basic characteristics of a security being discussed
+    - Explain the investment decision-making process used
+    - Communicate the risk factors specific to a given investment when making recommendations
+    - Communicate significant changes to the risk characteristics of an investment or a strategy
+    - Changes in the investment process should be disseminated to clients promptly
+    - When using projections from quantitative models, explain the limitations and assumptions of the model
+    - Inform clients about the limitations of a given investment
+  - *Recommendations*
+    - Maintain records on the nature of research so that additional information can be provided
+- **Standard V(C): Record Retention**
+  - *Violations*
+    - Maintain records supporting analyst conclusions and actions taken
+    - These records are the property of the firm
+    - Maintain records of all communications with clients
+    - After moving from one employer to another, analysis documentation supporting recommendations must be reconstructed without information that is the property of the previous employer
+      - Do not rely on memory or previously created materials
+- **Standard VI(A): Conflicts of Interest**
+  - *Violations*
+    - All actual and potential conflicts of interest must be disclosed clearly
+    - These might include:
+      - Broker-dealer market-making activity
+      - Board service
+      - Ownership of stocks for firms being researched
+      - Compensation and bonus structures
+    - Sufficient information must be provided in order to judge the impact of the conflict
+  - *Recommendations*
+    - Special compensation arrangements or bonuses should be disclosed to clients
+- **Standard VI(B): Priority of Transactions**
+  - *Violations*
+    - Client transactions should be given the highest priority
+    - Personal transactions must wait until a client has had sufficient time to act on a recommendation
+    - Family accounts are client accounts, and ought not be disadvantaged
+    - Do not act on pending trades for personal gain
+  - *Recommendations*
+    - Establish limitations on employee participation in stock IPOs
+    - Establish restrictions on employee participation in private placements
+    - Establish blackout periods
+    - Establish reporting procedures involving trade confirmations, personal holdings, and beneficial ownership postiions
+- **Standard VI(C): Referral Fees**
+  - *Violations*
+    - Inform employers, clients, and prospects of any referral fee arrangements
+  - *Recommendations*
+    - Advise clients regarding referral fees on a quarterly basis
+- **Standard VII(A): Conduct as Participants in CFA Institute Programs**
+  - *Violations*
+    - Do not cheat in CFA exams, or any exams
+    - Do not reveal anything about the content of exams
+    - Follow the rules and policies of the CFA Program
+    - Do not give confidential information on the CFA Program to candidates or the public
+    - Do not improperly use the designation for personal gain
+    - Do not misprepresent information on the Personal Conduct Statement or the Professional Development Program
+    - Expressing opinions is not necessarily a violation
+    - Do not solicit or offer information regarding questions on the exam, actual or considered, the grading process, or question scoring
+- **Standard VII(B): Reference to CFA Institute, the CFA Designation, and the CFA Program**
+  - *Violations*
+    - Do not make promotional promises or guarantees tied to the CFA designation
+    - Sign the PCS and pay membership dues annually
+    - Do not misrepresent or exaggerate the meaning of the designation
+    - There is no partial designation
+    - Do not imply that obtaining the charter in a shorter period of time than other charterholders is indicative of superior merit
+  - *Recommendations*
+    - 
