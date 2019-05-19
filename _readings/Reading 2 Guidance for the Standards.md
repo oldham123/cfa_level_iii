@@ -322,5 +322,3 @@ layout: reading
     - Do not misrepresent or exaggerate the meaning of the designation
     - There is no partial designation
     - Do not imply that obtaining the charter in a shorter period of time than other charterholders is indicative of superior merit
-  - *Recommendations*
-    - 
