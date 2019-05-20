@@ -65,6 +65,7 @@ layout: reading
       - Honour one's duty of loyalty to clients
       - Act with reasonable care and prudent judgement
       - Act for the benefit of clients, and place client interests above employer, or personal interests
+      - It is not necessary to vote every proxy, instead use a cost-benefit analysis to determine which should be voted
     - *Fair Dealing*
       - Deal fairly and objectively with all clients in professional activities
     - *Suitability*

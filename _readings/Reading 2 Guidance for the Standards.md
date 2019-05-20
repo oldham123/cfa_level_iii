@@ -38,13 +38,14 @@ layout: reading
     - Normal business entertainment is permitted
       - Beyond this, accepting, soliciting, or offering gifts is a violation
     - Gifts from clients are considered less of a threat to objectivity than those from third parties
+    - If both internal and external sources of information are available during research, then both should be used
     - Gifts from clients should be disclosed to employers prior to acceptance if possible, and afterwards if not
     - Members can provide research in return for payment from the subject firm if:
       - The fee is a flat-fee not tied to conclusions
       - The fee is disclosed
   - *Recommendations*
     - Members and their employers should cover travel costs when practiceable and limit the use of corporate air travel where possible
-    - Require research sreports to reflect the unbiased opinion of the analyst
+    - Require research reports to reflect the unbiased opinion of the analyst
       - Align compensation to this principle
     - Establish written policies assuring that research is independent and objective
     - Limit gifts from third parties to token amounts
@@ -114,6 +115,9 @@ layout: reading
     - Vote proxies in an informed an responsible manner
       - Use a cost-benefit analysis to determine which proxies should be voted
     - Client brokerage should be used to benefit the client
+    - When reallocating IPO trades in corrective action, this must be done in the client's best interest
+      - Client portfolios must not bear the risk of improper trades
+      - No client may suffer losses due to improper trades
   - *Recommendations*
     - Submit quarterly itemised statements to clients showing all securities and transactions
     - Client assets should be kept separately
@@ -135,8 +139,9 @@ layout: reading
     - Different service levels are acceptable
     - Service levels available should be disclosed
     - All clients should have fair opportunity to act on recommendations
-      - Clients unaware of a change should be advised before orders are accepted
+      - Clients unaware of a recommendation change should be advised before orders are accepted
     - Do not take advantage of position within the industry to disadvantage clients
+    - Allocation of new issues according to advance indication of interest should be done on a pro-rata basis by client, not by portfolio manager
   - *Recommendations*
     - Establish procedures governing recommendation dissemination
     - Maintain a list of clients and holdings
@@ -209,6 +214,7 @@ layout: reading
   - *Violations*
     - A bonus based on future performance is an additional compensation arrangement requiring written consent in advance
     - A bonus based on past performance is a gift that requires disclosure to one's employer
+    - Whether compensation is monetary or not is irrelevant for compliance to this stanard
   - *Recommendations*
     - Reports of proposed compensation and services should be immediately disclosed in writing to one's employer
     - Any arrangements competing for one's time should be discussed
@@ -278,6 +284,7 @@ layout: reading
     - Maintain records of all communications with clients
     - After moving from one employer to another, analysis documentation supporting recommendations must be reconstructed without information that is the property of the previous employer
       - Do not rely on memory or previously created materials
+    - Records regarding actions not taken, and recommendations not made, are not required to be maintained
 - **Standard VI(A): Conflicts of Interest**
   - *Violations*
     - All actual and potential conflicts of interest must be disclosed clearly
