@@ -79,4 +79,48 @@ layout: reading
   - Monitoring
   - Revising
 
-- The p
+- The process is similar for both institutional and individual investors:
+  - Evaluate the investor's objectives and constraints
+  - Determine the investment opportunities available as determined by capital market expectations
+  - Establish the optimal portfolio structure
+
+- The outstanding financial situation of an investor will be important to the construction of a portfolio
+  - This includes understanding all current assets and liabilities
+  - This assists in preventing over exposure to some risk factor or asset class
+  - These assets should include things like human capital
+  - These items should feed into the creation of an Investment Policy Statement
+  - Capital market expectations considered with respect to the IPS are used to construct the strategic asset allocation
+  - Next, analysis of individual securities helps to make the final asset selections
+
+## 5.C: Discuss the elements of effective investment governance
+
+-The objective of governance is to match objectives and constraints whilst complying with applicable laws
+  - Good governance structures include:
+    - Establishment of long and short term goals
+      - The core objective is the return requirement
+      - Additional information includes the reason for requiring the return, risk tolerance, and cash flow timing
+      - Furthermore, liquidity requirements should be considered
+    - Allocation of rights and responsibilities within governance
+      - This allocation depends on available staff, and their competencies
+      - Decision-making should be done by those most able to do it
+    - Specification of IPS creation processes
+      - Describe investor characteristics, and the IPS purpose and scope
+      - A statement of objectives and risk tolerance
+      - A discussion of other constraints
+      - Right and responsibility allocation
+      - Relevant investment guidelines regarding the use of derivatives, or leverage amongst other things
+      - Set out an agreed frequency of review
+    - Specification of asset allocation processes
+      - Asset allocations are usually approved by an investment committee
+      - Allocations are normally created after
+        - IPS construction
+        - Investment simulations
+        - Risk/return profiles of all available strategies are considered
+    - Application of a reporting framework to monitor performance
+      - Current progress towards goals should be outlined
+      - Impact of management decisions clearly laid out
+    - Periodic audits
+      - Related governing documents should be examined
+      - Capacity to execute decisions using governing documents should be evaluated
+      - Focused on minimising *decision-reversal-risk*, the risk of undoing a decision at the worst time
+      - Evaluate turnover, and the possibility of *key person risk*
