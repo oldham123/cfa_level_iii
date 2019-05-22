@@ -2,7 +2,7 @@
 sequence: 5
 title: 'Reading 5: Overview of the Asset Management Industry and Portfolio Management'
 section: 3
-sectionTitle: 'The Asset Management Industry and Portfolio Management'
+sectionTitle: 'The Asset Management Industry and Professionalism'
 firstReading: true
 layout: reading
 ---
@@ -109,7 +109,7 @@ layout: reading
       - A discussion of other constraints
       - Right and responsibility allocation
       - Relevant investment guidelines regarding the use of derivatives, or leverage amongst other things
-      - Set out an agreed frequency of review
+      - Set out an agreed frequency of review (at least annually)
     - Specification of asset allocation processes
       - Asset allocations are usually approved by an investment committee
       - Allocations are normally created after
