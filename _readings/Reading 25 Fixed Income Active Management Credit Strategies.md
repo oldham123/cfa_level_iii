@@ -8,7 +8,7 @@ layout: reading
 
 # Reading 25: Fixed Income Active Management Credit Strategies
 
-## 25.A: Describe risk cnsiderations in investment-grade and high yield corporate bond portfolios
+## 25.A: Describe risk considerations in investment-grade and high yield corporate bond portfolios
 
 - The **credit market** is the market containing all assets with non-zero credit risk
   - They can be public
@@ -77,6 +77,7 @@ layout: reading
 $$
 \text{XR} = (\text{s} \cdot \text{t}) - (\Delta \text{s} \cdot \text{SD}) - (\text{t} \cdot \text{p} \cdot \text{L})
 $$
+  - This measure is useful both in bottom-up, and top-down strategies
 
 ## 25.C: Discuss bottom-up approaches to credit strategies
 
@@ -108,6 +109,8 @@ $$
     - The investor can identify the next most suitable candidate
     - The investor can use an index fund, swaps, or derivates to replicate the desired exposure until the bond is available
     - The investor can simply hold cash and wait until the desired bond is available
+  - Generally, for investment grade bonds when default is unlikely, spread duration is the most relevant measure of credit risk
+    - If default is likely, then market value allocation is more important
 
 - A top-down approach focuses on macro factors like economic growth, or corporate profits
   - This can also help identify sectors which are likely to face changing prospects and therefore have their weight adjusted
@@ -134,6 +137,7 @@ $$
   - Hold more cash and cash equivalents
   - Make use of ETFs until desired securities become available
   - Make use of liquid derivatives to achieve similar exposure
+    - CDS derivatives can be used instead of holding corporate bonds
 
 ## 25.F: Describe how to assess and manage tail risk in credit portfolios
 

@@ -72,6 +72,7 @@ layout: reading
     - More frequent losses
     - Higher upside potential
   - Purchasing convertible preferred stock is an attractive strategy for a VC fund, since it ensures distributions before other equity holders
+  - Investors must be prepared to meet **capital calls**, when the committed capital is requested, usually within the first five years of the fund
 
 - Commodities
   - Direct commodity investment is usually done by purchasing the commodity itself, or a related derivative

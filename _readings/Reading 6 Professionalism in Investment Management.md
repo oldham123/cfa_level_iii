@@ -43,7 +43,7 @@ layout: reading
 
 - The CFA Institute is a body that represents many of the tenets of a profession:
   - The mission of the CFAI is "to lead the investment profession globally, by promoting the highest standards of ethics, education, and professional excellence for the ultimate benefit of society"
-  - The CFAI maintains the *Global Body* and *Candidate Body of Investment Knowledge*, articulating the competencies necessary
+  - The CFAI maintains the *Global Body* and *Candidate Body of Investment Knowledge* through **practice analysis**, articulating the competencies necessary
   - The CFAI engages members around the world with volunteer and education oppotunities
   - Charterholders and Candidates must certify every year that they adhere to the Code and Standards
 

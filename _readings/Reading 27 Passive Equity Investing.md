@@ -29,7 +29,8 @@ layout: reading
 - Weighting methods can also differ
   - *Market-cap weighting*
     - This method also closely mimics *liquidity weighting*
-    - One common method uses capitalisations that exclude closely held shares
+    - One common method uses capitalisations that exclude closely held shares, known as *free-float weighting*
+    - This is also often the cheapest method
   - *Price weighting*
     - This is similar to holding an equal number of shares of each firm, and is uncommon
   - *Equal weighting*

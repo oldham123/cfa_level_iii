@@ -52,6 +52,7 @@ layout: reading
       - **Frontier markets**, such as Argentina and Estonia
     - It is important to note that international investment exposes investors to currency risk
     - Additionally, it is common for investors to overestimate the diversification benefits of international investing
+      - If an investor targets large companies within a specific nation, they may not achieve significant exposure to that nation due to the international nature of large firms
   - **Economic activity**
     - Segmenting by economic activity involves grouping by sector or industry
     - It can be done by taking either a *market-oriented* or *production-oriented* perspective
@@ -128,5 +129,6 @@ layout: reading
       - If a client has specific requirements, such as avoiding certain industries for ESG reasons, then active management may be required
   - Aside from higher standard deviation of returns, active management entails other risks too:
     - *Reputational risk*, caused by violations of rules or key principles
+      - Merely seeking to passively match a benchmark involves fewer active decisions, and therefore reduced reputation risk
     - *Key person risk*, caused by individual managers becoming vital to the continued success of an active strategy
     - *Higher portfolio turnover* leads to the more frequent realisation of gains, and therefore higher taxes
