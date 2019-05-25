@@ -16,12 +16,20 @@ layout: reading
   - Buying bond contracts increases bond exposure, and portfolio duration
   - The inverse can be achieves by selling them
   - The number to buy or sell is determined by the desired shift in exposure
+  - When anticipating receiving a foreign currency, this is similar to being long the currency
+    - Hedging this risk is done by taking the opposite position by shorting the forward contract on the currency
+  - Investing in foreign assets leads to being exposed to both market risk, as well as currency risk
+    - Market risk can be managed by selling forward contracts on the foreign index
+    - Currency risk can be managed by selling forward contracts on the currency
   - Where $T$ denotes target, $P$ denotes portfolio, $f$ denotes future, $P$ denotes price, $\beta$ denotes beta, $\text{MD}$ denotes duration, and $V$ denotes value, the number of contracts can be calculated thusly:
 $$
 \text{number of contracts} = \left( \frac{\beta_T - \beta_P}{\beta_f} \right) \cdot \left( \frac{V_p}{P_f} \right)
 $$
 $$
 \text{number of contracts} = \left( \frac{\text{MD}_T - \text{MD}_P}{\text{MD}_f} \right) \cdot \left( \frac{V_p}{P_f} \right) \cdot (\text{yield beta})
+$$
+$$
+\text{number of contracts} = \frac{V_p \cdot \text{dividend yield}^t}{P_f \cdot \text{multiplier}}
 $$
 
 - The modifications achieved by these methods is rarely perfect, due to **basis risk**

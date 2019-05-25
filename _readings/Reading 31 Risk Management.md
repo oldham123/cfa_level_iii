@@ -16,6 +16,7 @@ layout: reading
   - Setting tolerances
   - Reporting exposures to stakeholders when necessary
   - Monitoring portfolios and taking corrective actions
+  - Addressing it as frequently as possible is ideal
 
 - **Risk governance** is the component of governance involving developing and implementing a risk management system
   - *Decentralised* risk governance calls upon individuals to manage risk
@@ -61,12 +62,17 @@ layout: reading
 - **Value at risk (VaR)** is an estimate of the minimum expected loss:
   - Over a given time horizon
   - At a given significance level
-  - VaR for a portfolio cannot be calculated without considerng asset correlations
+  - VaR for a portfolio cannot be calculated without considering asset correlations
+  - It is important to note that the accuracy of VaR as a risk measure can only be determined after the fact
   - Methods for calculating it include:
     - Use of historical data
       - When calculating at a given significance percentage, take that percentage of the lowest returns, and then select the highest return of that subset
       - Multiply by portfolio value to get historical VaR
+      - The historical method requires a large amount of data
+      - It also assumes that the past will be a reliable guide to the future
     - Use of Monte Carlo simulation
+      - Requires less data than the historical method
+      - Also assumed the past is a good indicator
     - Use of the **analytical method**
       - For a portfolio with an expected daily return of $\hat{\text{R}}_p$, a daily standard deviation of $\sigma$, a value of $\text{V}_p$, and a critical value given by the chosen significance level of $\text{z}$, VaR is given by:
 $$
@@ -115,8 +121,13 @@ $$
 - Credit risk can be managed in several ways
   - Limit exposure to a single debtor
   - Mark to market
+    - This is used when one party has obligations to another, and involves settling credit risk based on the current status of those obligations
+  - Netting
+    - This is used when two parties have obligations to each other, and involves netting those obligations off one another so that credit risk on one party is reduced, and the other becomes zero
   - Use of collateral
   - Use of special purpose vehicles and enhanced derivatives products companies
+    - An SPV allows parent companies to engage in transactions that they otherwise could not
+    - They are capitalised in such a way as to secure a high credit rating
   - Transfer risk to other investors
 
 - Risk adjusted performance can be measured in the following ways:
