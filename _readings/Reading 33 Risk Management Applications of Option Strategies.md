@@ -19,6 +19,7 @@ layout: reading
   - The downside potential is retained
   - Option premium income is generated
   - Usually ideal for stable assets
+  - If the price of the underlying is not expected to increase, selling calls is a way of generating additional income
 
 - A **protective put** strategy combines an underlying security, with buying a put option
   - If the price of the underlying falls below the option strike price, the investor can exercise, limiting downside
@@ -55,11 +56,19 @@ layout: reading
 - **Interest rate options** are usually based on LIBOR
   - The call receives the underlying rate, and pays the strike rate, whilst the put receives the strike rate and pays the underlying rate
   - An **interest rate cap** is a series of interest rate calls, which compensates the buyer for rising interest rates, effectively keeping them fixed
+    - Interest rate options are paid in arrears
     - Each constituent call is called a **caplet**
     - The inverse can be achieved with series of puts, creating a **floor**, which each put called a **floorlet**
+    - A call is in the money if the reference rate is above the strike rate
+    - A put in is the money if the reference rate is below the strike rate
   - Combining a short cap with a long floor creates an interest rate collar
   - When interest rate options are combined with a loan, they result in a new **effective annual rate (EAR)** for the bank
     - First calculate the amount that the bank parts with at the beginning of the loan, encorporating the future value of any option premium
+$$
+\text{FV(option premium)} = \text{cost} \cdot (1 + r \cdot \frac{\text{days until expiration}}{360})
+$$
+      - The cost of this option should be subtracted from the cash gained upon entering the loan
+      - The rate this is calculated with respect to should be the borrowing rate on the loan, using the value of the reference rate upon option purchase
     - Second, calculate the option payoff, based on the difference between the strike rate and the underlying rate
     - Third, calculate interest income from the loan
     - The EAR can be calculated as the rate that converts the amount parted with at the loan onset, with the total amount of income received upon loan conclusion

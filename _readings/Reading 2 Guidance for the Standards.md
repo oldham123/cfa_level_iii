@@ -104,6 +104,7 @@ layout: reading
   - *Violations*
     - Actions with intent to mislead are violations, not simply affecting security prices
     - Spreading false information is also a violation if there is intent to mislead and affect prices
+    - It is legitimate to engage in activity designed to increase trading volume for a security if those actions are disclosed, and are not intended to mislead
 - **Standard III(A): Loyalty, Prudence, and Care**
   - *Violations*
     - Client interests always come first
@@ -115,6 +116,7 @@ layout: reading
     - Vote proxies in an informed an responsible manner
       - Use a cost-benefit analysis to determine which proxies should be voted
     - Client brokerage should be used to benefit the client
+      - If a client directs a manager to use specific brokerage, then it is acceptable to do so, even if it wouldn't result in best execution
     - When reallocating IPO trades in corrective action, this must be done in the client's best interest
       - Client portfolios must not bear the risk of improper trades
       - No client may suffer losses due to improper trades
@@ -160,6 +162,7 @@ layout: reading
     - Gather client information at the beginning of the relationship in the form of an IPS
     - Consider needs and circumstances, to determine a risk tolerance
     - Consider the suitability of leverage
+    - If there is a change in circumstances that might merit a change to the IPS, trading according to the existing IPS should continue until changes are agreed
     - Managers should not act on unsolicited trade requests from clients for unsuitable investments before discussing with the client why it is unsuitable
       - If the effect on risk/return profile is minimal, follow firm policy with regards to unsuitable trades
       - The client must acknowledge the discussion
@@ -208,6 +211,7 @@ layout: reading
       - Misappropriation of client lists
     - Employer records are the property of the firm
     - There is no prohibition on the use of knowledge gained whilst with a former employer
+    - Models built at a former employer, and be rebuilt at new employers, provided they are rebuilt from memory, and not using kept materials
   - *Recommendations*
     - Separate personal and professional social media accounts
 - **Standard IV(B): Additional Compensation Arrangements**
