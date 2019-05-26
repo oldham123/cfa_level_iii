@@ -76,44 +76,65 @@ $$
   - For active long-only accounts, the benchmark should primarily involve positive active positions
 
 - When attributing performance to various factors, it is done at two mains levels:
-  - **Macro performance** is attributed to *fund sponsors*, and involves:
-    - Policy allocations
-    - Benchmark returns
-    - Fund returns, valuations, and cash flows
-  - **Micro performance** is attributed to *fund managers* and can be done at any of the following levels:
-    - Net contributions
-      - This is how managers allocate proportions of total assets to each level of the fund, placing assets into a higher level only if the level below will generate sufficient return
-    - Risk-free assets
-    - Asset categories
-      - This involves the decisions of fund allocation between various category benchmarks, as part of benchmark replication
-    - Benchmarks
-      - At this level funds are passively managed, but allocations into manager *style benchmarks*
-    - Investment managers
-    - Allocation effects
-  - Inputs to micro-performance attribution include:
-    - Return due to sector allocation
-    - Return due to allocation selection
-    - Return due to within-sector selection
-
-- **Value-added return** can be used to perform micro-performance attribution, and it features three main components, which can be summed together:
-  - Return due to sector allocation:
+  - **Macro performance** is attributed to *fund sponsors*
+    - The goal of macro attribution is to evaluate the decisions made at a sponsor level
+      - These decisions include which managers to hire and how they perform
+    - There are three inputs into macro attribution:
+      - *Policy allocations*
+        - Sponsors determine asset categories and weights, and allocate the total fund between managers
+      - *Benchmark portfolio returns*
+        - A sponsor may use broad indicies as benchmarks for asset classes, and narrowly defined indicies for individual styles
+      - *Fund returns, valuations, and cash flows*
+        - Returns for each manager may be calculated individually and then aggregated for percentage calculations, and for monetary calculations, account valuations and external cash flows are important
+    - The calculation starts with beginning value and ends with final value, attributing the change to various potential factors:
+      - Net contributions
+        - These can affect final value, but do not represent investment performance
+      - Risk-free assets
+        - This component represents return generated if all assets simply yielded the risk-free rate
+      - Asset categories
+        - This component represents return generated if all assets had been invested in asset category benchmarks weighted according to a strategic allocation
 $$
-\sum^S_{i = 1} (w_\text{P,i} - w_\text{B,i}) \cdot (R_\text{B,i} - R_\text{B})
+R_\text{AC} = \sum^\text{A}_{i = 1} w_i \cdot (R_i - R_\text{F})
 $$
-  - Return due to allocation interaction:
+      - Benchmarks
+        - At this level sponsors select and assign managers a benchmark different from the IPS benchmark, representing a tactical allocation by the sponsor between managers
+        - This component is calculated as the difference between the return for each manager's benchmark in each asset category, and the return on the asset category, multiplied by the weight of the category, and the weight assigned to each manager in each asset category
 $$
-\sum^S_{i = 1} (w_\text{P,i} - w_\text{B,i}) \cdot (R_\text{P,i} - R_\text{B,i})
+R_\text{B} = \sum^\text{A}_{i = 1} \sum^\text{M0}_{j = 1} w_i \cdot w_{i \text{, } j} \cdot (R_{\text{B}_{i \text{, } j}} - R_\text{i})
 $$
-  - Return due to allocation within sectors:
+      - Investment managers
+        - At this level, the active decisions of investment managers are taken into account
 $$
-\sum^S_{i = 1} w_\text{B,i} \cdot (R_\text{P,i} - R_\text{B,i})
+R_\text{IM} = \sum^\text{A}_{i = 1} \sum^\text{M0}_{j = 1} w_i \cdot w_{i \text{, } j} \cdot (R_{\text{A}_{i \text{, } j}} - R_{\text{B}_{i \text{, } j}})
 $$
-  - The strengths of this method include:
-    - The ability to disaggregate the impact of sector, and security decisions
-    - Ease of calculation
-  - Limitations include:
-    - The importance of selecting an appropriate benchmark
-    - The relationship between security selection and sector weighting can effect the disaggregation
+        - Here, the return of each manager's actual portfolio for each asset category is compared with each manager's benchmark for each asset category
+      - Allocation effects
+        - This level functions as a residual plug that captures remaining value
+        - If all policies were perfectly implemented it would be zero
+    - Inputs to micro-performance attribution include:
+      - Return due to sector allocation
+      - Return due to allocation selection
+      - Return due to within-sector selection
+  - **Micro performance** attribution analyses individual portfolios relative to designated benchmarks
+    - **Value-added return** can be used to perform micro-performance attribution, and it features three main components, which can be summed together:
+      - Return due to sector allocation:
+    $$
+    \sum^S_{i = 1} (w_\text{P,i} - w_\text{B,i}) \cdot (R_\text{B,i} - R_\text{B})
+    $$
+      - Return due to allocation interaction:
+    $$
+    \sum^S_{i = 1} (w_\text{P,i} - w_\text{B,i}) \cdot (R_\text{P,i} - R_\text{B,i})
+    $$
+      - Return due to allocation within sectors:
+    $$
+    \sum^S_{i = 1} w_\text{B,i} \cdot (R_\text{P,i} - R_\text{B,i})
+    $$
+      - The strengths of this method include:
+        - The ability to disaggregate the impact of sector, and security decisions
+        - Ease of calculation
+      - Limitations include:
+        - The importance of selecting an appropriate benchmark
+        - The relationship between security selection and sector weighting can effect the disaggregation
 
 - Another way of attributing performance is through the use of a fundamental factor model
   - Combining sector fectors with other fundamentals requires:
@@ -135,7 +156,7 @@ $$
 
 - Risk-adjusted performance measures include:
   - **Ex-post alpha**
-    - Uses the security market line as an appraisal benchmark
+    - Uses the security market line as an appraisal benchmark, giving the difference between expected return on a portfolio given expected market returns, beta, and the risk-free rate, and actual returns
 $$
 \alpha_p = R_p - \left[R_F + \beta_p \cdot (R_m - R_F)\right]
 $$

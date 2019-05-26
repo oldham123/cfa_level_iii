@@ -46,9 +46,10 @@ layout: reading
 - Costs of trade execution can be both *implicit* and *explicit*
   - Explicit costs include commissions, taxes, and fees
   - Implicit costs include losses due to spreads, marke impact costs, opportunity costs, and slippage
-  - **Volume weighted average price** is the executed trade price of a security compared to the weighted average of trade prices for a security during a day of trading
+  - **Volume weighted average price** is the weighted average of security prices during a day
     - VWAP is easy to understand and compute
     - However, it fails to account for delayed, or unfilled orders, or market movements or trade volume
+    - By comparing the VWAP against an actual execution price, the implicit costs of that trade can be estimated
   - **Implementation shortfall (IS)** measures transaction costs by comparing actual performance to that of a hypothetical portfolio that executes all trades costlessly
     - IS as a measure of trading costs is preferable both to VWAP and effective spread, which can both be gamed by traders
     - It can be expressed as a total dollar amount, an amount per share, or a basis point amount by dividing by the value of the order
@@ -68,6 +69,9 @@ layout: reading
     - IS can express the tradeoff between rapid execution and market impact
     - IS decomposes various contributions to trade cost more accurately
     - IS can be difficult to compute and interpret
+  - The final price of execution can be affected both by implicit and explicit trading costs, as well as market movement
+    - In order to gain an accurate picture of execution quality, these market movements should be stripped out of the IS measure
+    - Using market return and beta (neglecting alpha over small time periods), this can be subtracted from an initial implementation shortfall cost to get an adjusted value
 
 - Traders can be thought of as being information, or liquidity motivated
   - Both types will prioritise controlling the time at which their trades execute, and use market orders
@@ -76,6 +80,7 @@ layout: reading
 - The following are examples of trading tactics:
   - *Liquidity-at-any-cost*
     - Fast execution, but high costs and market impact, potentially leaking information
+    - This method is likely to be favoured by information traders, who need to execute trades quickly before opportunities close
   - *Costs-are-not-important*
     - Fast execution at market price, but incurring larger trade costs
   - *Need-trustworthy-agent*
@@ -89,7 +94,9 @@ layout: reading
 - **Algorithmic trading** is automated trading with the objective of minimising trade costs, and comes in three main forms:
   - *Logical participation*
     - **Simple logical participation strategies** seek to trade in a way that disguise the intentions of the investor amongst regular trade flow, using the value-weighted or time-weighted average price
+      - This approach is suitable for trades with low urgency
     - **Implementation shortfall strategies** focus on trading quickly to minimise IS
+      - Urgent trades are best suited to this strategy
   - *Opportunistic*
   - *Specialised strategies*
 

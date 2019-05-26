@@ -18,6 +18,8 @@ layout: reading
   - Duration of a floating rate security is usually approximated as $\frac{1}{2}$ the reset period
   - Duration of a zero coupon bond is simply the maturity
   - For non-zero coupon bonds, duration increases with maturity, but is slightly less, since the weighted average date upon which cash flows are received is brought forward by coupon payments
+  - The value of a floating-rate note is fairly stable, since it moves with rates
+  - The value of a fixed-rate note can be volatile, since it gains more value if the rate is favourable compared to interest rates
 
 - Since the cash flows of an interest rate swap can be replicated by combining pay fixed and pay floating instruments, duration can be calculated in a similar way
   - The duration of a pay floating swap, is the duration of a fixed-rate bond, minus the duration of a floating-rate bond
