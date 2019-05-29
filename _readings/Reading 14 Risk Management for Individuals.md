@@ -73,6 +73,7 @@ $$
   - **Premature death risk**
   - **Longevity risk**: Long lived individuals run the risk of living longer than expected and outliving their assets
     - Life expectancy can be difficult to predict, so mortality tables and Monte Carlo simulations are used in quantifying this risk
+    - It is important to note that the reason that this is a risk is that a retired individual is assumed to have little or no human capital remaining
   - **Property risk**: An unexpected loss of property, possibly due to a severe weather event or accident
     - Can necessitate relocation, or finding temporary living and transportation requirements
     - The loss of business premises is also included here
@@ -90,13 +91,13 @@ $$
   - **Paid up**: Some policies only require the payment of premiums up to a certain point, at which premiums are no longer due in order to retain the benefits of the policy
   - **Limitations**: Terms of the policy which may limit the payout (e.g. dishonesty in reporting the health information of an individual purchasing life insurance)
   - **Contestability period**: The company from which the policy is purchased may have a time period within which they are allowed to contest the validity of the policy
-  - **Policy owner**: The individual reponsible for the payment of premiums, but not necessarily the insured party
+  - **Policy owner**: The individual responsible for the payment of premiums, but not necessarily the insured party
     - If the owner is not the insured party, they are required to have some genuine interest in the insured party, rather than simply be speculating
   - **Beneficiaries**: The individuals who stand to receive in the event of a payout
   - **Riders**: A policy may have additional provisions that are referred to as riders
   - **Modifications**: Changes that can be made to policy
 
-- **Life insurance** protects from the financial impact of an individuals death, with the ideal policy determined accouring to both it's cost, as well as the loss in HC in the event of that death
+- **Life insurance** protects from the financial impact of an individuals death, with the ideal policy determined according to both it's cost, as well as the loss in HC in the event of that death
   - Liquidity needs in the event of a death should also be considered in this calculation
     - Life insurance can be *temporary* and protect for a given amount of time
       - Costs may remain static or may increase during the policy, and it may include a renewal option

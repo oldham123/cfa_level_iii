@@ -8,7 +8,7 @@ layout: reading
 
 # Reading 13: Concentrated Single Asset Positions
 
-## 13.A: Explain investment risks associated with a concentrated position in a single asset and disucss the appropriateness of reducing such risks
+## 13.A: Explain investment risks associated with a concentrated position in a single asset and discuss the appropriateness of reducing such risks
 
 - Portfolios of small number of assets, or even a single asset, can have myriad consequences:
   - The chosen asset may not be priced efficiently by the market
@@ -159,7 +159,7 @@ layout: reading
   - Seeking a **strategic buyer** who hopes to synergistically combine it with an already owned business, and is likely to offer a good price
   - Seeking a **financial buyer**, such as a PE fund seeking to add a firm to their portfolio
     - They usually buy at a lower price, and specifically seek mature businesses
-  - The owner can engage in **recapitalisation**, by seeling a majority of owned shares back to the firm
+  - The owner can engage in **recapitalisation**, by selling a majority of owned shares back to the firm
     - A **phased exit strategy** could then be used, with a PE firm sourcing the financing for the sale, and receiving equity in the firm in return
     - Taxes are due on the initial cash released, and deferred on the other portion until remaining shares are sold
   - A sale to other members of management, or to employees, usually entails providing a discount

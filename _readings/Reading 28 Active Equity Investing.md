@@ -55,7 +55,7 @@ layout: reading
 ## 28.D: Analyse factor-based active strategies, including their rationales and associated processes
 
 - A **factor**is some variable that is correlated with portfolio returns
-  - Factors postiviely correlated with returns are *rewarded factors*
+  - Factors positively correlated with returns are *rewarded factors*
   - Factors negatively correlated with returns are *unrewarded factors*
   - Aggressive backtesting can identify spurious factors, so a relationship must be supported not only by data, but by a sound economic rationale
 
@@ -64,7 +64,7 @@ layout: reading
   - Rank the stocks according to some factor, with the order of the ranking determined by whether it is *rewarding* or *unrewarding*
   - Divide the stocks into quantiles according to this ranking
   - Go long the best quantile, and short the worst quantile
-  - Disdvantages include:
+  - Disadvantages include:
     - Information contained within the middle quantiles is neglected
     - Linear relationships between returns and factors are assumed
     - These portfolios can give the appearance of diversification, but may not be if factors are correlated
@@ -74,7 +74,7 @@ layout: reading
       - They can be difficult to construct, with the necessary liquidity and short sellability often lacking
 
 - A specific variant of factor-based investing is **equity style rotation**
-  - This strategy is predicated on the notion that various factors are most postively correlated at different times
+  - This strategy is predicated on the notion that various factors are most positively correlated at different times
   - This means that the ideal factor exposure changes will change
 
 ## 28.E: Analyse activist strategies, including their rationale and associated processes
@@ -98,7 +98,7 @@ layout: reading
   - Campaigning publicly against management
   - Breaking up inefficient conglomerates
 
-- Defenses against activist investing include:
+- Defences against activist investing include:
   - Multi-class share structures, entitling privileged voting rights to specific shareholders
   - "Poison pill" provisions
   - Staggered board elections, preventing wholesale replacement of the entire board
@@ -121,12 +121,12 @@ layout: reading
 ## 28.G: Describe how fundamental active investment strategies are created
 
 - The fundamental active investment process usually proceeds as follows:
-  - Define a set of investible securities
+  - Define a set of investable securities
   - Prescreen the total set until the remaining number is manageable, according to some broad criteria
   - Investigate the industry, competitive environment, and other factors
   - Forecast performance using firm fundamentals
   - Derive valuations
-  - Construct a portfolio using these valuations, according to presepcified risk constraints
+  - Construct a portfolio using these valuations, according to prespecified risk constraints
   - Rebalance as needed
 
 - Issues with fundamental investing include:
@@ -182,6 +182,7 @@ layout: reading
       - Holdings-based analysis is difficult to perform if a derivatives overlay is used, unless there is good information available about the strategy being followed
     - **Returns-based**
       - By regressing fund returns against a collection of indices, each thought to strongly represent investment of a certain style
+      - In this regression, the intercept term is usually interpreted as value added by the manager
       - The degree to which a fund's returns are correlated with the returns of an index, the fund can be thought of as being of that style
   - Additionally, a fund manager will often self-identify a fund's style
     - This self-identification can be compared to the results of both approaches, perhaps identifying a need for further investigation if results are inconsistent

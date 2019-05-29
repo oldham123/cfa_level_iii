@@ -11,7 +11,7 @@ layout: reading
 
 ## Secret Sauce Notes
 
-- Derivates can be used to adjust portfolio exposures
+- Derivatives can be used to adjust portfolio exposures
   - Buying equity contracts increases equity exposure, and portfolio beta
   - Buying bond contracts increases bond exposure, and portfolio duration
   - The inverse can be achieves by selling them

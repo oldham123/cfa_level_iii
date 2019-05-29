@@ -20,12 +20,12 @@ layout: reading
     - "Bottom-up"
 
 - **Beta research** is the process of formulating capital market expectations due to its relation to *systemic risk*
-  - It is relevant to the valuation ofassets such as equities and fixed-income instruments
+  - It is relevant to the valuation of assets such as equities and fixed-income instruments
 
 - **Alpha research** is the process of attempting to generate excess returns by implementing asset-specific strategies
 
 - There is a seven step process to formulating capital market expectations:
-    1. Determine the set of expectations required due to investor chracteristics, including: 
+    1. Determine the set of expectations required due to investor characteristics, including:
        - Tax status
        - Asset classes allowed
        - Time horizon
@@ -44,7 +44,7 @@ layout: reading
   - Limitations of economic data
     - Time lag between collection and distribution can be as long as two years
     - Data is often revised even later on
-    - Metholodologies and definitions change over time, making data noncomparable without adjustment
+    - Methodologies and definitions change over time, making data non-comparable without adjustment
   - Error in measurements and bias
     - Transcription errors can be serious if they occur in one direction
     - The deletion of a series of returns due to poor performance can result in survivorship bias
@@ -96,11 +96,11 @@ layout: reading
 
 - **Discounted cash flow models**
   - The principle behind these models is that any asset prices should equal the present value of cash flows
-    - This emphasis on future cash flows is an advantage ofthe approach
+    - This emphasis on future cash flows is an advantage of the approach
     - They do not however account for specific economic conditions like supply or demand
   - The **Gordon Growth** model is a common application, used to deduce an expected return, given the current price, dividend, and growth rate:
 $$\hat{R} = \frac{\text{Div}_1}{P_0} + g$$
-  - The model can also be extended into the **Grinold and Kroner** model 
+  - The model can also be extended into the **Grinold and Kroner** model
     - It accounts for inflation ($i$) changes in the percentage of stock outstanding ($S$) and changes in the $\frac{P}{E}$ ratio:
 $$\hat{R} = \frac{\text{Div}_1}{P_0} + i + g -\Delta S + \Delta \left( \frac{P}{E} \right)$$
     - The model has three main components:
@@ -135,9 +135,9 @@ $$\hat{R} = \frac{\text{Div}_1}{P_0} + i + g -\Delta S + \Delta \left( \frac{P}{
         - Note that full segmentation yields a premium simply equal to $\sigma_i \cdot \left( \frac{\hat{R}_M - R_F}{\sigma_M} \right)$, since the relevant global market is simply the market of the asset, with a correlation of 1
         - It is important to recall that illiquidity risk premiums should still be accounted for in calculation of a full segmentation risk premium
 
-## 16.D: Explain the use of suvery and panel methods and judgement in setting capital market expectations
+## 16.D: Explain the use of survey and panel methods and judgement in setting capital market expectations
 
-- Surveys can be undertaken of economists and analysts, to aggregate their expecations together
+- Surveys can be undertaken of economists and analysts, to aggregate their expectations together
   - If the group included remains consistent, then this is referred to as a **panel method**
 
 ## 16.E: Discuss the inventory and business cycles and the effects that consumer and business spending and monetary and fiscal policy hve on the business cycle
@@ -162,7 +162,7 @@ $$\hat{R} = \frac{\text{Div}_1}{P_0} + i + g -\Delta S + \Delta \left( \frac{P}{
     - When inventory peaks, growth slows as business try to sell off their inventory
     - When inventory hits a trough, growth spikes as businesses add to their stock
   - More recently, the rise of **just-in-time** manufacturing has more generally reduced inventory-sales ratios, and so this should be factored in when analysing longer periods of historical data
-    - A traditional perspective would advise caution if inventory-sales ratios are falling, since this suggests businesses are reducing purchases of investory
+    - A traditional perspective would advise caution if inventory-sales ratios are falling, since this suggests businesses are reducing purchases of inventory
     - A more modern perspective factoring in the effects of technology may result in less caution
 
 ## 16.F: Discuss the effects that the phases of the business cycle have on short-term and long-term capital market returns
@@ -182,7 +182,7 @@ $$\hat{R} = \frac{\text{Div}_1}{P_0} + i + g -\Delta S + \Delta \left( \frac{P}{
     - Riskier assets perform well
     - Inflation falls
   - Early expansion
-    - Can last up to several yers
+    - Can last up to several years
     - Growth increases whilst inflation remains low
     - Confidence and inventories are both rising
     - Output gap begins to narrow
@@ -202,7 +202,7 @@ $$\hat{R} = \frac{\text{Div}_1}{P_0} + i + g -\Delta S + \Delta \left( \frac{P}{
     - Yield-curve may invert
   - Recession
     - Can last from 6 months to a year
-    - Large declines in inventory, confidence, nd prodits
+    - Large declines in inventory, confidence, nd profits
     - Unemployment and bankruptcy increase
     - Inflation peaks
     - Short-term interest rates and bond yields start to fall
@@ -217,7 +217,7 @@ $$\hat{R} = \frac{\text{Div}_1}{P_0} + i + g -\Delta S + \Delta \left( \frac{P}{
 
 - Consumer spending dominates over business spending in terms of contribution to GDP
   - Consumer spending is heavily seasonal, and primarily driven by after-tax income
-  - Undertanding savings behaviour is also critical to predicting consumer spending, since spending is given by income less savings
+  - Understanding savings behaviour is also critical to predicting consumer spending, since spending is given by income less savings
     - Saving is negatively correlated with consumer confidence
   - Whilst consumer spending is the biggest factor in determining long-term growth, it tends to relative stability over the course of the business cycle
     - Because of this, focusing on other factors in one's analysis is often advisable
@@ -242,15 +242,15 @@ $$
 
 - **Negative interest rates** amount to payments in return for being abl to maintain deposits at some financial institution
   - For a time, zero was regarded as the lowest sustainable interest rate, since depositors would simply convert to holding cash instead
-  - As depositors swap to cash, institutions are focrced to offer higher interest rates
+  - As depositors swap to cash, institutions are forced to offer higher interest rates
   - In reality, there was a failure to account for an effective **convenience premium** on being able to make deposits, such that a large transfer to cash didn't occur, even as rates fell to negative values
 
 - **Quantitative easing** involved central banks making large injections of funds into the commercial banking system, in the hope that they would stimulate economic activity by increasing lending
-  - Combined with negative interest rates, it ould be more attractive to spend or invest the funds
+  - Combined with negative interest rates, it would be more attractive to spend or invest the funds
   - In order for this experimental combination of policies to work, market participants must believe that purchases made now will provide a positive net economic benefit in the future
   - However, negative interest rates can complicate the process of forming capital market expectations
     - If the risk free rate is negative, a policy neutral rate derived using the Taylor Rule becomes more appropriate
-    - Multiple path projections for how the negative rates will eventually transistion to a long term stable rate should be considered
+    - Multiple path projections for how the negative rates will eventually transition to a long term stable rate should be considered
     - Sourcing comparable historical data in order to analyse such a period can be difficult since negative interest rates represent such an irregular economic regime
 
 - Governments can also utilise **fiscal policy** to stimulate economies, by decreasing taxes, and/or increasing spending
@@ -282,7 +282,7 @@ $$
     - In contrast, the **permanent income hypothesis** says that long-term expectations are the biggest factor in driving consumer spending
 
 - Government policies that can drive long-term growth include:
-  - Avoiding large, persistent government deficients
+  - Avoiding large, persistent government deficits
     - This does not preclude counter-cyclical fiscal policy, but the *twin deficit problem* should be avoided
     - A large deficit funded through foreign borrowing can leads to imports that exceed exports, causing the economy to overheat
     - It can also lead to a perception of the economy as being *overleveraged*, and confidence in the country's ability to repay may fall
@@ -332,7 +332,7 @@ $$
     - Taxation, trade restrictions, and capital flow restrictions are all important considerations
   - Are currency values stable?
     - Volatile currency values can jeopardise confidence
-    - OVervaluation can provide means to artificially stimulate the economy through excessive borrowing
+    - Overvaluation can provide means to artificially stimulate the economy through excessive borrowing
   - Is the amount of leverage appropriate?
     - Debt is a necessary component of growth in emerging markets, but it should still be kept within acceptable levels
     - Debt to GDP ratios exceeding 50% are troubling, as are debt to current account receipts exceeding 200%
@@ -369,9 +369,9 @@ $$
 
 ## 16.P: Explain how economic and competitive factors can affect investment markets, sectors, and specific securities
 
-- Following the formation of overall capital market expectations, the next step is to derive expectations regarding the retrusn of various asset classes
+- Following the formation of overall capital market expectations, the next step is to derive expectations regarding the returns of various asset classes
 
-- **Cash intruments** refer to short-term debt (maturities below a year)
+- **Cash instruments** refer to short-term debt (maturities below a year)
   - Longer maturities, as well as lower creditworthiness, both increase risk, and provide higher returns
   - Strong expectations regarding interest rates, as well as overall economic health, may lead an investor to switch to the higher risk instruments
 
@@ -379,7 +379,7 @@ $$
   - Yields include a real yield, and also factor in inflation expectations
   - An increase in growth expectations increases yields due to an anticipated greater demand for debt to finance demand and investment
 
-- **Credit risky bonds** are comporate fixed income assets
+- **Credit risky bonds** are corporate fixed income assets
   - Stripping out the yield of sovereign assets with similar maturities can help determine the spread
 
 - **Emerging market government bonds** are similar to credit risk-free bonds
@@ -419,6 +419,7 @@ $$
     - It only holds in the long term, and even then only approximately, since its effects can be obscured by other influences
   - **Relative economy strength** states that a favourable investment climate increases demand for a country's currency, increasing its value
     - High short-term interest rates can have the same impact, even if there is broad agreement that this has caused the currency to be overvalued
+    - Eventually, high rates will stifle an economy due to financing being more expensive
   - The **capital flows approach** advocates focusing primarily on long-term capital flows, as opposed to more short-term factors in other approaches
     - Note that this approach would support a different conclusion to the relative strength approach when considering short-term interest rates
   - The **savings-investment balance approach** is an attempt at explaining long term currency divergences from theoretical estimates

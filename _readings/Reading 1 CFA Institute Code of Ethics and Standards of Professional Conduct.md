@@ -26,14 +26,14 @@ layout: reading
 - Enquiry outcomes include:
   - No sanctions required
   - A cautionary letter
-  - Condmenation by the member's peers
+  - Condemnation by the member's peers
   - Suspension of participation in the CFA Program
 
 - Sanctions may be accepted or rejected by the member
-  - If rejected, the matter is referred to a discplinary review panel for a hearing
+  - If rejected, the matter is referred to a disciplinary review panel for a hearing
 
 - The **Code of Ethics** is as follows:
-  - Act with integrity, competence, diligence, respect, and in an ethical manner with the puclic, clients, prospective clients, employers, colleagues in the investment profession, and other participants in the global capital markets
+  - Act with integrity, competence, diligence, respect, and in an ethical manner with the public, clients, prospective clients, employers, colleagues in the investment profession, and other participants in the global capital markets
   - Place the integrity of the investment profession and the interests of clients above personal interests
   - Use reasonable care and exercise independent professional judgement when conducting investment analysis, making investment recommendations, taking investment actions, and engaging in other professional activities
   - Practice and encourage others to practice in a professional and ethical manner that will reflect credit on themselves and the profession
@@ -49,7 +49,7 @@ layout: reading
       - Disassociate from violations
     - *Independence an Objectivity*
       - Use reasonable care and judgement to maintain independence and objectivity
-      - Do not offer, solicit, or acceptany gift that could reasonable compromise independence or objectivity
+      - Do not offer, solicit, or accept any gift that could reasonable compromise independence or objectivity
     - *Misrepresentation*
       - Do not knowingly misrepresent professional activities
     - *Misconduct*
@@ -85,14 +85,14 @@ layout: reading
     - *Loyalty*
       - Act for the benefit of one's employer
       - Don't deprive one's employer of one's skills, abilities
-      - Don't dilvulge confidential information, or otherwise harm one's employer
+      - Don't divulge confidential information, or otherwise harm one's employer
     - *Additional Compensation Arrangements*
       - Obtain written consent from all parties before accepting additional compensation that may create a conflict of interest with one's employer
     - *Responsibilities of Supervisors*
       - Make reasonable efforts to ensure that anyone under one's supervision complies with applicable laws, and the Code and Standards
   - **V. Investment Analysis, Recommendations, and Actions**
-    - *Diligence and Reasonable Basis* 
-      - Be diligent, indpendent, and thorough in analysis, recommendations, and actions
+    - *Diligence and Reasonable Basis*
+      - Be diligent, independent, and thorough in analysis, recommendations, and actions
       - Have a reasonable and adequate basis for analysis, recommendations, and actions, supported by research
     - *Communication with Clients and Prospective Clients*
       - The basic format and principles guiding professional activities should be disclosed
@@ -101,7 +101,7 @@ layout: reading
       - USe reasonable judgement to determine factors relevant to the investment process, and disclose them
       - Distinguish between fact and opinion in communication
     - *Record Retention*
-      - Develop and maintain appropriate records to support analysis, recommendatinos, actions, and other communications
+      - Develop and maintain appropriate records to support analysis, recommendations, actions, and other communications
   - **VI. Conflicts of Interest**
     - *Disclosure of Conflicts*
       - Matters that could reasonably be expected to impair independence or objectivity should be disclosed

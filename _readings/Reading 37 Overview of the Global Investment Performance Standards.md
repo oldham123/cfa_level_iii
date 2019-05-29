@@ -350,8 +350,8 @@ layout: reading
 
 - There are three acceptable compliance statements, one of which must be included with performance presentations claiming GIPS compliance
   - For verified firms:
-    > "[Insert name of firm] claims compliance with the Global Investment Performance Standards (GIPS®)and has prepared and presented this report in compliance with the GIPS standards. [Insert name of firm] has been independently verified for the periods [insert dates]. The verification report(s) is/are available upon request. 
-    > 
+    > "[Insert name of firm] claims compliance with the Global Investment Performance Standards (GIPS®)and has prepared and presented this report in compliance with the GIPS standards. [Insert name of firm] has been independently verified for the periods [insert dates]. The verification report(s) is/are available upon request.
+    >
     > Verification assesses whether (1) the firm has complied with all the composite construction requirements of the GIPS standards on a firm-wide basis, and (2) the firm's policies and procedures are designed to calculate and present performance in compliance with the GIPS standards. Verification does not ensure the accuracy of any specific composite presentation."
   - For verified firms that have also had performance examined:
     > "[Insert name of firm] claims compliance with the Global Investment Performance Standards (GIPS®) and has prepared and presented this report in compliance with the GIPS standards. [Insert name of firm] has been independently verified for the periods [insert dates]."

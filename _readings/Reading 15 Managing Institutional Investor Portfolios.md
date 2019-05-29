@@ -23,10 +23,10 @@ layout: reading
 
 - Employees with a **defined benefit** plan are entitled to pension payments based on factors such as average salary, and years of service
   - As benefits are earned through service, a liability on the employer is created
-  - At the same time, plann assets are funded by employer contributions, to offset the liability
+  - At the same time, plan assets are funded by employer contributions, to offset the liability
   - Risk is borne by the employer
 
-- Employees with a defined constribution plan are entitled to contributions from their employer, into a retirement portfolio
+- Employees with a defined contribution plan are entitled to contributions from their employer, into a retirement portfolio
   - Plan assets are said to be *portable* since the employee usually has the ability to move the assets if they leave the firm
   - The pension payments resulting from the account upon retirement are not guaranteed, and depend on plan performance
   - If the plan is *participant-directed*, investments are chosen by the employee
@@ -86,7 +86,7 @@ layout: reading
     - The objective can exceed this value, such that future contributions may be allowed to fall
 
 - Plan constraints come in multiple forms:
-  - Liquidity needs are a result of additional retirned lives, as well as various plan provisions such as early payouts
+  - Liquidity needs are a result of additional retired lives, as well as various plan provisions such as early payouts
   - Time horizon
     - If the plan has a termination date, then the horizon will be up until this date
     - A defined benefit plan for a going concern is usually long, and may be legally required to be considered infinite
@@ -121,12 +121,12 @@ layout: reading
   - In some cases the purchase can be made pre-tax
   - An ESOP may purchase a large number of shares directly from a major shareholder with a desire to liquidate a portion of their holdings
 
-## 15.H: Disinguish among various types of foundations, with respect to their description, purpose, and source of funds
+## 15.H: Distinguish among various types of foundations, with respect to their description, purpose, and source of funds
 
 - Foundations and endowments are similar in many ways:
   - **Foundations** provide grants, using gifts as funds
   - **Endowments** are funds owned by non-profit institutions, with the stated goal of supporting that institution in its efforts
-  - They are generally not taxed, and instead serve some purpose apart from proft
+  - They are generally not taxed, and instead serve some purpose apart from profit
 
 - There are multiple types of foundation differing in their:
   - *Purpose*: Some may support educational institutions, others may support charities, or perhaps further the business interests of a corporate sponsor
@@ -191,8 +191,8 @@ layout: reading
     - An ALM perspective is usually appropriate, given the obligations to beneficiaries
     - Valuation risk and interest rate risk are of paramount importance, and ensuring that the duration of assets and liabilities is matched is key
     - Reinvestment risk is also a big concern, since reinvestment of coupon proceeds from fund assets is necessary in order to successfully generate the returns required to fund annuities
-    - *Cash flow volatility* can obstruct the firm from being able to reinvest proceeds efficiencly
-    - *Credit risk* can also jeapordise the payment of these proceeds, and must be controlled through diversification
+    - *Cash flow volatility* can obstruct the firm from being able to reinvest proceeds efficiently
+    - *Credit risk* can also jeopardise the payment of these proceeds, and must be controlled through diversification
   - *Return*: The assumed rate of growth of assets is normally held to be the minimum rate of return, but higher returns are desirable, so as to offer more competitive policies
     - Investments are primarily in fixed-income, but the surplus can be invested with more risk
 
@@ -202,9 +202,10 @@ layout: reading
     - Furthermore, this is likely to coincide with a fall in asset value, which means that the assets sold to provide payouts are being sold lower prices
     - If the duration of assets exceeds that of liabilities, then additionally asset value has fallen further than that of liabilities, further compounding the issue
     - Additionally, historically life insurance companies have had significant holdings in illiquid assets, although more recently many are looking to derivatives to mitigate this
+    - Liquidity requirements on the fixed-income segment tend to be high, whilst requirements for the surplus segment tend to be low
   - *Time horizon* is typically reasonably long, at 20 to 40 years, although it has reduced recently in response to various forms of market volatility
   - *Taxation*: Life insurance funds are taxable, but usually only on returns beyond the assumed rate, although there is significant variation by jurisdiction
-  - *Reglulation*: Life insurance companies face significant regulation, usually involving:
+  - *Regulation*: Life insurance companies face significant regulation, usually involving:
     - *Eligible assets* are normally laid out in terms of proportion of total holdings
     - A *minimum interest coverage ratio* may be specified
     - In the US, the *prudent investor rule* takes an overall view of portfolio risk versus return
@@ -217,14 +218,14 @@ layout: reading
   - In general, results can be more volatile, liquidity needs are less predictable and more significant, and duration is shorter
   - Risk tolerance is lower due to more erratic cash flows
   - Legal concerns are less onerous
-  - Profitablity is cyclical, with firms falling in and out of profitability
+  - Profitability is cyclical, with firms falling in and out of profitability
     - Hence they also fall in and out of taxable status
     - Additionally they may rotate holdings from tax-exempt to taxable assets
     - Whilst profitable, since tax-exempt bonds have a steeper yield curve, there is an incentive to purchase longer term bonds, which increases asset duration
     - Whilst non-profitable, the firm shifts to taxable bonds, which shortens asset duration
     - This makes it more difficult to match liability duration
 
-- A bank IPS depends heavily on the precise role that the portfolio fulfills, and on a number of unique features that banks possess:
+- A bank IPS depends heavily on the precise role that the portfolio fulfils, and on a number of unique features that banks possess:
   - Bank liabilities take the form of short-term deposits from customers, which must be liquid
   - Bank assets take the form of longer term instruments such as loans and mortgages, and are more illiquid
     - The returns on these assets are usually riskier, but higher that that which can be achieved by the bank's portfolio
@@ -241,6 +242,7 @@ layout: reading
 
 - A bank's risk objective ought be determined within an ALM framework
   - Banks have a less than average risk tolerance, because it is paramount that they can honour their liabilities
+  - Assessing capital risk is important for banks, as this helps to indicate whether a bank has a sufficient amount of risk weighted assets
 
 - A bank's return objective is to maintain a **positive interest spread**, i.e. earn greater interest on assets than the cost of funds
 
@@ -251,9 +253,9 @@ layout: reading
   - Banks are heavily regulated, and adhering to this regulation is complex and expensive
     - This often takes the form of being compelled to hold sufficient reserve capital
 
-## 15.M: Comapre the asset/liability management needs of pension funds, foundations, endowments, insurance companies, and banks
+## 15.M: Compare the asset/liability management needs of pension funds, foundations, endowments, insurance companies, and banks
 
-- For portfolios with clear measurable liablities, ALM is the preferred means of evaluation
+- For portfolios with clear measurable liabilities, ALM is the preferred means of evaluation
   - Primarily, management should have the aim of matching asset and liability duration
   - Secondarily, a focus on surplus, and stability of that surplus
   - Deviation from this matching may be acceptable to exploit interest rate variation, but this depends on risk tolerance
@@ -285,7 +287,7 @@ layout: reading
     - Portfolio often compartmentalised into business segments
     - Aggressive investing is reserved for any surplus
   - **Banks**:
-    - Primarily utilised as a means of ajusting overall asset and liability durations
+    - Primarily utilised as a means of adjusting overall asset and liability durations
     - Also used to provide liquidity when needed
 
 - *Risk*
@@ -338,7 +340,7 @@ layout: reading
   - **Defined benefit plans**:
     - Usually subject to some set of regulations insuring prudent management with the interests of beneficiaries in mind
   - **Foundations and endowments**:
-    - Usually subject so some set of regulations insuring prudent management, but lighly regulated
+    - Usually subject so some set of regulations insuring prudent management, but lightly regulated
   - **Insurance firms**:
     - Heavily regulated, with requirements on allowed assets and reserve capital
     - Regulation is less onerous in the non-life business

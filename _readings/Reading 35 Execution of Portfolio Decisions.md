@@ -21,8 +21,8 @@ layout: reading
 
 - The *size* of the bid or ask is referring to the number of shares being offered or sought by the market
 
-- **Effective spread** compares the actual achieved price against the **midquote**, and then doubles the difference
-  - The midquote is the price at the center of the **inside bid-ask spread**, or the **quoted spread**
+- **Effective spread** compares the actual achieved price against the **mid-quote**, and then doubles the difference
+  - The mid-quote is the price at the center of the **inside bid-ask spread**, or the **quoted spread**
   - The inside bid-ask spread is the spread implied by the best bid (**inside bid**) and the best ask (**inside ask**) on the market
   - If the effective spread is tighter than the quoted spread, this is a sign of *price improvement*
 
@@ -45,7 +45,7 @@ layout: reading
 
 - Costs of trade execution can be both *implicit* and *explicit*
   - Explicit costs include commissions, taxes, and fees
-  - Implicit costs include losses due to spreads, marke impact costs, opportunity costs, and slippage
+  - Implicit costs include losses due to spreads, market impact costs, opportunity costs, and slippage
   - **Volume weighted average price** is the weighted average of security prices during a day
     - VWAP is easy to understand and compute
     - However, it fails to account for delayed, or unfilled orders, or market movements or trade volume
@@ -53,7 +53,7 @@ layout: reading
   - **Implementation shortfall (IS)** measures transaction costs by comparing actual performance to that of a hypothetical portfolio that executes all trades costlessly
     - IS as a measure of trading costs is preferable both to VWAP and effective spread, which can both be gamed by traders
     - It can be expressed as a total dollar amount, an amount per share, or a basis point amount by dividing by the value of the order
-    - It is important to note that some tades are not executed in a timely manner, and others never execute at all
+    - It is important to note that some trades are not executed in a timely manner, and others never execute at all
     - These events would necessitate adjustments to an IS calculation
       - *Decision price* is the price at which an order initiates
         - If an order is placed during market close, the decision price is the close of the previous day
@@ -100,6 +100,34 @@ layout: reading
   - *Opportunistic*
   - *Specialised strategies*
 
-- The development of complex trading techniues and the decline of explicit trading costs has increased both the opportunity and incentive to act unethically
+- The development of complex trading techniques and the decline of explicit trading costs has increased both the opportunity and incentive to act unethically
   - Buy-side traders should prioritise their clients over their relationships with sell-side traders
   - The increased anonymity of modern trading has created the opportunity to gain information from one trader and use it discreetly against them
+
+- **Quote driven** markets offer liquidity
+  - Traders interact with dealers posting bid and ask prices (also called **dealer markets**)
+  - Dealers maintain inventories, and provide liquidity
+  - Markets for illiquid securities are often dealer markets so that liquidity is improved
+  - Dealers also provide liquidity for negotiated securities, such as swaps or forwards
+  - The dealer offering the best price might still have undesirable credit risk, and so trades go elsewhere
+  - Some dealer markets are **closed-book**, requiring the services of a broker
+
+- **Order driven** markets offer best prices
+  - Traders transact with other traders without intermediaries
+  - Prices are set by supply and demand, but liquidity is likely to be less than in a quote driven market
+  - Execution is determined by some mechanical rule, matching prices between buyers and sellers
+  - Order driven market types include:
+    - **Electronic crossing networks**
+      - The typical trader is an institution
+      - Orders are batched and "crossed" at fixed points in time over the day at average prices
+      - Costs are low, but trades may go unfilled
+      - The identity of the counterparty is usually unknown, and hence there is no price discovery, also causing trades to go unfilled
+    - **Auction markets**
+      - Traders submit orders that compete against others for execution
+      - Trades can be periodic and batched, or continuous
+      - These markets feature price discovery
+    - **Automated auctions** (or **electronic limit-order markets**)
+      - These markets trade throughout the day
+      - Trades are executed according to a set of rules
+      - They are computerised, and counterparties usually remain unknown
+      - They are however auction markets, and provide price discovery
